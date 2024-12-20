@@ -14,9 +14,9 @@
 
 /datum/shuttle_event/turbulence/activate()
 	. = ..()
-	minor_announce("Please note, we are entering an area of subspace turbulence. For your own safety, \
-		please fasten your belts and remain seated until the vehicle comes to a complete stop.",
-		title = "Emergency Shuttle", alert = TRUE)
+	minor_announce("Please note, we are entering an area of rough terrain. For your own safety, \
+		please fasten your belts and remain seated until the train comes to a complete stop.",
+		title = "Transfer Train", alert = TRUE)
 	COOLDOWN_START(src, turbulence_cooldown, rand(5 SECONDS, 20 SECONDS)) // Reduced interval after the announcement
 
 /datum/shuttle_event/turbulence/event_process()
