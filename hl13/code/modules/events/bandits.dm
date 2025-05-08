@@ -100,20 +100,20 @@
 
 /datum/round_event/polish_invasion/proc/deploy_kurwa(datum/comm_message/threat)
 
-	var/list/candidates = SSpolling.poll_ghost_candidates("Do you wish to be considered for a [span_notice("Polish incursion?")]", check_jobban = ROLE_TRAITOR, alert_pic = /obj/item/claymore/cutlass, role_name_text = "polish soldier")
+	var/list/candidates = SSpolling.poll_ghost_candidates("Do you wish to be considered for a [span_notice("Polish incursion?")]", check_jobban = ROLE_TRAITOR, alert_pic = /obj/item/hl13_small_flag/poland, role_name_text = "polish soldier")
 	shuffle_inplace(candidates)
 
-	var/template_key = "pirate_bandit"
+	var/template_key = "pirate_poland"
 	var/datum/map_template/shuttle/pirate/ship = SSmapping.shuttle_templates[template_key]
 	var/x = 116
 	var/y = 67
 	var/z = 1
 	var/turf/T = locate(x,y,z)
 	if(!T)
-		CRASH("Bandit event found no turf to load in")
+		CRASH("Polish incursion event found no turf to load in")
 
 	if(!ship.load(T))
-		CRASH("Loading bandit ship failed!")
+		CRASH("Loading polish landing ship failed!")
 
 	for(var/turf/area_turf as anything in ship.get_affected_turfs(T))
 		for(var/obj/effect/mob_spawn/ghost_role/human/pirate/spawner in area_turf)
