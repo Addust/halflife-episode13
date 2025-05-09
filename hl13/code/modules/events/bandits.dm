@@ -105,8 +105,8 @@
 
 	var/template_key = "pirate_poland"
 	var/datum/map_template/shuttle/pirate/ship = SSmapping.shuttle_templates[template_key]
-	var/x = 116
-	var/y = 67
+	var/x = 127
+	var/y = 63 //Marmio this is fucking horrible please ping me on the discord and tell me why you did this and didnt just spawn them in hyperspace and forcemove them to the port or something
 	var/z = 1
 	var/turf/T = locate(x,y,z)
 	if(!T)
@@ -145,6 +145,11 @@
 	prompt_name = "a Polish private first class"
 	outfit = /datum/outfit/resistance_faction/polish/competent
 
+/obj/effect/mob_spawn/ghost_role/human/pirate/poland/special(mob/living/spawned_mob, mob/mob_possessor)
+	. = ..()
+	//spawned_mob.fully_replace_character_name(spawned_mob.real_name, generate_pirate_name(spawned_mob.gender)) hl13 edit
+	spawned_mob.mind.add_antag_datum(/datum/antagonist/pirate/poland)
+
 /obj/effect/mob_spawn/ghost_role/human/pirate/poland/corporal
 	prompt_name = "a Polish corporal"
 	outfit = /datum/outfit/resistance_faction/polish/strong
@@ -160,3 +165,24 @@
 /datum/map_template/shuttle/pirate/poland
 	suffix = "poland"
 	name = "polish landing craft"
+
+/obj/machinery/computer/shuttle/poland
+	name = "landing craft computer"
+	desc = "A jury-rigged Combine console connected to the controls of a landing craft."
+	shuttleId = "poland_pirate"
+	possible_destinations = "pirate_away_poland;pirate_home_poland"
+
+/datum/antagonist/pirate/poland
+	name = "Polish Raider" //hl13 edit
+	job_rank = ROLE_TRAITOR
+	roundend_category = "bandits" //hl13 edit
+	antagpanel_category = ANTAG_GROUP_PIRATES
+	show_in_antagpanel = FALSE
+	show_to_ghosts = TRUE
+	suicide_cry = "POLAND IS NOT YET DEAD!!" //hl13 edit
+	hijack_speed = 2 // That is without doubt the worst pirate I have ever seen.
+
+/datum/antagonist/pirate/poland/greet()
+	. = ..()
+	to_chat(owner, "<B>Warsaw Command has managed to bring one of the off-shore LVTs back into service. Before the Combine rediscover it, it would be best to disrupt their regional operations - and maybe seize some supplies in the process.</B>") //hl13 edit
+	owner.announce_objectives()

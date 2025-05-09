@@ -1127,6 +1127,17 @@
 	},
 /turf/open/halflife/water/deep,
 /area/halflife/outdoors/forest)
+"ks" = (
+/obj/docking_port/stationary{
+	dwidth = 11;
+	height = 16;
+	shuttle_id = "pirate_away_poland";
+	name = "Outlands Lake Landing Site";
+	width = 17;
+	dir = 2
+	},
+/turf/open/halflife/water/shallow,
+/area/halflife/outdoors/forest)
 "ku" = (
 /obj/structure/halflife/pipes/piped,
 /turf/open/floor/plating/indoor/concrete/small,
@@ -66206,7 +66217,7 @@ It
 dg
 tN
 Ym
-Ym
+ks
 Ym
 Ym
 Ym
@@ -66798,7 +66809,7 @@ It
 ai
 It
 tN
-an
+tN
 Ym
 Ym
 WR

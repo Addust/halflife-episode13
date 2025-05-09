@@ -3,92 +3,6 @@
 /turf/closed/wall/halflife/metal/strong,
 /area/shuttle/pirate/flying_dutchman)
 "b" = (
-/obj/structure/fans/tiny/invisible,
-/obj/machinery/door/unpowered/halflife/metal/red{
-	dir = 4
-	},
-/turf/open/floor/plating/indoor/metal/walkway,
-/area/shuttle/pirate/flying_dutchman)
-"e" = (
-/obj/structure/fans/tiny/invisible,
-/obj/machinery/door/poddoor/shutters{
-	id = "poland_pirate_shutters";
-	dir = 1
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
-"g" = (
-/obj/structure/closet/crate/halflife/wooden,
-/obj/effect/turf_decal/bot_white,
-/obj/item/storage/toolbox/mechanical,
-/obj/item/stack/sheet/mineral/uranium/five,
-/obj/item/stack/sheet/iron/twenty,
-/obj/item/stack/sticky_tape,
-/obj/item/stack/sticky_tape,
-/obj/item/food/canned/halflife/seafood/expired,
-/obj/item/stack/bulletcasings{
-	amount = 15
-	},
-/obj/item/stack/sheet/mineral/sandbags{
-	amount = 10
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
-"i" = (
-/obj/machinery/computer/shuttle/bandits{
-	name = "landing craft console";
-	desc = "A Combine terminal jury-rigged to control an old pre-war landing craft."
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
-"j" = (
-/obj/docking_port/mobile{
-	name = "Bandit Ship";
-	shuttle_id = "bandit";
-	port_direction = 2;
-	dir = 2
-	},
-/obj/structure/fans/tiny/invisible,
-/obj/machinery/door/poddoor/shutters{
-	id = "poland_pirate_shutters";
-	dir = 1
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
-"l" = (
-/obj/effect/mob_spawn/ghost_role/human/pirate/poland,
-/obj/structure/chair/halflife/metal{
-	dir = 8
-	},
-/obj/effect/turf_decal/bot_white,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/plating/indoor/metal,
-/area/shuttle/pirate/flying_dutchman)
-"m" = (
-/turf/open/floor/plating/indoor/metal,
-/area/shuttle/pirate/flying_dutchman)
-"n" = (
-/obj/structure/reagent_dispensers/fueltank,
-/obj/effect/turf_decal/bot_white,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
-"o" = (
-/obj/structure/bed/halflife/bedframe/wire,
-/obj/structure/bed/halflife/mattress/old,
-/turf/open/floor/plating/indoor/sterile,
-/area/shuttle/pirate/flying_dutchman)
-"p" = (
-/obj/structure/fans/tiny/invisible,
-/obj/machinery/door/unpowered/halflife/metal/red{
-	dir = 8
-	},
-/turf/open/floor/plating/indoor/metal/walkway,
-/area/shuttle/pirate/flying_dutchman)
-"q" = (
-/obj/machinery/piratepad,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
-"r" = (
 /obj/structure/table/halflife/no_smooth/large/crafting/ammobench{
 	pixel_x = 0;
 	pixel_y = -8
@@ -107,11 +21,7 @@
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/pirate/flying_dutchman)
-"s" = (
-/obj/machinery/door/unpowered/halflife/metal/red,
-/turf/open/floor/plating/indoor/sterile,
-/area/shuttle/pirate/flying_dutchman)
-"u" = (
+"c" = (
 /obj/effect/mob_spawn/ghost_role/human/pirate/poland/sapper,
 /obj/structure/chair/halflife/metal{
 	dir = 4
@@ -119,16 +29,138 @@
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/pirate/flying_dutchman)
-"v" = (
-/obj/machinery/light/small/directional/south,
+"e" = (
+/obj/machinery/computer/shuttle/poland,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/pirate/flying_dutchman)
-"z" = (
+"f" = (
+/obj/effect/mob_spawn/ghost_role/human/pirate/poland/medic,
+/obj/structure/chair/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/sterile,
+/area/shuttle/pirate/flying_dutchman)
+"h" = (
+/obj/structure/chair/halflife/metal{
+	dir = 8
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/metal,
+/area/shuttle/pirate/flying_dutchman)
+"j" = (
+/obj/structure/closet/crate/halflife/wooden,
+/obj/effect/turf_decal/bot_white,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/stack/sheet/mineral/uranium/five,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sticky_tape,
+/obj/item/stack/sticky_tape,
+/obj/item/food/canned/halflife/seafood/expired,
+/obj/item/stack/bulletcasings{
+	amount = 15
+	},
+/obj/item/stack/sheet/mineral/sandbags{
+	amount = 10
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"l" = (
+/obj/structure/fans/tiny/invisible,
+/obj/machinery/door/poddoor/shutters{
+	id = "poland_pirate_shutters";
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"o" = (
+/obj/machinery/computer/piratepad_control{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"p" = (
+/obj/machinery/door/unpowered/halflife/metal/red,
+/turf/open/floor/plating/indoor/sterile,
+/area/shuttle/pirate/flying_dutchman)
+"q" = (
+/obj/machinery/door/unpowered/halflife/metal/red,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"r" = (
+/obj/item/hl13_small_flag/poland{
+	pixel_x = 10;
+	pixel_y = 2
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"u" = (
+/turf/open/floor/plating/indoor/metal,
+/area/shuttle/pirate/flying_dutchman)
+"x" = (
+/obj/effect/mob_spawn/ghost_role/human/pirate/poland,
+/obj/structure/chair/halflife/metal{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/metal,
+/area/shuttle/pirate/flying_dutchman)
+"B" = (
+/obj/structure/bed/halflife/bedframe/wire,
+/obj/structure/bed/halflife/mattress/old,
+/turf/open/floor/plating/indoor/sterile,
+/area/shuttle/pirate/flying_dutchman)
+"D" = (
 /obj/structure/window/fulltile/halflife/combine,
 /obj/structure/fans/tiny/invisible,
 /turf/open/floor/plating/indoor/metal/walkway,
 /area/shuttle/pirate/flying_dutchman)
-"C" = (
+"F" = (
+/obj/structure/fans/tiny/invisible,
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/walkway,
+/area/shuttle/pirate/flying_dutchman)
+"G" = (
+/obj/structure/table/halflife/metal/heavy,
+/obj/item/reagent_containers/pill/patch/medkit{
+	pixel_x = 0;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/pill/patch/medkit{
+	pixel_x = -7;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/pill/patch/medkit/vial{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/pill/patch/medkit/vial{
+	pixel_x = 13;
+	pixel_y = 5
+	},
+/turf/open/floor/plating/indoor/sterile,
+/area/shuttle/pirate/flying_dutchman)
+"H" = (
+/obj/effect/mob_spawn/ghost_role/human/pirate/poland/corporal,
+/obj/structure/chair/comfy/halflife/captain{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/button/door/directional/east{
+	id = "poland_pirate_shutters"
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"I" = (
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"J" = (
+/turf/open/floor/plating/indoor/sterile,
+/area/shuttle/pirate/flying_dutchman)
+"M" = (
 /obj/structure/closet/crate/freezer/halflife,
 /obj/item/reagent_containers/cup/glass/waterbottle/large,
 /obj/item/reagent_containers/cup/glass/waterbottle/large,
@@ -153,144 +185,110 @@
 /obj/item/food/canned/halflife/beans,
 /turf/open/floor/plating/indoor/metal,
 /area/shuttle/pirate/flying_dutchman)
-"D" = (
-/obj/effect/mob_spawn/ghost_role/human/pirate/poland/medic,
-/obj/structure/chair/halflife/metal{
-	dir = 4
-	},
-/turf/open/floor/plating/indoor/sterile,
-/area/shuttle/pirate/flying_dutchman)
-"E" = (
-/obj/structure/table/halflife/metal/heavy,
-/obj/item/reagent_containers/pill/patch/medkit{
-	pixel_x = 0;
-	pixel_y = 10
-	},
-/obj/item/reagent_containers/pill/patch/medkit{
-	pixel_x = -7;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/pill/patch/medkit/vial{
-	pixel_x = 8;
-	pixel_y = 4
-	},
-/obj/item/reagent_containers/pill/patch/medkit/vial{
-	pixel_x = 13;
-	pixel_y = 5
-	},
-/turf/open/floor/plating/indoor/sterile,
-/area/shuttle/pirate/flying_dutchman)
-"F" = (
-/turf/open/floor/plating/indoor/sterile,
-/area/shuttle/pirate/flying_dutchman)
-"H" = (
-/obj/effect/mob_spawn/ghost_role/human/pirate/poland/corporal,
-/obj/structure/chair/comfy/halflife/captain{
-	dir = 1
-	},
-/obj/effect/turf_decal/bot_white,
-/obj/machinery/button/door/directional/east{
-	id = "poland_pirate_shutters"
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
 "N" = (
-/obj/item/hl13_small_flag/poland{
-	pixel_x = 10;
-	pixel_y = 2
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/pirate/flying_dutchman)
-"O" = (
-/obj/structure/chair/halflife/metal{
-	dir = 4
-	},
-/obj/effect/turf_decal/bot_white,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/plating/indoor/metal,
-/area/shuttle/pirate/flying_dutchman)
-"P" = (
 /obj/effect/mob_spawn/ghost_role/human/pirate/poland,
-/obj/structure/chair/halflife/metal{
-	dir = 4
-	},
-/obj/effect/turf_decal/bot_white,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/plating/indoor/metal,
-/area/shuttle/pirate/flying_dutchman)
-"Q" = (
-/obj/structure/table/halflife/metal/heavy,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/plating/indoor/sterile,
-/area/shuttle/pirate/flying_dutchman)
-"R" = (
 /obj/structure/chair/halflife/metal{
 	dir = 8
 	},
 /obj/effect/turf_decal/bot_white,
-/obj/machinery/light/small/directional/north,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/plating/indoor/metal,
 /area/shuttle/pirate/flying_dutchman)
-"U" = (
+"O" = (
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/pirate/flying_dutchman)
-"X" = (
-/obj/machinery/computer/piratepad_control{
+"P" = (
+/obj/structure/fans/tiny/invisible,
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/walkway,
+/area/shuttle/pirate/flying_dutchman)
+"Q" = (
+/obj/docking_port/mobile{
+	name = "Polish Landing Craft";
+	shuttle_id = "poland_pirate";
+	port_direction = 2;
+	dir = 2;
+	preferred_direction = 2
+	},
+/obj/structure/fans/tiny/invisible,
+/obj/machinery/door/poddoor/shutters{
+	id = "poland_pirate_shutters";
 	dir = 1
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/pirate/flying_dutchman)
-"Y" = (
-/obj/machinery/door/unpowered/halflife/metal/red,
+"T" = (
+/obj/machinery/piratepad,
 /turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"U" = (
+/obj/structure/chair/halflife/metal{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/metal,
+/area/shuttle/pirate/flying_dutchman)
+"V" = (
+/obj/structure/reagent_dispensers/fueltank,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/pirate/flying_dutchman)
+"W" = (
+/obj/structure/table/halflife/metal/heavy,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/sterile,
 /area/shuttle/pirate/flying_dutchman)
 
 (1,1,1) = {"
 a
 a
-b
+P
 a
-z
-z
+D
+D
 a
 a
-z
+D
 a
 a
 "}
 (2,1,1) = {"
 a
-O
-m
-P
 U
-U
-s
-F
-D
-F
+u
+x
+I
+I
+p
+J
+f
+J
 a
 "}
 (3,1,1) = {"
-e
-m
-m
-m
-U
-r
+l
+u
+u
+u
+I
+b
 a
-o
-Q
-E
+B
+W
+G
 a
 "}
 (4,1,1) = {"
-j
-m
-m
-C
-U
-v
+Q
+u
+u
+M
+I
+O
 a
 a
 a
@@ -298,41 +296,41 @@ a
 a
 "}
 (5,1,1) = {"
-e
-m
-m
-m
-N
-U
-Y
-U
+l
 u
+u
+u
+r
+I
 q
+I
+c
+T
 a
 "}
 (6,1,1) = {"
 a
-R
-m
-l
-i
+h
+u
+N
+e
 H
 a
-g
-n
-X
+j
+V
+o
 a
 "}
 (7,1,1) = {"
 a
 a
-p
+F
 a
-z
+D
 a
 a
 a
-z
+D
 a
 a
 "}
