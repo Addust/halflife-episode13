@@ -43,6 +43,15 @@
 	},
 /turf/open/floor/plating/indoor/concrete/bricks,
 /area/centcom/halflife/rebel)
+"by" = (
+/obj/structure/fluff{
+	icon = 'hl13/icons/obj/koth_flag.dmi';
+	icon_state = "rebel";
+	name = "polish flag";
+	desc = "The Polish flag, still flying tall after all these years."
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/centcom/halflife/rebel)
 "bC" = (
 /obj/effect/decal/remains/human,
 /obj/item/clothing/head/beret/durathread/unitednations{
@@ -317,6 +326,12 @@
 	locked = 1
 	},
 /turf/open/floor/plating/indoor/metal/industrial,
+/area/centcom/halflife/rebel)
+"kB" = (
+/obj/machinery/porta_turret/combine/rebel/fast{
+	dir = 4
+	},
+/turf/open/floor/plating/ground/dirt,
 /area/centcom/halflife/rebel)
 "kG" = (
 /obj/item/clothing/under/citizen/refugee,
@@ -692,6 +707,10 @@
 	},
 /turf/open/floor/plating/indoor/concrete/bricks,
 /area/centcom/halflife/rebel)
+"zr" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/centcom/halflife/rebel)
 "zy" = (
 /mob/living/basic/halflife/zombie,
 /turf/open/floor/plating/ground/dirt,
@@ -852,6 +871,7 @@
 /area/centcom/halflife/rebel)
 "IQ" = (
 /obj/machinery/light/directional/west,
+/obj/structure/barricade/sandbags,
 /turf/open/floor/plating/indoor/concrete/bricks,
 /area/centcom/halflife/rebel)
 "Jc" = (
@@ -1043,13 +1063,16 @@
 /turf/open/floor/plating/indoor/concrete,
 /area/centcom/halflife/rebel)
 "RE" = (
-/obj/machinery/porta_turret/combine/mp7{
-	dir = 1;
-	name = "resistance turret";
-	faction = list("neutral");
-	desc = "A combine made turret which shoots at specified targets with a high power pulse gun. You can see shark teeth painted on it."
+/obj/machinery/porta_turret/combine/rebel/fast{
+	dir = 1
 	},
 /turf/open/floor/plating/ground/dirt,
+/area/centcom/halflife/rebel)
+"RM" = (
+/obj/machinery/porta_turret/combine/rebel/fast{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
 /area/centcom/halflife/rebel)
 "Sc" = (
 /turf/open/floor/plating/indoor/woodc/wide,
@@ -4122,8 +4145,8 @@ gJ
 qp
 pY
 pY
-pY
-pY
+zr
+zr
 il
 nk
 gs
@@ -4224,8 +4247,8 @@ HT
 qp
 pY
 pY
-pY
-pY
+zr
+RM
 il
 dH
 Ms
@@ -4326,8 +4349,8 @@ Bc
 qp
 pY
 pY
-pY
-pY
+zr
+zr
 qp
 oR
 qp
@@ -4933,7 +4956,7 @@ lg
 Ye
 Ye
 gJ
-gJ
+by
 HT
 mz
 pY
@@ -7779,7 +7802,7 @@ Ye
 dw
 dw
 Uk
-RE
+kB
 Uk
 Ye
 Ye
