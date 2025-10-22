@@ -12,6 +12,14 @@
 	requires_hands = TRUE
 	delete_old = FALSE
 
+/datum/action/cooldown/spell/conjure_item/medkit/slow
+	cooldown_time = 35 SECONDS
+
+/datum/action/cooldown/spell/conjure_item/medkit/the_hidden
+	desc = "Procures a medkit to heal someone or yourself with. Deletes the last one summoned if it is still available."
+	cooldown_time = 20 SECONDS
+	delete_old = TRUE
+
 /datum/action/cooldown/spell/conjure_item/sandbag
 	name = "Procure Sandbag"
 	desc = "Procures a sandbag to use for building defenses."
@@ -39,6 +47,29 @@
 	item_type = /obj/item/grenade/halflife/tinbomb
 	requires_hands = TRUE
 	delete_old = TRUE
+
+/datum/action/cooldown/spell/conjure_item/grenade
+	name = "Procure Grenade"
+	desc = "Procures a MK3A2 grenade for tossing."
+	button_icon = 'hl13/icons/mob/actions/actions_misc.dmi'
+	button_icon_state = "grenade"
+	background_icon_state = ACTION_BUTTON_DEFAULT_BACKGROUND
+
+	spell_requirements = NONE
+	antimagic_flags = NONE
+	cooldown_time = 90 SECONDS
+	item_type = /obj/item/grenade/syndieminibomb/bouncer
+	requires_hands = TRUE
+	delete_old = TRUE
+
+/datum/action/cooldown/spell/conjure_item/grenade/random_timer
+	name = "Procure Grenade"
+	desc = "Procures a MK3A2 grenade for tossing. The timer is randomized, throw it right away!"
+
+	item_type = /obj/item/grenade/syndieminibomb/bouncer/random_timer
+
+/datum/action/cooldown/spell/conjure_item/grenade/random_timer/short_cooldown
+	cooldown_time = 60 SECONDS
 
 /datum/action/cooldown/spell/aoe/rally
 	name = "Rally the Troops"

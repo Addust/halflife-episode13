@@ -109,6 +109,8 @@
 	ambient_buzz = 'hl13/sound/ambience/deathmatch/deathmatchbuzz.ogg'
 	ambient_buzz_vol = 12
 
+	first_time_text = null
+
 	ambient_music_vol = 20
 
 /area/halflife/outdoors/deployment_city/forest
@@ -116,6 +118,7 @@
 
 /area/halflife/indoors/combat_deployment
 	ambient_music_vol = 20
+	first_time_text = null
 
 /area/halflife/indoors/combat_deployment/combine_base
 	name = "\improper Combine Nexus"
@@ -265,7 +268,7 @@
 
 	first_time_text = "Conscript Bunker"
 
-	ambient_buzz = 'hl13/sound/ambience/bunker2.ogg'
+	ambient_buzz = 'hl13/sound/ambience/bunker3.ogg'
 	ambient_buzz_vol = 70
 
 ////// FACTORY START
@@ -327,11 +330,11 @@
 ///////// 'old' areas end
 
 /area/halflife/indoors/bunker
-	ambient_buzz = 'hl13/sound/ambience/bunker2.ogg'
+	ambient_buzz = 'hl13/sound/ambience/bunker3.ogg'
 	ambient_buzz_vol = 70
 
-
-
+/area/halflife/indoors/bunker/unpowered
+	requires_power = TRUE
 
 
 /area/halflife/indoors/sewer
@@ -353,9 +356,23 @@
 
 	ambientrain = RAIN_SEWER
 
+/area/halflife/indoors/sewer/hidden
+	ambient_music = 'hl13/sound/ambience/bgm/dark_interval_bgm_10.ogg'
+	ambient_music_vol = 25
+	ambientrain = RAIN_IN
+
+/area/halflife/indoors/sewer/hidden/bunker
+	first_time_text = "The Bunker"
+
+	ambient_music = 'hl13/sound/ambience/bgm/dark_interval_bgm_10.ogg'
+	ambient_music_vol = 25
+
+	ambient_buzz = 'hl13/sound/ambience/bunker3.ogg'
+	ambient_buzz_vol = 70
+
 /area/halflife/indoors/sewer/tunnel
 	name = "\improper Tunnels"
-	ambient_buzz = 'hl13/sound/ambience/bunker1.ogg'
+	ambient_buzz = 'hl13/sound/ambience/bunker3.ogg'
 	ambient_buzz_vol = 70
 
 	mood_message = "<span class='warning'>This place is unnerving...</span>\n"

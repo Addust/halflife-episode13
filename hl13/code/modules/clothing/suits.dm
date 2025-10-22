@@ -1,3 +1,11 @@
+/obj/item/clothing/suit/armor/halflife
+	icon = 'hl13/icons/obj/clothing/suits.dmi'
+	worn_icon = 'hl13/icons/mob/clothing/suit.dmi'
+
+/obj/item/clothing/suit/halflife
+	icon = 'hl13/icons/obj/clothing/suits.dmi'
+	worn_icon = 'hl13/icons/mob/clothing/suit.dmi'
+
 /obj/item/clothing/suit/armor/civilprotection
 	name = "civil protection vest"
 	desc = "A one size fits all type of vest, made with kevlar. Encases your upper chest to provide good protection."
@@ -93,13 +101,27 @@
 /obj/item/clothing/suit/armor/overwatch/deathmatch
 	slowdown = 0.33
 
+/obj/item/clothing/suit/armor/overwatch/slow
+	slowdown = 0.5
+
 /obj/item/clothing/suit/armor/overwatch/assassin
 	name = "assassin chestpiece"
-	desc = "An extremely advanced piece of chest protection that is very lightweight and very protective. Often issued to elite combine assassins."
+	desc = "An extremely advanced piece of chest protection that is very lightweight and protective. Often issued to elite combine assassins."
 	icon_state = "assassin"
+	armor_type = /datum/armor/overwatch_assassin_armor
 	slowdown = -0.5
 	actions_types = list(/datum/action/item_action/assassin_invis)
 	var/invis_ready = TRUE
+
+/datum/armor/overwatch_assassin_armor
+	melee = 35
+	bullet = 35
+	laser = 40
+	energy = 30
+	bomb = 45
+	fire = 50
+	acid = 50
+	wound = 20
 
 /obj/item/clothing/suit/armor/overwatch/assassin/ui_action_click(mob/user, action)
 	assassin_invis()
@@ -196,7 +218,7 @@
 /obj/item/clothing/suit/armor/overwatch/suppressor
 	name = "overwatch suppressor chestpiece"
 	icon_state = "suppressor"
-	slowdown = 1
+	slowdown = 0.75
 	armor_type = /datum/armor/eliteoverwatcharmor
 	clothing_traits = list(TRAIT_BRAWLING_KNOCKDOWN_BLOCKED)
 
@@ -238,6 +260,9 @@
 
 	blood_overlay_type = "armor"
 
+/obj/item/clothing/suit/armor/halflife/kevlar/fast
+	slowdown = -0.25
+
 /datum/armor/kevlararmor
 	melee = 20
 	bullet = 25
@@ -278,15 +303,18 @@
 	limb_integrity = 225
 	repairable_by = /obj/item/stack/kevlar
 
+/obj/item/clothing/suit/armor/halflife/milvest/slow
+	slowdown = 0.5
+
 /datum/armor/milvest
-	melee = 30
+	melee = 35
 	bullet = 40
 	laser = 10
 	energy = 100
-	bomb = 20
+	bomb = 40
 	fire = 50
 	acid = 50
-	wound = 10
+	wound = 15
 
 //crafted armor vest
 /obj/item/clothing/suit/armor/armored
@@ -615,3 +643,26 @@
 /obj/item/clothing/suit/halflife/invis_grunt_harness/Initialize(mapload)
 	. = ..()
 	allowed = GLOB.security_vest_allowed
+
+/obj/item/clothing/suit/armor/halflife/reinforced_brown_jacket
+	name = "reinforced brown winter jacket"
+	desc = "A well maintained old world winter jacket reinforced with whatever armor you could get your hands on. It screams authority."
+	icon_state = "reinforcedwinterbrown"
+	body_parts_covered = CHEST|GROIN|ARMS|LEGS
+	cold_protection = CHEST|GROIN|LEGS|ARMS
+	heat_protection = CHEST|GROIN|LEGS|ARMS
+	strip_delay = 80
+	armor_type = /datum/armor/reinforced_brown_jacket
+
+	limb_integrity = 250
+
+/datum/armor/reinforced_brown_jacket
+	melee = 25
+	bullet = 25
+	laser = 25
+	energy = 25
+	bomb = 25
+	bio = 20
+	fire = 40
+	acid = 20
+	wound = 5
