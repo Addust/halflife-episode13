@@ -142,6 +142,7 @@
 /area/halflife/outdoors/deployment_city)
 "fV" = (
 /obj/machinery/porta_turret/combine/off,
+/obj/effect/mapping_helpers/broken_machine,
 /turf/open/floor/plating/indoor/metal/smooth,
 /area/halflife/indoors/combat_deployment)
 "fY" = (
@@ -262,6 +263,11 @@
 /area/halflife/outdoors/deployment_city)
 "kb" = (
 /obj/structure/table/halflife/metal,
+/obj/item/climbing_hook/syndicate,
+/obj/item/climbing_hook/syndicate,
+/obj/item/climbing_hook/syndicate,
+/obj/item/climbing_hook/syndicate,
+/obj/item/climbing_hook/syndicate,
 /obj/item/climbing_hook/syndicate,
 /obj/item/climbing_hook/syndicate,
 /obj/item/climbing_hook/syndicate,
@@ -424,6 +430,10 @@
 /obj/effect/decal/cleanable/glass,
 /obj/item/shard,
 /turf/open/floor/plating/indoor/metal/smooth,
+/area/halflife/outdoors/deployment_city)
+"qh" = (
+/obj/structure/flora/tree/halflife/pine,
+/turf/open/floor/plating/ground/grass,
 /area/halflife/outdoors/deployment_city)
 "rG" = (
 /obj/structure/railing{
@@ -760,6 +770,7 @@
 /area/halflife/outdoors/deployment_city)
 "Hp" = (
 /obj/machinery/porta_turret/combine/off,
+/obj/effect/mapping_helpers/broken_machine,
 /turf/open/floor/plating/indoor/metal/combine/alt2,
 /area/halflife/indoors/combat_deployment)
 "Ht" = (
@@ -871,6 +882,10 @@
 /obj/effect/spawner/random/halflife/loot/ammo,
 /turf/open/floor/plating/indoor/concrete,
 /area/halflife/indoors/combat_deployment)
+"LQ" = (
+/obj/effect/spawner/random/halflife/plant_spawner,
+/turf/open/floor/plating/ground/grass,
+/area/halflife/outdoors/deployment_city)
 "Nh" = (
 /turf/open/floor/plating/indoor/metal/grate,
 /area/halflife/indoors/combat_deployment/rebel_base)
@@ -1035,6 +1050,9 @@
 /area/halflife/indoors/combat_deployment/rebel_base)
 "Up" = (
 /turf/open/floor/plating/indoor/concrete,
+/area/halflife/outdoors/deployment_city)
+"Ut" = (
+/turf/open/floor/plating/ground/grass,
 /area/halflife/outdoors/deployment_city)
 "Uz" = (
 /obj/machinery/cash_deposit/rebel/tier3,
@@ -26718,9 +26736,9 @@ wf
 wf
 wf
 fR
-vR
-vR
-fR
+Ut
+LQ
+Ut
 fR
 Av
 Av
@@ -26853,9 +26871,9 @@ wf
 wf
 wf
 fR
-vR
-vR
-fR
+Ut
+Ut
+wf
 fR
 Av
 Av
@@ -26988,9 +27006,9 @@ wf
 wf
 wf
 fR
-vR
-vR
-fR
+LQ
+wf
+Ut
 fR
 fR
 fR
@@ -27123,9 +27141,9 @@ wf
 wf
 wf
 fR
-vR
-vR
-fR
+Ut
+Ut
+qh
 fR
 fR
 fR
