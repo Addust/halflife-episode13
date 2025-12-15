@@ -30,13 +30,15 @@ GLOBAL_VAR_INIT(deployment_xen_cash, 0)
 
 	uniform = /obj/item/clothing/under/citizen/refugee/green/slowing
 	head = /obj/item/clothing/head/halflife/cosmetic_headcrab
-	implants = list(/obj/item/implant/mindshield) //snowflake and bad but... this makes rebel turrets shoot crabwalkers
+	implants = list(/obj/item/implant/mindshield) //snowflake and bad but... this makes rebel turrets shoot crabwalkers (this is horrible marmio)
 	var/list/nodrop_slots = list(ITEM_SLOT_OCLOTHING, ITEM_SLOT_GLOVES, ITEM_SLOT_FEET, ITEM_SLOT_ICLOTHING, ITEM_SLOT_EARS, ITEM_SLOT_HEAD, ITEM_SLOT_EYES)
 
 /datum/job/deployment_xen/get_spawn_message_information()
 	var/list/info = list()
 	if(SSmapping.current_map.combat_deployment_gamemode == "xen_defense")
 		info += "You are playing for the Xenian side! Destroy the enemy's comms tower before the time limit is up to win!"
+	if(SSmapping.current_map.combat_deployment_gamemode == "combine_xen_defense")
+		info += "You are playing for the Xenian side! Destroy the enemy's artillery tower before the time limit is up to win!"
 	return info
 
 /datum/outfit/job/xen_tdm/post_equip(mob/living/carbon/human/H, visualsOnly=FALSE)

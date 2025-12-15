@@ -33,6 +33,8 @@
 		info += "You are playing for the Combine Side in the Payload gamemode! Defend the cart to win! You can loot buildings for money, and sell enemy player corpses to your base's cash deposit in order to upgrade your team's starting loadouts."
 	if(SSmapping.current_map.combat_deployment_gamemode == "the_hidden")
 		info += "You are part of a team hunting down an anomalous test subject known as The Hidden. Stick together with your squad, and try to put this invisible, merciless beast down. Alternatively, try to active all five combine distress terminals to win."
+	if(SSmapping.current_map.combat_deployment_gamemode == "combine_xen_defense")
+		info += "You are a veteran Combine officer leading the defence against a massed horde of Xenian fauna. Protect the artillery tower while it starts up, scavenge money and supplies to keep the line held, and avoid casualties."
 
 	return info
 
