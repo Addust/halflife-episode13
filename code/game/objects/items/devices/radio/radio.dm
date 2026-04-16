@@ -173,7 +173,7 @@
 
 /obj/item/radio/proc/make_syndie() // Turns normal radios into Syndicate radios!
 	qdel(keyslot)
-	keyslot = new /obj/item/encryptionkey/syndicate()
+	keyslot = new /obj/item/encryptionkey/syndicate/uprising()
 	special_channels |= RADIO_SPECIAL_SYNDIE
 	recalculateChannels()
 

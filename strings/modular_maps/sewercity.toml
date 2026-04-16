@@ -27,3 +27,6 @@ modules = ["deployment_south_safehouse.dmm", "deployment_south_zombines.dmm", "d
 
 [rooms.rebel_large_bunker]
 modules = ["rebel_large_bunker_main.dmm", "rebel_large_bunker_looted.dmm"]
+
+[rooms.rebel_small_bunker]
+modules = ["rebel_small_bunker_main.dmm", "rebel_small_bunker_looted.dmm"]

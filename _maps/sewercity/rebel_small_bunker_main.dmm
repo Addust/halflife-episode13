@@ -1,0 +1,1736 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"aw" = (
+/obj/machinery/button/door/directional/north{
+	id = "bunker_engineer_exit"
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"aF" = (
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"aI" = (
+/obj/structure/closet/crate/halflife/wooden,
+/obj/item/pickaxe/rusted,
+/obj/item/pickaxe/rusted,
+/obj/item/pickaxe/rusted,
+/obj/item/pickaxe/rusted,
+/obj/item/clothing/mask/gas/hl2/oldmask,
+/obj/item/clothing/mask/gas/hl2/oldmask,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/clothing/head/utility/hardhat/halflife/mining,
+/obj/item/clothing/head/utility/hardhat/halflife/mining,
+/obj/item/clothing/head/utility/hardhat/halflife/mining,
+/obj/item/clothing/head/utility/hardhat/halflife/mining,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"aQ" = (
+/obj/machinery/power/fusion_engine,
+/obj/structure/cable,
+/obj/structure/halflife/pipes/horizontal,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"bK" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/plating/indoor/tile/navy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"bR" = (
+/obj/item/trash/can/food/halflife/seafood{
+	pixel_x = 3;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"bT" = (
+/obj/structure/bed/medical,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"bZ" = (
+/obj/structure/sign/poster/halflife/rebel/plf,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"cl" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"cm" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"cA" = (
+/turf/open/floor/plating/indoor/carpet/blue,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"cZ" = (
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"dE" = (
+/obj/structure/halflife/rug/rubber,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"ee" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"eg" = (
+/obj/structure/table/halflife/metal,
+/obj/item/reagent_containers/cup/soup_pot,
+/obj/item/reagent_containers/condiment/enzyme{
+	pixel_x = 9;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/cup/bowl{
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/cup/bowl{
+	pixel_y = 7
+	},
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"ek" = (
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"eE" = (
+/obj/structure/cable,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"eF" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"ff" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"fs" = (
+/obj/structure/table/optable,
+/obj/machinery/defibrillator_mount/directional/north,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"ho" = (
+/obj/item/clothing/head/beret/sec/poland,
+/obj/structure/closet/halflife,
+/obj/item/hl13_small_flag/poland/telescopic,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"hz" = (
+/obj/structure/table/halflife/no_smooth/large/crafting/ammobench,
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"hD" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk/alt{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"hE" = (
+/obj/structure/table/halflife/no_smooth/large/wood/desk{
+	dir = 4
+	},
+/obj/item/paper/crumpled{
+	pixel_x = -4;
+	pixel_y = 15;
+	name = "orders from Warsaw Command";
+	desc = "Orders straight from the highest echelons of the Polish Free State's command structure.";
+	default_raw_text = "You are to re-secure the military complex we have infiltrated your team into to the greatest degree possible against the invaders. You are heavily-encouraged to expand the area you live within, as the emergency bunker we have retrofitted for your use is rather cramped and not rated for long-term habitation."
+	},
+/turf/open/floor/plating/indoor/carpet/blue,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"hN" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"iM" = (
+/obj/structure/window/fulltile/halflife/nosmooth/reinforced,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"iO" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/landmark/start/outlands/doctor,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"iR" = (
+/obj/machinery/hydroponics/constructable,
+/obj/machinery/light/warm/no_nightlight/directional/east,
+/turf/open/floor/plating/indoor/tile/navy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"jK" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"jT" = (
+/obj/structure/table/halflife/no_smooth/large/metal,
+/obj/machinery/reagentgrinder{
+	pixel_x = 4;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"jV" = (
+/obj/machinery/hydroponics/constructable,
+/turf/open/floor/plating/indoor/tile/navy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"jX" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "rebel_bunker_entrance_east";
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"kc" = (
+/obj/machinery/light/small/dim/directional/east,
+/obj/structure/cable,
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"kg" = (
+/obj/effect/landmark/start/outlands/soldier,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"ky" = (
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"kH" = (
+/obj/structure/sign/poster/halflife/rebel/plf/hold,
+/obj/structure/cable,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"lf" = (
+/obj/structure/sign/poster/halflife/rebel/two,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"lD" = (
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"mA" = (
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"mG" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"ns" = (
+/obj/structure/table/halflife/metal,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"nA" = (
+/turf/closed/mineral/random,
+/area/template_noop)
+"ox" = (
+/obj/structure/bed/halflife/bedframe/cot,
+/obj/structure/bed/halflife/mattress/old,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"oF" = (
+/obj/effect/landmark/start/outlands/quartermaster,
+/obj/item/hl13_small_flag/poland{
+	pixel_x = -16;
+	pixel_y = 21
+	},
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/plating/indoor/carpet/blue,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"oQ" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/carpet/shaggy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"pc" = (
+/obj/structure/table/halflife/no_smooth/large/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"qd" = (
+/obj/structure/sign/poster/halflife/rebel,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"qe" = (
+/obj/machinery/light/small/directional/east,
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"qh" = (
+/obj/structure/halflife/trash/papers/three{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/obj/structure/halflife/trash/food/misc,
+/obj/item/trash/can/food/halflife/crisps{
+	pixel_x = 8;
+	pixel_y = -3
+	},
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"qA" = (
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"qZ" = (
+/obj/machinery/door/unpowered/halflife/metal/mirrored/red{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"rh" = (
+/turf/open/floor/plating/indoor/carpet/shaggy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"ro" = (
+/obj/machinery/microwave{
+	pixel_y = 4
+	},
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"rv" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 4
+	},
+/obj/structure/closet/halflife/wall/firstaid,
+/obj/item/reagent_containers/hypospray/medipen/healthpen,
+/obj/item/reagent_containers/hypospray/medipen/healthpen,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit,
+/obj/item/reagent_containers/pill/antitox{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/pill/antitox{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/obj/item/reagent_containers/pill/antitox{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"rB" = (
+/obj/structure/cable,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"rD" = (
+/obj/machinery/gibber,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"sd" = (
+/obj/structure/closet/crate/halflife/wooden,
+/obj/effect/spawner/random/halflife/loot,
+/obj/structure/cable,
+/obj/effect/spawner/random/halflife/loot,
+/obj/effect/spawner/random/halflife/loot,
+/obj/effect/spawner/random/halflife/loot,
+/obj/effect/spawner/random/halflife/loot,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"si" = (
+/obj/structure/sign/poster/halflife/rebel/plf,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"ss" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"sz" = (
+/obj/structure/bed/halflife/bedframe/cot,
+/obj/structure/bed/halflife/mattress/old,
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"sA" = (
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"sQ" = (
+/obj/effect/landmark/start/outlands/technician,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"th" = (
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"tk" = (
+/obj/item/scalpel,
+/obj/item/hemostat,
+/obj/item/retractor,
+/obj/item/circular_saw,
+/obj/item/surgical_drapes,
+/obj/item/bonesetter,
+/obj/item/cautery,
+/obj/item/surgicaldrill,
+/obj/structure/closet/halflife,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"tr" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"ui" = (
+/obj/effect/landmark/start/outlands/botanist,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"ut" = (
+/obj/structure/table/halflife/no_smooth/large/wood/desk{
+	dir = 4
+	},
+/obj/item/paper/crumpled{
+	pixel_x = -4;
+	pixel_y = 15;
+	name = "orders from Warsaw Command";
+	desc = "Orders straight from the highest echelons of the Polish Free State's command structure.";
+	default_raw_text = "You are to re-secure the military complex we have infiltrated your team into to the greatest degree possible against the invaders. You are heavily-encouraged to expand the area you live within, as the emergency bunker we have retrofitted for your use is rather cramped and not rated for long-term habitation."
+	},
+/turf/open/floor/plating/indoor/carpet/shaggy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"uU" = (
+/obj/effect/landmark/start/outlands/soldier,
+/obj/structure/chair/halflife/metal/folding{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"vd" = (
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"vn" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"vv" = (
+/obj/structure/cable,
+/obj/machinery/light/small/dim/directional/south,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"vP" = (
+/obj/structure/chair/halflife/metal/folding{
+	dir = 8
+	},
+/obj/effect/landmark/start/outlands/vortigaunt,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"wx" = (
+/turf/closed/wall/halflife/sewer,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"wS" = (
+/obj/machinery/door/unpowered/halflife/metal/red,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"wV" = (
+/obj/machinery/light/small/directional/south,
+/obj/structure/closet/crate/halflife,
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/box/lights/tubes,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"wW" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"xi" = (
+/obj/machinery/light/small/directional/west,
+/obj/machinery/computer/arcade/orion_trail{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"xl" = (
+/obj/structure/closet/halflife,
+/obj/item/ammo_box/strilka310/a762,
+/obj/item/ammo_box/strilka310/a762,
+/obj/item/ammo_box/strilka310/a762,
+/obj/item/ammo_box/strilka310/a762,
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"xD" = (
+/obj/machinery/computer/arcade/battle{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"xH" = (
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"xJ" = (
+/obj/effect/landmark/start/outlands/doctor,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"xV" = (
+/obj/machinery/power/fusion_engine,
+/obj/structure/cable,
+/obj/structure/halflife/pipes/horizontal/down/single,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"xW" = (
+/obj/structure/closet/crate/halflife,
+/obj/item/food/canned/halflife/beans,
+/obj/item/food/canned/halflife/seafood,
+/obj/item/food/canned/halflife/beans,
+/obj/item/food/canned/halflife/beans,
+/obj/item/food/canned/halflife/seafood,
+/obj/item/food/canned/halflife/seafood,
+/obj/item/food/canned/halflife/crisps,
+/obj/item/food/canned/halflife/crisps,
+/obj/item/food/canned/halflife/crisps,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"yE" = (
+/obj/structure/cable,
+/obj/machinery/door/unpowered/halflife/seethrough/grate{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"yW" = (
+/obj/structure/closet/halflife,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/clothing/gloves/color/fyellow/old,
+/obj/item/clothing/gloves/color/fyellow/old,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/under/citizen/refugee/green,
+/obj/item/clothing/under/citizen/refugee/green,
+/obj/item/clothing/under/citizen/refugee,
+/obj/item/clothing/under/citizen/refugee,
+/obj/item/clothing/suit/hazardvest,
+/obj/item/clothing/suit/hazardvest,
+/obj/item/clothing/head/collectable/welding,
+/obj/item/clothing/head/collectable/welding,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"zd" = (
+/obj/machinery/vending/dinnerware,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"zG" = (
+/obj/structure/cable,
+/obj/machinery/light/small/dim/directional/east,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"zQ" = (
+/obj/machinery/porta_turret/combine/rebel{
+	anchored = 1;
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"zS" = (
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"AP" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"AQ" = (
+/obj/effect/landmark/start/outlands/lieutenant,
+/obj/item/hl13_small_flag/poland{
+	pixel_x = -14;
+	pixel_y = 21
+	},
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/plating/indoor/carpet/shaggy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"Bl" = (
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Bt" = (
+/obj/structure/chair/halflife/metal/folding{
+	dir = 4
+	},
+/obj/effect/landmark/start/outlands/vortigaunt,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Ck" = (
+/obj/structure/table/halflife/no_smooth/large/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"CB" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"DM" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"Eb" = (
+/obj/machinery/door/unpowered/halflife/metal/mirrored/red,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"Ec" = (
+/obj/machinery/oven/range,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Ey" = (
+/obj/structure/filingcabinet/hl2{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"Gy" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"GP" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/reagent_dispensers/watertank,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Hk" = (
+/obj/item/sbeacondrop/rebel_turret,
+/obj/item/sbeacondrop/rebel_turret,
+/obj/structure/closet/crate/halflife/wooden,
+/obj/item/stack/razorwire/full,
+/obj/item/stack/sheet/mineral/sandbags/fifteen,
+/obj/item/stack/sheet/mineral/sandbags/fifteen,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"HD" = (
+/obj/structure/closet/secure_closet/freezer/halflife,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab/chicken,
+/obj/item/food/meat/slab/chicken,
+/obj/item/food/meat/slab/xen,
+/obj/item/food/meat/slab/xen,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"HG" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"HW" = (
+/mob/living/basic/trader/halflife/refugee{
+	name = "Blackmarket Liaison";
+	desc = "A gruff-looking man, concealing thick body armour and a hefty revolver under his coat. You recognise him as a liaison sent by a local black-market group the local resistance cell has a supply contract with - thus letting them into the bunker, despite their less-trustworthy nature."
+	},
+/obj/structure/chair/office/halflife/blue,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"If" = (
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"Ik" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"Iq" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"IL" = (
+/obj/structure/closet/halflife,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"Jc" = (
+/obj/machinery/vending/hydroseeds,
+/turf/open/floor/plating/indoor/tile/navy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Ju" = (
+/obj/structure/sign/poster/halflife/rebel/plf,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"Jv" = (
+/obj/structure/closet/halflife,
+/obj/item/mop,
+/obj/item/pushbroom,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/reagent_containers/spray/cleaner,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"JB" = (
+/obj/structure/sign/poster/halflife/rebel/plf/hold,
+/turf/closed/wall/halflife/sewer,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"JN" = (
+/obj/structure/chair/office/halflife/blue,
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"JW" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "rebel_bunker_entrance_west";
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"KA" = (
+/obj/machinery/light/small/directional/north,
+/obj/item/hl13_small_flag/poland{
+	pixel_x = -16;
+	pixel_y = 21
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"KR" = (
+/obj/structure/cable,
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"KS" = (
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"Lb" = (
+/obj/machinery/light/small/dim/directional/east,
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"Lk" = (
+/obj/machinery/griddle,
+/obj/structure/extinguisher_cabinet/directional/south,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Ll" = (
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Lu" = (
+/obj/structure/closet/halflife,
+/obj/item/clothing/accessory/armband/plf,
+/obj/item/clothing/head/helmet/halflife/military/poland,
+/obj/item/clothing/suit/armor/halflife/kevlar,
+/obj/item/clothing/under/syndicate/camo/halflife,
+/obj/item/knife/combat/survival,
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"LL" = (
+/obj/structure/closet/crate/freezer/halflife/blood,
+/obj/machinery/iv_drip,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"LX" = (
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"Mj" = (
+/obj/structure/cable,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Mv" = (
+/obj/structure/table/halflife/no_smooth/large/crafting/weaponbench,
+/obj/item/weaponcrafting/receiver{
+	pixel_x = 13;
+	pixel_y = 8
+	},
+/obj/item/weaponcrafting/frame/mosin{
+	pixel_x = 4;
+	pixel_y = 15
+	},
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"Mx" = (
+/obj/item/clothing/accessory/armband/plf,
+/obj/item/clothing/head/helmet/halflife/military/poland,
+/obj/item/clothing/suit/armor/halflife/kevlar,
+/obj/item/clothing/under/syndicate/camo/halflife,
+/obj/structure/closet/halflife,
+/obj/item/knife/combat/survival,
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"MN" = (
+/obj/machinery/biogenerator,
+/turf/open/floor/plating/indoor/tile/navy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Nh" = (
+/obj/structure/sink/halflife/clean,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Nm" = (
+/obj/effect/landmark/start/outlands/soldier,
+/obj/structure/chair/halflife/metal/folding{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"Ns" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"Oq" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"ON" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"OU" = (
+/obj/structure/kitchenspike,
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Pg" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"Pl" = (
+/obj/machinery/door/unpowered/halflife/seethrough/grate{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"PN" = (
+/obj/machinery/door/unpowered/halflife/metal/alt,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"PP" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"PZ" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"Qe" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Ql" = (
+/obj/machinery/door/poddoor{
+	id = "bunker_engineer_exit"
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"Qn" = (
+/obj/structure/rustic_extractor,
+/obj/structure/table/halflife/metal/grate,
+/turf/open/floor/plating/indoor/tile/navy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Qo" = (
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"Qx" = (
+/obj/structure/closet/crate/halflife,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"QC" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"QJ" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"QP" = (
+/obj/machinery/button/door{
+	id = "rebel_bunker_entrance_west";
+	pixel_y = 9;
+	name = "west shutters"
+	},
+/obj/machinery/button/door{
+	id = "rebel_bunker_entrance_east";
+	pixel_y = 0;
+	pixel_x = 0;
+	name = "east shutters"
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"Rx" = (
+/obj/effect/turf_decal/trimline/blue/line{
+	dir = 4
+	},
+/obj/machinery/vending/combine_wallmed/directional/south,
+/obj/structure/closet/crate/halflife,
+/obj/item/stack/medical/gauze/twelve,
+/obj/item/stack/medical/gauze/twelve,
+/obj/item/stack/medical/gauze/twelve,
+/obj/item/vending_refill/combine_wallmed,
+/obj/item/bodypart/arm/right/robot/surplus,
+/obj/item/bodypart/arm/left/robot/surplus,
+/obj/item/bodypart/leg/right/robot/surplus,
+/obj/item/bodypart/leg/left/robot/surplus,
+/obj/item/stack/medical/bone_gel,
+/obj/item/stack/medical/bone_gel,
+/obj/item/stack/sticky_tape/surgical,
+/obj/item/reagent_containers/cup/bottle/welding_fuel,
+/obj/item/clothing/neck/stethoscope,
+/obj/item/clothing/neck/stethoscope,
+/obj/item/clothing/mask/surgical,
+/obj/item/clothing/mask/surgical,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"RB" = (
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"RW" = (
+/obj/structure/cable,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"Sb" = (
+/obj/effect/landmark/start/outlands/chef,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Sd" = (
+/obj/machinery/vending/hydronutrients,
+/turf/open/floor/plating/indoor/tile/navy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"SF" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"SO" = (
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -14;
+	pixel_y = 6
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = 6;
+	pixel_y = 14
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -5;
+	pixel_y = -11
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -18;
+	pixel_y = -4
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = 3;
+	pixel_y = -9
+	},
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"SP" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"SV" = (
+/obj/structure/closet/crate/halflife,
+/obj/item/fuel_cell/full,
+/obj/item/fuel_cell/random,
+/obj/item/fuel_cell/prewar,
+/obj/structure/cable,
+/obj/item/crowbar/large,
+/obj/item/crowbar/halflife_hammer,
+/obj/item/crowbar/red,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
+/obj/structure/halflife/pipes/horizontal/box,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"SZ" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/carpet/blue,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"Th" = (
+/obj/item/toy/cards/deck/syndicate{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"Tj" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"TN" = (
+/obj/machinery/vending/food_dispensery/directional/north{
+	name = "restored food dispensery";
+	desc = "A captured and restored FID recovered from Raven District of the far-away City 13."
+	},
+/obj/structure/table/halflife/metal,
+/obj/item/stack/spacecash/c10,
+/turf/open/floor/plating/indoor/tile/kitchen,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"UJ" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"UN" = (
+/obj/machinery/door/unpowered/halflife/seethrough/grate,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"Vc" = (
+/obj/machinery/door/unpowered/halflife/metal/alt,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"VA" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"Wu" = (
+/mob/living/basic/pet/cat,
+/obj/structure/bed/dogbed,
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+"WN" = (
+/obj/structure/halflife/trash/food/glass,
+/obj/structure/halflife/trash/food/misc,
+/obj/structure/halflife/trash/glass/cans,
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"WT" = (
+/obj/structure/sign/poster/halflife/rebel/plf/hold,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Xc" = (
+/obj/structure/cable,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"Xh" = (
+/obj/structure/closet/crate/halflife,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/cultivator,
+/obj/item/cultivator,
+/obj/item/shovel/spade,
+/obj/item/shovel/spade,
+/obj/item/hatchet/wooden,
+/obj/item/hatchet/wooden,
+/obj/item/reagent_containers/cup/bottle/nutrient/ez,
+/obj/item/reagent_containers/cup/bottle/nutrient/ez,
+/obj/machinery/light/small/directional/north,
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"XN" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/west,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"XP" = (
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"Yr" = (
+/obj/structure/cable,
+/obj/machinery/light_switch/directional/north,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"YC" = (
+/obj/machinery/computer/operating,
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
+"YI" = (
+/obj/structure/guncase,
+/obj/item/gun/ballistic/rifle/boltaction/mosin_nagant,
+/obj/item/gun/ballistic/rifle/boltaction/mosin_nagant,
+/turf/open/floor/plating/indoor/metal/grate/border/warning,
+/area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"YL" = (
+/obj/structure/sign/poster/halflife/rebel/plf/hold,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"Zp" = (
+/obj/structure/bed/halflife/bedframe/cot,
+/obj/structure/bed/halflife/mattress/old,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"ZL" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large/offices)
+"ZR" = (
+/obj/structure/sign/poster/halflife/rebel/vault,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
+
+(1,1,1) = {"
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+If
+KR
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+"}
+(2,1,1) = {"
+nA
+nA
+af
+af
+af
+af
+af
+af
+af
+af
+af
+nA
+nA
+Lb
+If
+KR
+kc
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+"}
+(3,1,1) = {"
+nA
+nA
+af
+ox
+ff
+ox
+af
+fs
+iO
+tk
+UJ
+UJ
+UJ
+UJ
+JW
+JW
+eE
+eE
+Xc
+nA
+nA
+nA
+nA
+nA
+nA
+"}
+(4,1,1) = {"
+nA
+nA
+af
+sz
+th
+ox
+af
+YC
+xJ
+LL
+UJ
+KA
+AP
+UJ
+ee
+mG
+DM
+vd
+kH
+Xc
+Xc
+Xc
+Xc
+nA
+nA
+"}
+(5,1,1) = {"
+nA
+nA
+af
+af
+PZ
+af
+af
+rv
+ss
+Rx
+UJ
+JN
+QP
+iM
+mG
+mG
+DM
+zQ
+Tj
+Mv
+Oq
+Lu
+Xc
+nA
+nA
+"}
+(6,1,1) = {"
+nA
+nA
+af
+cm
+th
+th
+ff
+th
+th
+bT
+UJ
+qZ
+UJ
+UJ
+jX
+jX
+UJ
+UJ
+Tj
+Qo
+LX
+Mx
+Xc
+nA
+nA
+"}
+(7,1,1) = {"
+nA
+nA
+rB
+Yr
+th
+th
+th
+th
+th
+th
+Vc
+mG
+mG
+mG
+mG
+mG
+Pg
+mG
+wS
+LX
+LX
+Hk
+Xc
+nA
+nA
+"}
+(8,1,1) = {"
+nA
+nA
+rB
+af
+jK
+af
+lf
+af
+jK
+af
+ZR
+eF
+mG
+mG
+mG
+mG
+uU
+uU
+Tj
+hz
+LX
+xl
+Xc
+nA
+nA
+"}
+(9,1,1) = {"
+nA
+nA
+rB
+sz
+PP
+ox
+af
+sz
+PP
+ox
+UJ
+Wu
+bR
+eF
+mG
+kg
+Th
+Ck
+Ju
+cZ
+Ns
+YI
+Xc
+nA
+nA
+"}
+(10,1,1) = {"
+nA
+Mj
+Mj
+HG
+HG
+HG
+HG
+HG
+HG
+HG
+HG
+YL
+HG
+HG
+mG
+mG
+Nm
+Nm
+Tj
+Tj
+Tj
+Tj
+Xc
+wx
+nA
+"}
+(11,1,1) = {"
+nA
+Mj
+zd
+sA
+eg
+HG
+zS
+tr
+ns
+ky
+ky
+xi
+xD
+HG
+RB
+mG
+mG
+mG
+Vc
+wW
+XN
+CB
+CB
+wx
+nA
+"}
+(12,1,1) = {"
+nA
+Mj
+HD
+sA
+xW
+HG
+xH
+Sb
+ns
+ky
+ky
+ky
+ky
+PN
+mG
+mG
+mG
+ZL
+ZL
+ZL
+si
+ZL
+CB
+wx
+nA
+"}
+(13,1,1) = {"
+nA
+Mj
+TN
+sA
+rD
+HG
+Ll
+Sb
+ns
+ky
+Bt
+Bt
+ky
+HG
+eF
+mG
+qA
+ZL
+Ey
+ho
+Zp
+ZL
+vv
+wx
+nA
+"}
+(14,1,1) = {"
+nA
+Mj
+OU
+sA
+sA
+PN
+xH
+xH
+ns
+ky
+ky
+pc
+Qe
+HG
+QJ
+mG
+mG
+Eb
+XP
+XP
+cl
+ZL
+CB
+wx
+nA
+"}
+(15,1,1) = {"
+nA
+Mj
+jT
+sA
+Lk
+HG
+xH
+xH
+xH
+ky
+vP
+vP
+ky
+bZ
+eF
+mG
+eF
+ZL
+oQ
+ut
+XP
+ZL
+CB
+wx
+nA
+"}
+(16,1,1) = {"
+nA
+Mj
+ro
+dE
+Ec
+HG
+qe
+xH
+xH
+ky
+SP
+ky
+ky
+HG
+eF
+mG
+eF
+ZL
+AQ
+rh
+XP
+ZL
+CB
+JB
+nA
+"}
+(17,1,1) = {"
+nA
+Mj
+ON
+hN
+Qx
+vn
+vn
+mA
+vn
+vn
+vn
+vn
+vn
+WT
+eF
+mG
+VA
+ZL
+ZL
+ZL
+ZL
+ZL
+CB
+wx
+nA
+"}
+(18,1,1) = {"
+nA
+RW
+Gy
+RW
+Gy
+Gy
+Qn
+lD
+lD
+bK
+Jc
+Sd
+MN
+vn
+aI
+mG
+eF
+ZL
+Ey
+IL
+Zp
+ZL
+CB
+wx
+nA
+"}
+(19,1,1) = {"
+nA
+RW
+aQ
+CB
+yW
+Gy
+Nh
+lD
+lD
+lD
+lD
+lD
+lD
+vn
+Jv
+mG
+mG
+Eb
+XP
+XP
+cl
+ZL
+CB
+wx
+nA
+"}
+(20,1,1) = {"
+nA
+Gy
+SV
+sQ
+wV
+Gy
+Xh
+lD
+QC
+ui
+lD
+ui
+ZL
+ZL
+ZL
+ZL
+SF
+ZL
+SZ
+hE
+XP
+ZL
+CB
+wx
+nA
+"}
+(21,1,1) = {"
+SO
+Gy
+xV
+sQ
+aF
+Gy
+vn
+Pl
+vn
+jV
+iR
+jV
+ZL
+Iq
+HW
+hD
+ek
+ZL
+oF
+cA
+XP
+ZL
+vv
+wx
+nA
+"}
+(22,1,1) = {"
+WN
+Ql
+CB
+sQ
+KS
+Gy
+GP
+Bl
+vn
+Gy
+Gy
+Gy
+qd
+sd
+ek
+ek
+ek
+ZL
+ZL
+ZL
+ZL
+ZL
+CB
+wx
+nA
+"}
+(23,1,1) = {"
+qh
+Gy
+aw
+Ik
+CB
+UN
+CB
+CB
+CB
+zG
+CB
+CB
+UN
+CB
+CB
+CB
+CB
+yE
+CB
+zG
+CB
+CB
+CB
+wx
+nA
+"}
+(24,1,1) = {"
+nA
+Gy
+Gy
+Gy
+Gy
+Gy
+wx
+wx
+wx
+wx
+wx
+wx
+wx
+Gy
+Gy
+Gy
+Gy
+wx
+wx
+wx
+wx
+wx
+wx
+wx
+nA
+"}
+(25,1,1) = {"
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+nA
+"}

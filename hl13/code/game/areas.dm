@@ -403,6 +403,112 @@
 /area/halflife/indoors/bunker/unpowered/rebel_large/armory
 	first_time_text = "Armory"
 
+//RAVINE COMPLEX
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex
+	name = "Decayed Military Base"
+	ambient_buzz_vol = 40
+	first_time_text = "Decayed Military Base"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/hangar
+	name = "Hangar Sector"
+	first_time_text = "Decayed Hangar"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/power_station
+	name = "Power Station"
+	first_time_text = "Power Station"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/power_station/alfa
+	name = "Power Station Alfa"
+	first_time_text = "Power Station Alfa"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/power_station/beta
+	name = "Power Station Beta"
+	first_time_text = "Power Station Beta"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/power_station/charlie
+	name = "Power Station Charlie"
+	first_time_text = "Power Station Charlie"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/power_station/delta
+	name = "Power Station Delta"
+	first_time_text = "Power Station Delta"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/warehouse
+	name = "Warehouse Sector"
+	first_time_text = "Decayed Warehouse"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/warehouse/west
+	name = "Western Warehouse Sector"
+	first_time_text = "Western Decayed Warehouse"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/warehouse/east
+	name = "Eastern Warehouse Sector"
+	first_time_text = "Eastern Decayed Warehouse"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard
+	name = "Rail Depot"
+	first_time_text = "Railyard"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/rail_station
+	name = "Abandoned Train Station"
+	first_time_text = "Train Station"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/rail_station/west
+	name = "Western Train Station"
+	first_time_text = "Western Train Station"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/rail_station/east
+	name = "Eastern Train Station"
+	first_time_text = "Eastern Train Station"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/armoury_north
+	name = "North Armoury"
+	first_time_text = "North Armoury"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/armoury_south
+	name = "South Armoury"
+	first_time_text = "South Armoury"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/civilian_dorms
+	name = "Civilian Habitation Sector"
+	first_time_text = "Decayed Civilian Housing"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/military_dorms
+	name = "Barracks"
+	first_time_text = "Decayed Barracks"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/officer_dorms
+	name = "Officer Quarters"
+	first_time_text = "Command Quarters"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/missile_silo
+	name = "Missile Launch Sector"
+	first_time_text = "Abandoned Missile Silos"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/maintenance
+	name = "Maintenance Sector"
+	first_time_text = "Maintenance Tunnels"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/hospital
+	name = "Medical Sector"
+	first_time_text = "Old Hospital"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/hospital/west
+	name = "Western Medical Sector"
+	first_time_text = "Old Hospital"
+
+/area/halflife/indoors/bunker/unpowered/ravine_complex/hospital/east
+	name = "Eastern Medical Sector"
+	first_time_text = "Old Hospital"
+
+
+/area/halflife/indoors/abandoned_train
+	name = "Forgotten Train"
+	area_limited_icon_smoothing = /area/halflife/indoors/abandoned_train
+
+
+// SEWERS
 
 /area/halflife/indoors/sewer
 	name = "\improper Sewers"

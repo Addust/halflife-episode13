@@ -149,10 +149,10 @@
 #define FUSION_ENGINE_HEAVY_DAMAGE 3
 
 /obj/machinery/power/fusion_engine
-	name = "\improper S-52 fusion reactor"
+	name = "\improper S-98 fusion reactor"
 	icon = 'hl13/icons/obj/fusion_engine.dmi'
 	icon_state = "off"
-	desc = "A modified generator converted with advanced combine blueprints to preform a relatively safe fusion power extraction through the use of fuel cells."
+	desc = "A pre-War fusion reactor developed by the greatest minds of the century that has been converted to utilise Combine fuel cells."
 	resistance_flags = UNACIDABLE
 	anchored = TRUE
 	density = TRUE
@@ -491,14 +491,25 @@
 
 //FUEL CELL
 /obj/item/fuel_cell
-	name = "\improper WL-6 universal fuel cell"
+	name = "\improper universal fuel cell"
 	icon = 'hl13/icons/obj/fuel_cell.dmi'
 	icon_state = "cell-empty"
-	desc = "A combine manufactured fuel cell designed for S-52 reactors. It is rechargable if you can manage to get your hands on their recharging station."
+	desc = "A combine manufactured fuel cell compatible with S-98 fusion reactors. It is rechargable if you can manage to get your hands on their recharging station."
 	/// The amount of fuel currently in the cell
 	var/fuel_amount = 0
 	/// The maximum amount of fuel the cell holds
 	var/max_fuel_amount = 100
+
+/obj/item/fuel_cell/prewar
+	icon_state = "cell-low"
+	name = "NATO Pattern-1998 fusion cell"
+	desc = "The predecessor to the Combine's universal cells, the Pattern-1998 remains rare post-war. Most are low on charge, but easily brought back to service."
+	max_fuel_amount = 65 //worse condition than the combine cells but more common
+	fuel_amount = 25
+
+/obj/item/fuel_cell/prewar/full
+	icon_state = "cell-medium"
+	fuel_amount = 65
 
 /obj/item/fuel_cell/low
 	icon_state = "cell-low"
