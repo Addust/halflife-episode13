@@ -219,6 +219,13 @@
 "mG" = (
 /turf/open/floor/plating/indoor/concrete/bricks,
 /area/halflife/indoors/bunker/unpowered/rebel_large)
+"mT" = (
+/obj/machinery/cryopod{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
 "ns" = (
 /obj/structure/table/halflife/metal,
 /turf/open/floor/plating/indoor/checkered,
@@ -821,6 +828,12 @@
 /obj/structure/halflife/pipes/vent,
 /turf/open/floor/plating/indoor/metal/grate/border/warning,
 /area/halflife/indoors/bunker/unpowered/rebel_large/armory)
+"Qp" = (
+/obj/structure/halflife/pipes/vent,
+/obj/machinery/cryopod,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
 "Qx" = (
 /obj/structure/closet/crate/halflife,
 /obj/item/reagent_containers/cup/glass/waterbottle/large,
@@ -880,6 +893,14 @@
 /obj/structure/halflife/pipes/vent,
 /turf/open/floor/plating/indoor/concrete/bricks,
 /area/halflife/indoors/bunker/unpowered/rebel_large)
+"RI" = (
+/obj/machinery/computer/cryopod{
+	pixel_y = 0;
+	dir = 8;
+	pixel_x = 24
+	},
+/turf/open/floor/plating/indoor/tile,
+/area/halflife/indoors/bunker/unpowered/rebel_large/living_quarters)
 "RW" = (
 /obj/structure/cable,
 /turf/closed/wall/halflife/concrete/bunker,
@@ -1283,9 +1304,9 @@ sz
 PP
 ox
 af
-sz
-PP
-ox
+Qp
+RI
+mT
 UJ
 Wu
 bR
