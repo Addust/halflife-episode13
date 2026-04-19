@@ -10,6 +10,12 @@
 /obj/structure/halflife/trash/garbage/dumpster/crate,
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
+"cg" = (
+/obj/machinery/button/door/directional/north{
+	id = "railyard_depot_northgate"
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "cJ" = (
 /obj/machinery/button/door/directional/north{
 	id = "ravine_depot_abtrain"
@@ -51,12 +57,23 @@
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
 "gl" = (
-/obj/machinery/door/poddoor/shutters/preopen,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "railyard_depot_southgate"
+	},
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "gQ" = (
-/obj/machinery/door/poddoor/shutters/preopen,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "railyard_depot_southgate"
+	},
 /turf/open/floor/plating/indoor/metal/walkway,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
+"ha" = (
+/obj/structure/transport/linear,
+/obj/structure/railing/halflife/solo/industrial{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "hR" = (
 /obj/machinery/door/poddoor/shutters/indestructible,
@@ -65,6 +82,12 @@
 "jg" = (
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
+"kY" = (
+/obj/structure/railing/halflife/sewer{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "ma" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating/indoor/metal/industrial,
@@ -79,6 +102,19 @@
 /obj/structure/alien/weeds/node,
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
+"oh" = (
+/obj/structure/transport/linear,
+/obj/structure/railing/halflife/solo/industrial{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
+"oN" = (
+/obj/machinery/button/elevator/directional/north{
+	id = "elevator_railyard_depot_warehouse"
+	},
+/turf/open/floor/plating/ground/rockunder,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "oR" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plating/ground/rockunder,
@@ -123,6 +159,12 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
+"wu" = (
+/turf/open/floor/plating/indoor/woodc/wide,
+/area/halflife/outdoors)
+"xE" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/outdoors)
 "xH" = (
 /obj/machinery/door/unpowered/halflife/metal/mirrored/red{
 	keylock = 1;
@@ -131,8 +173,8 @@
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
 "xJ" = (
-/turf/closed/wall/halflife/concrete/bunker,
-/area/halflife/indoors/sewer/cave)
+/turf/open/floor/plating/ground/rockunder,
+/area/halflife/outdoors)
 "xQ" = (
 /turf/closed/indestructible/rock,
 /area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
@@ -181,6 +223,13 @@
 "Dq" = (
 /turf/open/floor/plating/indoor/concrete/small,
 /area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
+"Dx" = (
+/obj/machinery/elevator_control_panel/directional/north{
+	linked_elevator_id = "elevator_railyard_depot_warehouse"
+	},
+/obj/structure/transport/linear,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "Ef" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/indoor/metal/industrial,
@@ -191,12 +240,17 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
+"GB" = (
+/obj/structure/transport/linear,
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "Hb" = (
 /obj/structure/stairs/halflife/concrete{
 	dir = 1
 	},
 /turf/open/floor/plating/ground/rockunder,
-/area/halflife/indoors/sewer/cave)
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "HS" = (
 /obj/structure/railing/halflife/solo/industrial{
 	dir = 1
@@ -204,6 +258,13 @@
 /obj/structure/lattice/catwalk/hl13,
 /obj/machinery/light/directional/east,
 /turf/open/openspace,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
+"Ie" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "railyard_depot_northgate";
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "Ig" = (
 /obj/item/ammo_casing/shotgun/buckshot/spent,
@@ -229,8 +290,8 @@
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
 "LD" = (
-/turf/open/floor/plating/ground/rockunder,
-/area/halflife/indoors/sewer/cave)
+/turf/open/floor/plating/indoor/metal/walkway,
+/area/halflife/outdoors)
 "LF" = (
 /obj/machinery/computer/terminal/halflife,
 /turf/open/floor/plating/indoor/metal/industrial,
@@ -242,10 +303,24 @@
 /mob/living/basic/halflife/zombie,
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/abandoned_train)
+"Nm" = (
+/obj/structure/railing/halflife/sewer,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "OC" = (
 /obj/modular_map_root/rebel_small_bunker,
 /turf/closed/mineral/random,
 /area/halflife/indoors/sewer/cave)
+"PJ" = (
+/obj/machinery/button/door/directional/south{
+	id = "railyard_depot_southgate"
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
+"PM" = (
+/obj/structure/transport/linear,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "QW" = (
 /obj/machinery/door/unpowered/halflife/metal/mirrored/red,
 /turf/open/floor/plating/indoor/metal/industrial,
@@ -262,6 +337,13 @@
 "Sr" = (
 /turf/cordon,
 /area/halflife/indoors/sewer/cave)
+"SM" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "railyard_depot_northgate";
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/metal/walkway,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 "SN" = (
 /turf/template_noop,
 /area/halflife/indoors/sewer/cave)
@@ -288,6 +370,23 @@
 "WM" = (
 /turf/closed/wall/halflife/metal/strong/train,
 /area/halflife/indoors/abandoned_train)
+"Xw" = (
+/obj/effect/landmark/transport/transport_id{
+	specific_transport_id = "elevator_railyard_depot_warehouse"
+	},
+/obj/structure/transport/linear,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
+"Xx" = (
+/turf/closed/wall/halflife/metal/weak/old,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
+"XW" = (
+/obj/machinery/light/directional/east{
+	pixel_x = 0;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/ground/rockunder,
+/area/halflife/indoors/bunker/unpowered/ravine_complex/railyard)
 
 (1,1,1) = {"
 Sr
@@ -976,16 +1075,16 @@ sl
 sl
 sl
 sl
-xJ
-xJ
-xJ
-xJ
-xJ
-xJ
-xJ
-xJ
-sl
-sl
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+TR
+TR
 sl
 sl
 sl
@@ -1213,16 +1312,16 @@ sl
 sl
 sl
 sl
-xJ
-xJ
-xJ
-xJ
-xJ
-xJ
-xJ
-xJ
-sl
-sl
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+Jc
+TR
+TR
 sl
 sl
 sl
@@ -1441,25 +1540,25 @@ sl
 sl
 sl
 sl
+TR
+TR
+TR
+TR
+TR
+TR
+TR
 sl
 sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-xJ
-xJ
+Jc
+Jc
 Hb
-LD
-xJ
-xJ
-xJ
-xJ
-sl
-sl
+eP
+Jc
+Jc
+Jc
+Jc
+TR
+TR
 sl
 sl
 sl
@@ -1678,25 +1777,25 @@ sl
 sl
 sl
 sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-LD
-LD
-LD
-LD
-LD
-LD
-LD
-sl
-sl
+TR
+Xx
+oh
+Xx
+oh
+Xx
+oN
+TR
+TR
+TR
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+TR
+TR
 sl
 sl
 sl
@@ -1915,25 +2014,25 @@ sl
 sl
 sl
 sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-LD
-LD
-LD
-LD
-LD
-LD
-LD
-LD
-sl
+TR
+ha
+PM
+GB
+PM
+PM
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+TR
 sl
 sl
 sl
@@ -2152,25 +2251,25 @@ sl
 sl
 sl
 sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-LD
-LD
-LD
-LD
-LD
-LD
-LD
-LD
-sl
+TR
+Xx
+Dx
+Xw
+PM
+PM
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+TR
 sl
 sl
 sl
@@ -2389,25 +2488,25 @@ sl
 sl
 sl
 sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-LD
-LD
-LD
-LD
-LD
-LD
-LD
-sl
-sl
+TR
+ha
+PM
+PM
+PM
+PM
+eP
+eP
+XW
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+eP
+TR
+TR
 sl
 sl
 sl
@@ -2626,25 +2725,25 @@ sl
 sl
 sl
 sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-LD
-LD
-LD
-LD
-sl
-sl
-sl
+TR
+Xx
+PM
+PM
+PM
+Xx
+eP
+Jc
+Jc
+TR
+TR
+TR
+eP
+eP
+eP
+eP
+TR
+TR
+TR
 sl
 sl
 sl
@@ -2863,25 +2962,25 @@ sl
 sl
 sl
 sl
+TR
+TR
+TR
+TR
+TR
+TR
+TR
 sl
 sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-sl
-LD
-LD
-sl
-sl
-sl
-sl
+TR
+TR
+TR
+TR
+eP
+eP
+TR
+TR
+TR
+TR
 sl
 sl
 sl
@@ -36992,13 +37091,13 @@ fb
 fb
 fb
 fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
+TR
+TR
+TR
+TR
+TR
+TR
+TR
 fb
 Jc
 dX
@@ -37229,13 +37328,13 @@ fb
 fb
 fb
 fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
+TR
+Xx
+dp
+Xx
+dp
+Xx
+TR
 fb
 eP
 eP
@@ -37466,13 +37565,13 @@ fb
 fb
 fb
 fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
+TR
+dp
+dp
+dp
+dp
+dp
+TR
 fb
 TR
 eP
@@ -37702,15 +37801,15 @@ fb
 fb
 fb
 fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
+xE
+Jc
+Xx
+dp
+dp
+dp
+dp
+Jc
+xE
 TR
 eP
 dp
@@ -37939,15 +38038,15 @@ fb
 fb
 fb
 fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
+xE
+Nm
+dp
+dp
+dp
+dp
+dp
+kY
+xE
 TR
 eP
 dp
@@ -38176,15 +38275,15 @@ fb
 fb
 fb
 fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
+xE
+Vg
+Xx
+dp
+dp
+dp
+Xx
+Vg
+xE
 TR
 eP
 eP
@@ -38413,15 +38512,15 @@ fb
 fb
 fb
 fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
-fb
+xE
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+Vg
+xE
 TR
 TR
 TR
@@ -38653,9 +38752,9 @@ Jc
 Jc
 Jc
 Jc
-Jc
-Jc
-Jc
+LM
+LM
+LM
 Jc
 Jc
 Jc
@@ -39124,6 +39223,7 @@ sY
 sY
 sY
 Jc
+cg
 Vg
 Vg
 Vg
@@ -39146,8 +39246,7 @@ Vg
 Vg
 Vg
 Vg
-Vg
-Vg
+PJ
 Jc
 eP
 eP
@@ -39342,25 +39441,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+Ie
 Vg
 Vg
 Vg
@@ -39392,7 +39491,7 @@ fK
 eP
 eP
 Wo
-xQ
+eP
 af
 "}
 (16,1,2) = {"
@@ -39579,25 +39678,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+SM
 BM
 BM
 BM
@@ -39629,7 +39728,7 @@ BM
 BM
 BM
 hR
-xQ
+BM
 af
 "}
 (17,1,2) = {"
@@ -39816,25 +39915,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+Ie
 Vg
 Vg
 Vg
@@ -39866,7 +39965,7 @@ fK
 eP
 eP
 Wo
-xQ
+eP
 af
 "}
 (18,1,2) = {"
@@ -40053,25 +40152,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+SM
 BM
 BM
 BM
@@ -40103,7 +40202,7 @@ BM
 BM
 BM
 hR
-xQ
+BM
 af
 "}
 (19,1,2) = {"
@@ -40290,25 +40389,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+Ie
 Vg
 Vg
 Vg
@@ -40340,7 +40439,7 @@ fK
 eP
 eP
 Wo
-xQ
+eP
 af
 "}
 (20,1,2) = {"
@@ -40527,25 +40626,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+xJ
+Ie
 Vg
 Vg
 Vg
@@ -40571,13 +40670,13 @@ Vg
 Vg
 Vg
 gl
-LM
-LM
-LM
-LM
-LM
+eP
+eP
+eP
+eP
+eP
 Wo
-xQ
+eP
 af
 "}
 (21,1,2) = {"
@@ -40764,25 +40863,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+Ie
 Vg
 Ab
 bb
@@ -40814,7 +40913,7 @@ fK
 eP
 eP
 Wo
-xQ
+eP
 af
 "}
 (22,1,2) = {"
@@ -41001,25 +41100,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+SM
 BM
 Ab
 WM
@@ -41051,7 +41150,7 @@ BM
 BM
 BM
 hR
-xQ
+BM
 af
 "}
 (23,1,2) = {"
@@ -41238,25 +41337,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+Ie
 Vg
 Ab
 WM
@@ -41288,7 +41387,7 @@ fK
 eP
 eP
 Wo
-xQ
+eP
 af
 "}
 (24,1,2) = {"
@@ -41475,25 +41574,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+LD
+SM
 BM
 Ab
 WM
@@ -41525,7 +41624,7 @@ BM
 BM
 BM
 hR
-xQ
+BM
 af
 "}
 (25,1,2) = {"
@@ -41712,25 +41811,25 @@ sY
 sY
 sY
 sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-sY
-Jc
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+wu
+xJ
+xJ
+Ie
 Vg
 Ab
 bb
@@ -41762,7 +41861,7 @@ fK
 eP
 eP
 Wo
-xQ
+eP
 af
 "}
 (26,1,2) = {"
