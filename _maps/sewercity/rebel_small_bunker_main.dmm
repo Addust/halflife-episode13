@@ -35,6 +35,10 @@
 /obj/structure/halflife/pipes/horizontal,
 /turf/open/floor/catwalk_floor,
 /area/halflife/indoors/bunker/unpowered/rebel_large/maintenance)
+"bo" = (
+/obj/effect/landmark/deployments_refugee,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
 "bK" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/plating/indoor/tile/navy,
@@ -414,6 +418,13 @@
 "vn" = (
 /turf/closed/wall/halflife/concrete/bunker,
 /area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"vo" = (
+/obj/effect/landmark/deployments_refugee,
+/obj/structure/chair/halflife/metal/folding{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
 "vv" = (
 /obj/structure/cable,
 /obj/machinery/light/small/dim/directional/south,
@@ -459,6 +470,14 @@
 /obj/item/ammo_box/strilka310/a762,
 /obj/item/ammo_box/strilka310/a762,
 /obj/item/ammo_box/strilka310/a762,
+/obj/item/ammo_box/strilka310/a762,
+/obj/item/ammo_box/strilka310/a762,
+/obj/item/ammo_box/strilka310/a762,
+/obj/item/ammo_box/strilka310/a762,
+/obj/item/grenade/c4,
+/obj/item/grenade/c4,
+/obj/item/ammo_box/magazine/mp7,
+/obj/item/ammo_box/magazine/mp7,
 /turf/open/floor/plating/indoor/metal/grate/border/warning,
 /area/halflife/indoors/bunker/unpowered/rebel_large/armory)
 "xD" = (
@@ -494,6 +513,10 @@
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/plating/indoor/tile/kitchen,
 /area/halflife/indoors/bunker/unpowered/rebel_large/cafeteria)
+"yC" = (
+/obj/structure/table/halflife/metal/constructed,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
 "yE" = (
 /obj/structure/cable,
 /obj/machinery/door/unpowered/halflife/seethrough/grate{
@@ -611,6 +634,10 @@
 /obj/item/stack/razorwire/full,
 /obj/item/stack/sheet/mineral/sandbags/fifteen,
 /obj/item/stack/sheet/mineral/sandbags/fifteen,
+/obj/effect/spawner/random/halflife/loot/rare,
+/obj/effect/spawner/random/halflife/loot/ammo,
+/obj/effect/spawner/random/halflife/loot/ammo,
+/obj/effect/spawner/random/halflife/loot/ammo,
 /turf/open/floor/plating/indoor/metal/industrial,
 /area/halflife/indoors/bunker/unpowered/rebel_large/armory)
 "HD" = (
@@ -735,12 +762,16 @@
 "Mv" = (
 /obj/structure/table/halflife/no_smooth/large/crafting/weaponbench,
 /obj/item/weaponcrafting/receiver{
-	pixel_x = 13;
-	pixel_y = 8
+	pixel_x = 3;
+	pixel_y = 5
 	},
 /obj/item/weaponcrafting/frame/mosin{
 	pixel_x = 4;
 	pixel_y = 15
+	},
+/obj/item/weaponcrafting/frame/service{
+	pixel_x = 22;
+	pixel_y = 8
 	},
 /turf/open/floor/plating/indoor/metal/grate/border/warning,
 /area/halflife/indoors/bunker/unpowered/rebel_large/armory)
@@ -849,6 +880,10 @@
 /area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
 "QJ" = (
 /obj/machinery/light/directional/north,
+/obj/effect/landmark/deployments_refugee,
+/obj/structure/chair/halflife/metal/folding{
+	dir = 4
+	},
 /turf/open/floor/plating/indoor/concrete,
 /area/halflife/indoors/bunker/unpowered/rebel_large)
 "QP" = (
@@ -913,6 +948,22 @@
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/plating/indoor/tile/navy,
 /area/halflife/indoors/bunker/unpowered/rebel_large/hydroponics)
+"Sf" = (
+/obj/structure/closet/crate/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/obj/item/radio/off/halflife,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/bunker/unpowered/rebel_large)
 "SF" = (
 /obj/machinery/door/unpowered/halflife/metal{
 	dir = 4
@@ -1061,6 +1112,7 @@
 /obj/structure/guncase,
 /obj/item/gun/ballistic/rifle/boltaction/mosin_nagant,
 /obj/item/gun/ballistic/rifle/boltaction/mosin_nagant,
+/obj/item/gun/ballistic/automatic/mp7,
 /turf/open/floor/plating/indoor/metal/grate/border/warning,
 /area/halflife/indoors/bunker/unpowered/rebel_large/armory)
 "YL" = (
@@ -1360,8 +1412,8 @@ HG
 zS
 tr
 ns
-ky
-ky
+bo
+bo
 xi
 xD
 HG
@@ -1473,7 +1525,7 @@ vP
 vP
 ky
 bZ
-eF
+yC
 mG
 eF
 ZL
@@ -1500,7 +1552,7 @@ SP
 ky
 ky
 HG
-eF
+vo
 mG
 eF
 ZL
@@ -1527,7 +1579,7 @@ vn
 vn
 vn
 WT
-eF
+Sf
 mG
 VA
 ZL

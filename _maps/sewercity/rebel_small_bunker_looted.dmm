@@ -2,9 +2,52 @@
 "a" = (
 /obj/structure/cable,
 /turf/closed/wall/halflife/concrete/bunker,
-/area/template_noop)
+/area/halflife/indoors/bunker/unpowered)
+"c" = (
+/obj/structure/sign/poster/halflife/rebel/plf/hold,
+/turf/closed/wall/halflife/sewer,
+/area/halflife/indoors/bunker/unpowered)
 "d" = (
 /obj/machinery/light/small/dim/directional/east,
+/turf/open/floor/plating/ground/rockunder,
+/area/template_noop)
+"e" = (
+/obj/structure/halflife/pipes/horizontal/down/single,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
+"f" = (
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered)
+"h" = (
+/obj/structure/halflife/pipes/horizontal/box,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
+"i" = (
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -14;
+	pixel_y = 6
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = 6;
+	pixel_y = 14
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -5;
+	pixel_y = -11
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = -18;
+	pixel_y = -4
+	},
+/obj/structure/halflife/trash/garbage{
+	pixel_x = 3;
+	pixel_y = -9
+	},
 /turf/open/floor/plating/ground/rockunder,
 /area/template_noop)
 "j" = (
@@ -18,32 +61,80 @@
 /obj/item/clothing/under/syndicate/camo/halflife,
 /obj/item/clothing/suit/hazardvest,
 /obj/item/clothing/shoes/boots,
+/obj/item/pickaxe/rusted,
 /turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/bunker/unpowered)
+"m" = (
+/obj/structure/halflife/trash/food/glass,
+/obj/structure/halflife/trash/food/misc,
+/obj/structure/halflife/trash/glass/cans,
+/turf/open/floor/plating/ground/rockunder,
 /area/template_noop)
+"n" = (
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/bunker/unpowered)
 "p" = (
 /turf/open/floor/plating/ground/rockunder,
 /area/template_noop)
+"u" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/bunker/unpowered)
+"v" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
+"w" = (
+/obj/structure/cable,
+/obj/machinery/light/small/dim/directional/south,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
 "x" = (
 /obj/machinery/door/poddoor/shutters/preopen/deconstructed{
 	dir = 4
 	},
 /turf/open/floor/plating/indoor/concrete/bricks,
-/area/template_noop)
+/area/halflife/indoors/bunker/unpowered)
 "y" = (
 /obj/structure/cable,
 /turf/open/floor/plating/ground/rockunder,
 /area/template_noop)
 "z" = (
 /turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/bunker/unpowered)
+"B" = (
+/obj/structure/halflife/trash/papers/three{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/obj/structure/halflife/trash/food/misc,
+/obj/item/trash/can/food/halflife/crisps{
+	pixel_x = 8;
+	pixel_y = -3
+	},
+/turf/open/floor/plating/ground/rockunder,
 /area/template_noop)
 "C" = (
 /obj/machinery/light/small/dim/directional/east,
 /obj/structure/cable,
 /turf/open/floor/plating/ground/rockunder,
 /area/template_noop)
+"D" = (
+/turf/closed/mineral/random,
+/area/halflife/indoors/bunker/unpowered)
+"E" = (
+/obj/machinery/door/poddoor,
+/turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/indoors/bunker/unpowered)
 "G" = (
 /turf/closed/wall/halflife/concrete/bunker,
-/area/template_noop)
+/area/halflife/indoors/bunker/unpowered)
+"H" = (
+/obj/machinery/door/unpowered/halflife/seethrough/grate,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
 "I" = (
 /obj/structure/closet/halflife,
 /obj/item/clothing/mask/gas/hl2/oldmask,
@@ -51,21 +142,40 @@
 /obj/item/clothing/under/syndicate/camo/halflife,
 /obj/item/clothing/suit/hazardvest,
 /obj/item/clothing/shoes/boots,
+/obj/item/pickaxe/rusted,
 /turf/open/floor/plating/indoor/concrete/small,
-/area/template_noop)
+/area/halflife/indoors/bunker/unpowered)
 "K" = (
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/indoor/concrete/bricks,
-/area/template_noop)
+/area/halflife/indoors/bunker/unpowered)
 "L" = (
-/obj/machinery/door/poddoor/shutters/preopen/deconstructed{
+/obj/machinery/door/poddoor/shutters{
 	dir = 8
 	},
 /turf/open/floor/plating/indoor/concrete/bricks,
-/area/template_noop)
+/area/halflife/indoors/bunker/unpowered)
+"P" = (
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
+"S" = (
+/turf/closed/wall/halflife/sewer,
+/area/halflife/indoors/bunker/unpowered)
+"T" = (
+/obj/structure/cable,
+/obj/machinery/door/unpowered/halflife/seethrough/grate{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
 "W" = (
 /turf/open/floor/plating/indoor/concrete/bricks,
-/area/template_noop)
+/area/halflife/indoors/bunker/unpowered)
+"X" = (
+/obj/structure/cable,
+/obj/machinery/light/small/dim/directional/east,
+/turf/open/floor/catwalk_floor,
+/area/halflife/indoors/bunker/unpowered)
 
 (1,1,1) = {"
 j
@@ -168,10 +278,10 @@ W
 z
 I
 a
-j
-j
-j
-j
+a
+a
+a
+a
 j
 j
 "}
@@ -190,7 +300,7 @@ j
 j
 j
 G
-j
+D
 W
 z
 k
@@ -198,7 +308,7 @@ a
 j
 j
 j
-j
+a
 j
 j
 "}
@@ -217,7 +327,7 @@ j
 j
 j
 G
-j
+D
 x
 a
 a
@@ -225,7 +335,7 @@ a
 j
 j
 j
-j
+a
 j
 j
 "}
@@ -243,16 +353,16 @@ j
 j
 j
 j
+D
+D
+W
+u
+W
+j
 j
 j
 j
 a
-j
-j
-j
-j
-j
-j
 j
 j
 "}
@@ -270,16 +380,16 @@ j
 j
 j
 j
+D
+W
+W
+W
+W
 j
 j
 j
 j
-j
-j
-j
-j
-j
-j
+a
 j
 j
 "}
@@ -297,16 +407,16 @@ j
 j
 j
 j
+D
+W
+W
+D
+D
 j
 j
 j
 j
-j
-j
-j
-j
-j
-j
+a
 j
 j
 "}
@@ -324,17 +434,17 @@ j
 j
 j
 j
+G
+W
+W
+D
+D
 j
 j
 j
 j
-j
-j
-j
-j
-j
-j
-j
+a
+S
 j
 "}
 (11,1,1) = {"
@@ -351,17 +461,17 @@ j
 j
 j
 j
+G
+f
+W
 j
 j
 j
 j
 j
 j
-j
-j
-j
-j
-j
+v
+S
 j
 "}
 (12,1,1) = {"
@@ -387,8 +497,8 @@ j
 j
 j
 j
-j
-j
+v
+S
 j
 "}
 (13,1,1) = {"
@@ -414,8 +524,8 @@ j
 j
 j
 j
-j
-j
+w
+S
 j
 "}
 (14,1,1) = {"
@@ -441,8 +551,8 @@ j
 j
 j
 j
-j
-j
+v
+S
 j
 "}
 (15,1,1) = {"
@@ -468,8 +578,8 @@ j
 j
 j
 j
-j
-j
+v
+S
 j
 "}
 (16,1,1) = {"
@@ -495,8 +605,8 @@ j
 j
 j
 j
-j
-j
+v
+c
 j
 "}
 (17,1,1) = {"
@@ -522,8 +632,8 @@ j
 j
 j
 j
-j
-j
+v
+S
 j
 "}
 (18,1,1) = {"
@@ -549,12 +659,13 @@ j
 j
 j
 j
-j
-j
+v
+S
 j
 "}
 (19,1,1) = {"
 j
+a
 j
 j
 j
@@ -575,13 +686,14 @@ j
 j
 j
 j
-j
-j
-j
+v
+S
 j
 "}
 (20,1,1) = {"
 j
+G
+h
 j
 j
 j
@@ -601,13 +713,17 @@ j
 j
 j
 j
-j
-j
-j
-j
+v
+S
 j
 "}
 (21,1,1) = {"
+i
+G
+e
+n
+j
+G
 j
 j
 j
@@ -624,17 +740,17 @@ j
 j
 j
 j
-j
-j
-j
-j
-j
-j
-j
-j
+w
+S
 j
 "}
 (22,1,1) = {"
+m
+E
+P
+n
+n
+G
 j
 j
 j
@@ -651,68 +767,62 @@ j
 j
 j
 j
-j
-j
-j
-j
-j
-j
-j
-j
+v
+S
 j
 "}
 (23,1,1) = {"
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
+B
+G
+P
+v
+v
+H
+v
+v
+X
+v
+v
+H
+v
+v
+v
+v
+T
+v
+X
+v
+v
+v
+v
+S
 j
 "}
 (24,1,1) = {"
 j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
-j
+G
+G
+G
+G
+G
+S
+S
+S
+S
+S
+S
+G
+G
+G
+G
+S
+S
+S
+S
+S
+S
+S
+S
 j
 "}
 (25,1,1) = {"
