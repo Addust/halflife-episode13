@@ -10,6 +10,7 @@
 #define JOB_UNAVAILABLE_AGE 7
 #define JOB_UNAVAILABLE_WRONGTEAM 8 //hl13 edit
 #define JOB_UNAVAILABLE_TEAMFULL 9 //hl13 edit
+#define JOB_UNAVAILABLE_NOALERT 10 //hl13 edit
 
 /// Used when the `get_job_unavailable_error_message` proc can't make sense of a given code.
 #define GENERIC_JOB_UNAVAILABLE_ERROR "Error: Unknown job availability."
@@ -282,6 +283,8 @@ DEFINE_BITFIELD(departments_bitflags, list(
 #define JOB_PRISON_JOB (1<<14)
 /// This job is only active in outlands RP mode
 #define JOB_OUTLANDS_JOB (1<<15)
+/// This job is only active in city RP mode
+#define JOB_CITY_JOB (1<<16)
 
 DEFINE_BITFIELD(job_flags, list(
 	"JOB_ANNOUNCE_ARRIVAL" = JOB_ANNOUNCE_ARRIVAL,
@@ -300,7 +303,7 @@ DEFINE_BITFIELD(job_flags, list(
 ))
 
 /// Combination flag for jobs which are considered regular crew members of the station.
-#define STATION_JOB_FLAGS (JOB_ANNOUNCE_ARRIVAL|JOB_CREW_MANIFEST|JOB_EQUIP_RANK|JOB_CREW_MEMBER|JOB_NEW_PLAYER_JOINABLE|JOB_REOPEN_ON_ROUNDSTART_LOSS|JOB_ASSIGN_QUIRKS|JOB_PRISON_JOB)
+#define STATION_JOB_FLAGS (JOB_ANNOUNCE_ARRIVAL|JOB_CREW_MANIFEST|JOB_EQUIP_RANK|JOB_CREW_MEMBER|JOB_NEW_PLAYER_JOINABLE|JOB_REOPEN_ON_ROUNDSTART_LOSS|JOB_ASSIGN_QUIRKS|JOB_PRISON_JOB|JOB_CITY_JOB)
 /// Combination flag for jobs which are considered heads of staff.
 #define HEAD_OF_STAFF_JOB_FLAGS (JOB_BOLD_SELECT_TEXT|JOB_CANNOT_OPEN_SLOTS|JOB_HEAD_OF_STAFF)
 /// Combination flag for jobs which are enabled by station traits.

@@ -98,6 +98,10 @@
 "bK" = (
 /turf/open/floor/plating/indoor/concrete/bricks,
 /area/halflife/outdoors/deployment_city)
+"bM" = (
+/obj/structure/barricade/wooden/solid/reinforced,
+/turf/open/floor/plating/ground/sidewalk/inner/slums,
+/area/halflife/outdoors/deployment_city)
 "bN" = (
 /turf/open/floor/plating/indoor/carpet/green,
 /area/halflife/indoors/combat_deployment/rebel_base)
@@ -192,6 +196,11 @@
 /area/halflife/outdoors/deployment_city)
 "dV" = (
 /obj/structure/trap/deployment_spawn_prot/combine,
+/turf/open/floor/plating/ground/sidewalk/inner,
+/area/halflife/outdoors/deployment_city)
+"ei" = (
+/obj/machinery/power/halflife/streetlamphalt,
+/obj/structure/alien/weeds,
 /turf/open/floor/plating/ground/sidewalk/inner,
 /area/halflife/outdoors/deployment_city)
 "el" = (
@@ -398,6 +407,10 @@
 /obj/machinery/ammo_crate,
 /turf/open/floor/plating/indoor/woodc/fancy,
 /area/halflife/indoors/combat_deployment/rebel_base)
+"im" = (
+/mob/living/basic/halflife/zombie/poison,
+/turf/open/floor/plating/ground/sidewalk/inner,
+/area/halflife/outdoors/deployment_city)
 "io" = (
 /obj/structure/railing/halflife/wood{
 	dir = 1
@@ -571,10 +584,20 @@
 "mK" = (
 /turf/open/floor/plating/indoor/carpet/blue,
 /area/halflife/outdoors/deployment_city)
+"mP" = (
+/obj/machinery/porta_turret/combine/rebel{
+	dir = 8
+	},
+/turf/open/floor/plating/ground/sidewalk/inner/slums,
+/area/halflife/outdoors/deployment_city)
 "mV" = (
 /turf/open/floor/plating/indoor/metal/grate/border/warning{
 	dir = 1
 	},
+/area/halflife/outdoors/deployment_city)
+"mW" = (
+/mob/living/basic/halflife/headcrab/fast,
+/turf/open/floor/plating/ground/sidewalk/inner/slums,
 /area/halflife/outdoors/deployment_city)
 "mY" = (
 /obj/machinery/porta_turret/combine/rebel/fast{
@@ -630,8 +653,8 @@
 /turf/closed/wall/halflife/wood,
 /area/halflife/outdoors/deployment_city)
 "nR" = (
-/mob/living/basic/halflife/zombie,
-/turf/open/floor/plating/ground/sidewalk,
+/obj/structure/alien/weeds,
+/turf/open/floor/plating/ground/sidewalk/inner/slums,
 /area/halflife/outdoors/deployment_city)
 "nX" = (
 /obj/structure/halflife/rug/red,
@@ -723,6 +746,11 @@
 	},
 /turf/open/floor/plating/ground/grass,
 /area/halflife/outdoors/deployment_city)
+"pT" = (
+/mob/living/basic/halflife/zombie/fungal/proto_gonome,
+/obj/structure/alien/weeds,
+/turf/open/floor/plating/ground/sidewalk/inner,
+/area/halflife/outdoors/deployment_city)
 "qf" = (
 /obj/structure/halflife/road_barrier/combine,
 /turf/open/floor/plating/ground/sidewalk/inner/slums,
@@ -811,6 +839,10 @@
 	dir = 4
 	},
 /turf/open/floor/plating/ground/sidewalk/cobblestone,
+/area/halflife/outdoors/deployment_city)
+"sm" = (
+/obj/structure/barricade/wooden/solid/reinforced,
+/turf/open/floor/plating/ground/dirt,
 /area/halflife/outdoors/deployment_city)
 "ta" = (
 /obj/structure/table/halflife/metal/grate,
@@ -948,6 +980,12 @@
 "wp" = (
 /obj/machinery/combine_health_station/self_recharging{
 	pixel_y = 30
+	},
+/turf/open/floor/plating/ground/grass,
+/area/halflife/outdoors/deployment_city)
+"wC" = (
+/obj/machinery/ammo_crate/heavy{
+	ammo_amount = 2
 	},
 /turf/open/floor/plating/ground/grass,
 /area/halflife/outdoors/deployment_city)
@@ -1296,6 +1334,10 @@
 "Gk" = (
 /obj/structure/table/halflife/no_smooth/large/crafting/tinkerbench,
 /turf/open/floor/plating/indoor/metal/industrial,
+/area/halflife/outdoors/deployment_city)
+"Gs" = (
+/mob/living/basic/halflife/zombie,
+/turf/open/floor/plating/ground/sidewalk/cobblestone,
 /area/halflife/outdoors/deployment_city)
 "GA" = (
 /obj/machinery/door/unpowered/halflife/seethrough/metal{
@@ -5459,11 +5501,11 @@ mk
 ez
 ez
 ez
+nR
+nR
+nR
 ez
-ez
-ez
-ez
-ez
+mW
 ez
 ez
 ez
@@ -5604,7 +5646,7 @@ vb
 rd
 rd
 rd
-rd
+fx
 rd
 cK
 rd
@@ -5612,7 +5654,7 @@ rd
 rd
 rd
 rd
-fx
+im
 rd
 cK
 rd
@@ -5754,7 +5796,7 @@ Az
 PV
 PV
 PV
-nR
+PV
 PV
 PV
 PV
@@ -5912,7 +5954,7 @@ Qy
 Qy
 Qy
 Qy
-Qy
+Gs
 Qy
 Qy
 Qy
@@ -6364,7 +6406,7 @@ IF
 Qy
 PV
 PV
-nR
+PV
 PV
 yR
 PV
@@ -6525,8 +6567,8 @@ rd
 Az
 rd
 rd
-rd
-cK
+pT
+ei
 rd
 fx
 rd
@@ -6669,8 +6711,8 @@ Qy
 PV
 rd
 ez
-ez
-ez
+nR
+nR
 ez
 ez
 ez
@@ -6678,7 +6720,7 @@ ez
 ez
 ez
 ix
-ez
+nR
 ez
 ez
 ez
@@ -7287,7 +7329,7 @@ Br
 Br
 eu
 ai
-ez
+mW
 ez
 ez
 ez
@@ -7420,7 +7462,7 @@ Br
 Br
 Br
 Br
-bx
+ze
 ez
 PV
 Qy
@@ -7572,7 +7614,7 @@ ai
 Br
 Br
 Br
-bx
+ze
 ez
 PV
 Qy
@@ -7730,7 +7772,7 @@ du
 Qy
 IF
 Qy
-PV
+du
 Yj
 dh
 ai
@@ -7884,7 +7926,7 @@ IF
 Qy
 PV
 rd
-ez
+mP
 ai
 yd
 AY
@@ -8181,14 +8223,14 @@ ai
 ai
 ai
 ai
-od
+bM
 PV
 Qy
 IF
 Qy
 PV
 rd
-od
+bM
 ai
 Br
 Br
@@ -8296,7 +8338,7 @@ ez
 ez
 ez
 ez
-ez
+dh
 ez
 ez
 ez
@@ -8448,7 +8490,7 @@ cK
 rd
 rd
 rd
-rd
+Yj
 rd
 rd
 rd
@@ -9512,7 +9554,7 @@ ez
 ez
 ez
 ez
-rd
+Yj
 PV
 Qy
 IF
@@ -9663,8 +9705,8 @@ ai
 ai
 ai
 ai
-ez
-rd
+dh
+Yj
 PV
 Qy
 IF
@@ -9832,7 +9874,7 @@ Om
 IW
 IW
 IW
-IW
+wC
 nH
 nH
 pD
@@ -10138,7 +10180,7 @@ IW
 IW
 IW
 pD
-FB
+sm
 pD
 IW
 xs
@@ -11354,7 +11396,7 @@ IW
 IW
 pD
 pD
-FB
+sm
 IW
 IW
 IW

@@ -15,6 +15,15 @@
 /datum/action/cooldown/spell/conjure_item/medkit/slow
 	cooldown_time = 35 SECONDS
 
+/datum/action/cooldown/spell/conjure_item/medkit/intruder
+	name = "Procure Ration"
+	desc = "Procures a ration to feed someone or yourself with. Deletes the last one summoned if it is still available."
+	item_type = /obj/item/reagent_containers/pill/patch/medkit/ration
+	cooldown_time = 30 SECONDS
+	delete_old = TRUE
+	sound = 'hl13/sound/effects/spawnration.ogg'
+	sound_varies = FALSE
+
 /datum/action/cooldown/spell/conjure_item/medkit/the_hidden
 	desc = "Procures a medkit to heal someone or yourself with. Deletes the last one summoned if it is still available."
 	item_type = /obj/item/reagent_containers/pill/patch/medkit/hidden
@@ -70,7 +79,7 @@
 	delete_old = FALSE
 
 /datum/action/cooldown/spell/conjure_item/construction_voucher/slow
-	cooldown_time = 125 SECONDS
+	cooldown_time = 140 SECONDS
 
 /datum/action/cooldown/spell/conjure_item/razor_wire
 	name = "Procure Razor Wire"
@@ -176,7 +185,7 @@
 	name = "Procure Incendiary Grenade"
 	desc = "Procures a incendiary grenade for tossing. Deletes the old one if it is not used."
 	item_type = /obj/item/grenade/incendiary_grenade
-	cooldown_time = 35 SECONDS
+	cooldown_time = 30 SECONDS
 
 
 /datum/action/cooldown/spell/aoe/rally
@@ -231,7 +240,7 @@
 	button_icon_state = "rally_rebel"
 	faction_buff = REBEL_DEPLOYMENT_FACTION
 	cooldown_time = 100 SECONDS // cell leaders and lieutenants are more charismatic than the evil bine commanders
-	physical_heal = -35
+	physical_heal = -50
 
 /datum/action/cooldown/spell/revive_tdmlead
 	name = "Revive"
@@ -394,3 +403,134 @@
 
 	invocation = null
 	invocation_type = INVOCATION_NONE
+
+/datum/action/cooldown/spell/squad_alert
+	name = "Squad Alert"
+	desc = "You have had advanced micromachines known as nanites surgically implanted into you, which when activated will transmit a recording of your last moments to Overwatch in order to raise an alert. It will take them a few seconds to review the footage, however."
+	button_icon = 'hl13/icons/mob/actions/actions_vortal.dmi'
+	button_icon_state = "revive"
+	background_icon_state = ACTION_BUTTON_DEFAULT_BACKGROUND
+
+	spell_requirements = NONE
+	check_flags = NONE
+	cooldown_time = 0
+	var/can_report = TRUE
+	var/transmitting = FALSE
+	var/transmission_timer
+
+/datum/action/cooldown/spell/squad_alert/cast(mob/living/user)
+	. = ..()
+	if(!can_report || GLOB.alert_cooldown >= 1 SECONDS) //cant go into alert while already on alert
+		return
+	if(!isliving(user))
+		return
+	if(user.stat != DEAD)
+		to_chat(user, span_notice("We aren't dead enough to do that yet!"))
+		return
+	var/mob/living/L = user
+	transmitting = !transmitting
+	if(transmitting)
+		to_chat(L, span_notice("Alert will be raised in 5 seconds."))
+		deltimer(transmission_timer)
+		transmission_timer = addtimer(CALLBACK(src, PROC_REF(squadalert), L), 5 SECONDS, TIMER_UNIQUE | TIMER_STOPPABLE)
+	else
+		to_chat(L, span_notice("The alert is already being raised."))
+		return
+
+/datum/action/cooldown/spell/squad_alert/proc/squadalert(mob/living/carbon/user)
+	can_report = FALSE //cant do it again
+	GLOB.alert_phases++
+	user.do_alert_animation()
+	playsound(user.loc, 'hl13/sound/effects/alert.ogg', 50, FALSE, -5)
+	to_chat(user, span_notice("Alert phase has been activated and will end in one minute."))
+
+/datum/action/cooldown/spell/recharge_lights
+	name = "Recharge Flashlights"
+	desc = "Procure a few spare batteries and give them out to everyone within 2 tiles of you."
+	button_icon = 'hl13/icons/mob/actions/actions_vortal.dmi'
+	button_icon_state = "charge"
+	background_icon_state = ACTION_BUTTON_DEFAULT_BACKGROUND
+
+	spell_requirements = NONE
+	check_flags = NONE
+	cooldown_time = 60 SECONDS //if you stay by your leader for the entire round, you shouldn't run out of battery.
+
+/datum/action/cooldown/spell/recharge_lights/cast(mob/living/user)
+	. = ..()
+	for(var/mob/living/carbon/human/H in range(2, user))
+		if(HAS_TRAIT(H, TRAIT_THE_INTRUDER))
+			continue //no recharges for snake if he steals a flashlight for some reason
+		for(var/obj/item/flashlight/seclite/guard/L in H.get_all_gear())
+			L.fuel = 60 SECONDS
+	user.visible_message(span_notice("[user] begins to pass out batteries for all carried flashlights in a 2 tile radius."))
+
+/datum/action/cooldown/spell/touch/holdup
+	name = "Ready Hold-up"
+	desc = "Ready a hand to perform a hold-up. While behind an enemy and holding any kind of weapon in your offhand, perform a hold-up that freezes them for a short time and can provide you with extra loot after two seconds. Doesn't work in alert."
+	button_icon = 'hl13/icons/mob/actions/actions_misc.dmi'
+	button_icon_state = "knife"
+	background_icon_state = ACTION_BUTTON_DEFAULT_BACKGROUND
+
+	hand_path = /obj/item/melee/touch_attack/holdup
+
+	spell_requirements = NONE
+	invocation_type = INVOCATION_NONE
+	check_flags = NONE
+	cooldown_time = 17 SECONDS
+
+	var/armed = FALSE
+
+/obj/item/melee/touch_attack/holdup
+	name = "Free Hand"
+	desc = "Your hand. It's ready for a hold-up."
+	icon_state = "greyscale"
+	inhand_icon_state = null
+	lefthand_file = 'icons/mob/inhands/items_lefthand.dmi'
+	righthand_file = 'icons/mob/inhands/items_righthand.dmi'
+
+/datum/action/cooldown/spell/touch/holdup/cast_on_hand_hit(obj/item/melee/touch_attack/hand, mob/living/victim, mob/living/carbon/human/caster)
+
+	if(!ishuman(victim))
+		return FALSE
+	var/mob/living/carbon/human/human_victim = victim
+
+	if(human_victim.stat == DEAD)
+		caster.balloon_alert(caster, "can't hold-up the dead!")
+		return FALSE
+
+	if(human_victim.deployment_faction != COMBINE_DEPLOYMENT_FACTION)
+		caster.balloon_alert(caster, "can't hold-up allies!")
+		return FALSE
+
+	if(GLOB.alert_cooldown > 0 SECONDS)
+		caster.balloon_alert(caster, "can't hold-up during an alert!")
+		return FALSE
+
+	if(!istype(caster.get_inactive_held_item(), /obj/item/gun) && !istype(caster.get_inactive_held_item(), /obj/item/knife))
+		caster.balloon_alert(caster, "no weapon equipped!")
+		return FALSE
+
+	if(!check_behind(caster, human_victim))
+		caster.balloon_alert(caster, "not behind enemy!")
+		return FALSE
+
+	//finally after all that we can actually perform a hold up.
+	caster.say("#Freeze!")
+	SEND_SOUND(caster, sound('hl13/sound/voice/solid/snakefreeze.ogg'))
+	SEND_SOUND(human_victim, sound('hl13/sound/voice/solid/snakefreeze.ogg'))
+	human_victim.drop_all_held_items() //no alerting
+	human_victim.Immobilize(7 SECONDS)
+	human_victim.Stun(7 SECONDS)
+	human_victim.set_silence_if_lower(7 SECONDS)
+	to_chat(human_victim, span_danger("You suddenly feel a weapon behind you and you freeze up in fear! Someone begins to search your pockets!"))
+	to_chat(caster, span_notice("You begin to search [human_victim]'s pockets."))
+	if(do_after(caster, 2 SECONDS, human_victim))
+		new /obj/effect/spawner/random/halflife/loot/intruder/crab/rare/guaranteed(human_victim.loc)
+		to_chat(caster, span_notice("Something falls out of one of [human_victim]'s pockets!"))
+		to_chat(human_victim, span_warning("Something falls out of one of your pockets!"))
+		SEND_SOUND(caster, sound('hl13/sound/effects/spawnration.ogg'))
+		SEND_SOUND(human_victim, sound('hl13/sound/effects/spawnration.ogg'))
+	else
+		to_chat(caster, span_warning("You fail to find anything useful. Maybe look a little harder next time?"))
+	return TRUE
+

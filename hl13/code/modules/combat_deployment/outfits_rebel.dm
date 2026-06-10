@@ -707,14 +707,14 @@
 /datum/outfit/deployment_loadout/rebel/tier4/scout
 	name = "Deployment: Upgraded Rebel Scout"
 	display_name = "Upgraded Rebel Scout (Offense)"
-	desc = "You are a speedy glass cannon that uses a shotgun for high upclose damage, but dont have much armor. You specialize best in taking out more vulnerable backliners who can't effectively fight back. As an upgraded variant, you move faster and get an extra healthpen."
+	desc = "You are a speedy glass cannon that uses a shotgun for high upclose damage, but dont have much armor. You specialize best in taking out more vulnerable backliners who can't effectively fight back. As an upgraded variant, you move faster, deal more damage, and get an extra healthpen."
 	id_name = "Scout"
 
 	uniform = /obj/item/clothing/under/citizen/refugee
 	r_pocket = /obj/item/flashlight/seclite
 
 	suit = /obj/item/clothing/suit/armor/browncoat/scout/upgraded
-	suit_store = /obj/item/gun/ballistic/shotgun/spas12
+	suit_store = /obj/item/gun/ballistic/shotgun/spas12/improved
 
 	back = /obj/item/storage/backpack/halflife/satchel
 	head = /obj/item/clothing/head/halflife/scout_hat
@@ -731,7 +731,7 @@
 	extra_end = 3
 
 	alternate_combat_music = 'hl13/sound/music/combat/fasterthanaspeedingbullet.ogg'
-	alternate_music_chance = 35
+	alternate_music_chance = 50
 
 /datum/outfit/deployment_loadout/rebel/tier4/medic_rebel
 	name = "Deployment: Upgraded Medic Rebel+"
@@ -826,7 +826,7 @@
 
 	spells_to_add = list(/datum/action/cooldown/spell/conjure_item/rocket)
 
-	extra_end = 4
+	extra_end = 5
 
 	alternate_combat_music = 'hl13/sound/music/combat/rocketjumpwaltz.ogg'
 
@@ -935,7 +935,7 @@
 
 	spells_to_add = list(/datum/action/cooldown/spell/aoe/rally/rebel)
 
-	extra_dex = 2
+	extra_dex = 3
 
 /datum/outfit/deployment_loadout/rebel/tier5/lieutenant/post_equip(mob/living/carbon/human/H)
 	. = ..()
@@ -990,7 +990,7 @@
 
 	back = /obj/item/storage/backpack/halflife
 
-	l_pocket = /obj/item/knife/combat/backstab
+	l_pocket = /obj/item/knife/combat/backstab/better
 	r_pocket = /obj/item/grenade/smokebomb
 
 	suit = /obj/item/clothing/suit/armor/civilprotection/spy/elite
@@ -1018,8 +1018,8 @@
 	extra_str = 5
 	extra_dex = 8
 	extra_int = 5
-	extra_per = 3
-	extra_end = 3
+	extra_per = 5
+	extra_end = 5
 
 ///////// RED BOSSES ///////////////////
 

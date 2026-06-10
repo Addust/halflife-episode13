@@ -3,13 +3,40 @@
 	damage = 17
 	embed_type = /datum/embed_data/bullet_c9mm
 
+/obj/projectile/bullet/c9mm/usp/tranq
+	name = "9mm tranq bullet"
+	damage = 0 //non-lethal
+	sharpness = NONE
+	embed_type = null
+	icon_state = "rubber"
+	projectile_piercing = NONE
+
+/obj/projectile/bullet/c9mm/usp/tranq/on_hit(atom/target, blocked = null, pierce_hit)
+	. = ..()
+	var/tranq_tiredness = 750 - (blocked*10) //guard armor will do 25%, so reduced tiredness gain by 250
+	if(iscarbon(target))
+		var/mob/living/carbon/C = target
+
+		if(tranq_tiredness <= 50)
+			C.visible_message(span_notice("The [src] fails to penetrate [target]'s thick armor and bounces off uselessly."))
+			return
+
+		if(HAS_TRAIT(C, TRAIT_THE_INTRUDER) && prob(80))
+			C.say("You're pretty good!", forced = C.name)
+			return
+
+		C.adjust_tiredness(tranq_tiredness)
+
+		if(TIREDNESS_SLEEPY_THRESHOLD <= C.tiredness) //if after the tranq shot they are sleepy, they go sleep sleep
+			C.SetSleeping(25 SECONDS)
+
 /obj/projectile/bullet/c9mm/usp/makeshift
 	name = "9mm makeshift bullet"
 	damage = 15
 
 /obj/projectile/bullet/c9mm/usp/armor_piercing
 	name = "9mm armor-piercing bullet"
-	armour_penetration = 20
+	armour_penetration = 25
 
 /obj/projectile/bullet/c9mm/usp/rubber
 	name = "9mm rubber bullet"

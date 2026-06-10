@@ -214,8 +214,22 @@
 /area/halflife/indoors/combat_deployment/combine_base)
 "et" = (
 /obj/structure/table/halflife/metal,
-/obj/item/grenade/syndieminibomb/bouncer,
-/obj/item/grenade/syndieminibomb/bouncer,
+/obj/item/grenade/syndieminibomb/bouncer{
+	pixel_x = -1;
+	pixel_y = 6
+	},
+/obj/item/grenade/syndieminibomb/bouncer{
+	pixel_x = 12;
+	pixel_y = 6
+	},
+/obj/item/grenade/incendiary_grenade{
+	pixel_x = -11;
+	pixel_y = -1
+	},
+/obj/item/grenade/syndieminibomb/bouncer{
+	pixel_x = 5;
+	pixel_y = 4
+	},
 /turf/open/floor/plating/indoor/metal/train,
 /area/halflife/indoors/combat_deployment/rebel_base)
 "eu" = (
@@ -378,6 +392,12 @@
 /obj/structure/halflife/leaves,
 /turf/open/floor/plating/ground/sidewalk/inner/slums,
 /area/halflife/outdoors/deployment_city)
+"iC" = (
+/obj/machinery/cash_deposit/combine/tier2plus{
+	starting_cash = 80
+	},
+/turf/open/floor/plating/indoor/metal/smooth,
+/area/halflife/indoors/combat_deployment/combine_base)
 "iK" = (
 /obj/structure/chair/sofa/hl13bench{
 	dir = 1
@@ -603,6 +623,10 @@
 /obj/structure/railing/halflife/solo,
 /turf/open/floor/plating/ground/dirt,
 /area/halflife/outdoors/deployment_city)
+"nF" = (
+/obj/structure/window/fulltile/halflife/nosmooth/brick,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors)
 "nH" = (
 /obj/machinery/cash_deposit/combine/tier2plus{
 	starting_cash = 100
@@ -3701,7 +3725,7 @@ CU
 zF
 zF
 zF
-nH
+iC
 zF
 kk
 gE
@@ -8390,10 +8414,10 @@ EM
 EM
 EM
 EM
-fS
-fS
-fS
-fS
+CO
+CO
+CO
+CO
 EM
 OM
 OM
@@ -8577,10 +8601,10 @@ EM
 EM
 EM
 EM
-CO
-CO
-CO
-CO
+fS
+fS
+fS
+fS
 EM
 OM
 OM
@@ -11177,11 +11201,11 @@ mQ
 OJ
 OM
 OM
-OM
-OM
-OM
-OM
-OM
+EM
+EM
+hg
+EM
+EM
 EM
 EM
 EM
@@ -11364,12 +11388,12 @@ OJ
 NF
 OM
 OM
-OM
-OM
-OM
-OM
-OM
 EM
+WE
+WE
+tn
+WE
+nF
 WE
 WE
 WE
@@ -11551,11 +11575,11 @@ OM
 OM
 OM
 OM
-OM
-OM
-OM
-OM
-OM
+EM
+xq
+WE
+WE
+WE
 EM
 ux
 WE
@@ -11738,13 +11762,13 @@ OM
 OM
 OM
 OM
-OM
-OM
-OM
-OM
-OM
 EM
-ue
+WE
+WE
+WE
+WE
+Pz
+WE
 WE
 WE
 WE
@@ -11925,20 +11949,20 @@ OM
 OM
 OM
 OM
-OM
-OM
-OM
-OM
-OM
+EM
+WE
+WE
+Vh
+WE
 EM
 ue
 WE
 WE
 WE
 EM
-EM
-EM
-EM
+WE
+tn
+WE
 EM
 EM
 EM
@@ -12112,11 +12136,11 @@ OM
 OM
 OM
 OM
-OM
-OM
-OM
-OM
-OM
+EM
+EM
+EM
+EM
+EM
 EM
 ue
 WE
@@ -12124,7 +12148,7 @@ xq
 WE
 WE
 WE
-tn
+WE
 WE
 EM
 CO
@@ -12684,9 +12708,9 @@ EM
 EM
 EM
 EM
-EM
-EM
-EM
+WE
+Vh
+WE
 EM
 CO
 CO
@@ -12870,10 +12894,10 @@ OM
 OM
 OM
 OM
-OM
-OM
-OM
-OM
+EM
+EM
+EM
+EM
 EM
 CO
 CO

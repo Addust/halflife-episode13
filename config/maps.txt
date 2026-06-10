@@ -25,6 +25,11 @@ map city13_outlands
 	minplayers 0
 endmap
 
+map city13_industrial
+	minplayers 0
+	minplayers 0
+endmap
+
 map deployment_city
 	minplayers 0
 	minplayers 0
@@ -151,6 +156,18 @@ map deployment_boss_coast
 endmap
 
 map deployment_boss_city
+	minplayers 0
+	minplayers 0
+	votable
+endmap
+
+map deployment_intruder
+	minplayers 0
+	minplayers 0
+	votable
+endmap
+
+map deployment_intruder_small
 	minplayers 0
 	minplayers 0
 	votable

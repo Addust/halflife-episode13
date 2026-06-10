@@ -204,8 +204,8 @@
 
 /mob/living/basic/halflife/antlion_guard/deployment
 	melee_attack_cooldown = 1.75 SECONDS
-	maxHealth = 400
-	health = 400
+	maxHealth = 425
+	health = 425
 	obj_damage = 40
 	armour_penetration = 80
 	speed = 0.7
@@ -224,7 +224,7 @@
 	icon_state = "guardian"
 	icon_living = "guardian"
 	icon_dead = "guardian_dead"
-	speed = 0.7
+	speed = 0.6
 	melee_damage_lower = 40
 	melee_damage_upper = 45
 	armour_penetration = 50
@@ -232,6 +232,7 @@
 	melee_attack_cooldown = 2 SECONDS
 	maxHealth = 800
 	health = 800
+	move_resist = MOVE_FORCE_STRONG
 
 /mob/living/basic/halflife/antlion_guard/guardian/summoner
 	var/datum/action/cooldown/spell/conjure/antlions/antlions
@@ -361,7 +362,7 @@
 /datum/action/cooldown/spell/conjure/antlion/extract_vort
 	summon_type = list(/mob/living/simple_animal/hostile/halflife/antlion/digsound/rebel_faction)
 	summon_amount = 3
-	cooldown_time = 60 SECONDS
+	cooldown_time = 45 SECONDS
 
 /datum/action/cooldown/spell/conjure/antlion/extract_vort/super
 	summon_amount = 4

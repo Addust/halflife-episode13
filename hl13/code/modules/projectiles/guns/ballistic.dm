@@ -129,6 +129,15 @@
 	. = ..()
 	AddComponent(/datum/component/automatic_fire, autofire_shot_delay = 0.28 SECONDS, overtime_penalty_freebies = 4, overtime_penalty_increase = 2, overtime_penalty_cap = 14)
 
+/obj/item/gun/ballistic/automatic/m4a1/intruder
+	pin = /obj/item/firing_pin/implant/mindshield
+	projectile_damage_multiplier = 0.8
+
+/obj/item/gun/ballistic/automatic/m4a1/intruder/buffed
+	name = "\improper Refined M4A1 Rifle"
+	desc = "A old M4A1 pattern rifle, likely purchased from America before the war, or smuggled over from its remains afterwards. Not as good as the combine's rifles, but still powerful. This one looks in pretty good shape, and somehow more powerful."
+	projectile_damage_multiplier = 1.2
+
 //sidegrade to the m4a1. Heavier duty: More spread, damage and recoil and less firing speed.
 //about 1.85 seconds TTK, and good AP
 /obj/item/gun/ballistic/automatic/ak47
@@ -421,6 +430,31 @@
 /obj/item/gun/ballistic/automatic/pistol/makeshift/no_mag
 	spawnwithmagazine = FALSE
 
+/obj/item/gun/ballistic/automatic/pistol/solid_tranq
+	name = "tranquilizer pistol"
+	desc = "An integrally suppressed bolt action pistol that fires non-lethal darts. It's slow to fire, but will put someone to sleep for a long time. Wide awake people may take an extra shot to sleep."
+	desc_controls = "Less effective against armor."
+	icon = 'hl13/icons/obj/guns/projectile.dmi'
+	icon_state = "tranq"
+	accepted_magazine_type = /obj/item/ammo_box/magazine/solid_tranq
+	suppressed_sound = "hl13/sound/weapons/tranqfire.ogg"
+	rack_sound = "hl13/sound/weapons/tranqrack.ogg"
+	suppressed = TRUE
+	can_suppress = FALSE
+	can_unsuppress = FALSE
+	spread = 2
+	recoil = 0.1
+
+	rack_delay = 7
+	fire_delay = 8
+	semi_auto = FALSE //all this should slow it down enough
+
+	vary_fire_sound = FALSE
+
+	inhand_icon_state = "zipgun"
+	lefthand_file = 'hl13/icons/mob/inhands/guns_lefthand.dmi'
+	righthand_file = 'hl13/icons/mob/inhands/guns_righthand.dmi'
+
 // about 2.4 seconds TTK assuming you hit your first shot (so no cooldown)
 /obj/item/gun/ballistic/revolver/coltpython
 	name = "\improper colt python"
@@ -500,9 +534,16 @@
 
 	weapon_category = WEAPON_CAT_SHOTGUN
 
-/obj/item/gun/ballistic/shotgun/spas12/freeman
+/obj/item/gun/ballistic/shotgun/spas12/improved
 	desc = "A spectacularly lethal pump action shotgun, for close encounters. This one has a pristine and powerful looking appearence."
-	projectile_damage_multiplier = 1.2
+	projectile_damage_multiplier = 1.15
+
+/obj/item/gun/ballistic/shotgun/spas12/freeman
+	name = "Legendary SPAS 12"
+	desc = "A spectacularly lethal pump action shotgun, for close encounters. This one has a legendary aura of freedom about it."
+	projectile_damage_multiplier = 1.25
+	spread = 5
+	pin = /obj/item/firing_pin/implant/pindicate
 
 /obj/item/gun/ballistic/shotgun/spas12/try_fire_gun(atom/target, mob/living/user, params)
 	if(LAZYACCESS(params2list(params), RIGHT_CLICK))
@@ -660,6 +701,14 @@
 	righthand_file = 'hl13/icons/mob/inhands/guns_righthand.dmi'
 	pin = /obj/item/firing_pin/implant/mindshield
 
+/obj/item/gun/ballistic/shotgun/pulse/emag_act(mob/user, obj/item/card/emag/emag_card)
+	if (obj_flags & EMAGGED)
+		return FALSE
+	balloon_alert(user, "firing pin modified")
+	obj_flags |= EMAGGED
+	unlock()
+	return TRUE
+
 /obj/item/ammo_box/magazine/internal/shot/pulse
 	name = "pulseshotgun internal magazine"
 	ammo_type = /obj/item/ammo_casing/shotgun/buckshot/pulse
@@ -812,9 +861,9 @@
 
 /obj/item/gun/ballistic/rifle/boltaction/mosin_nagant/well_maintained
 	desc = "A ratty old pre-war rifle that was developed over a century ago. While it kicks like a mule and is rather cheap, it's slow to fire and may jam on occasion. This one looks a little better than most, it should jam less often."
-	jamming_chance = 5
+	jamming_chance = 3
 	projectile_damage_multiplier = 1.61 //approx 45 damage a shot
-	fire_delay = 4
+	fire_delay = 3
 	can_parry = TRUE
 	wdefense = 3
 
@@ -882,6 +931,14 @@
 	righthand_file = 'hl13/icons/mob/inhands/guns_righthand.dmi'
 
 	weapon_category = WEAPON_CAT_HEAVY
+
+/obj/item/gun/ballistic/automatic/pulselmg/emag_act(mob/user, obj/item/card/emag/emag_card)
+	if (obj_flags & EMAGGED)
+		return FALSE
+	balloon_alert(user, "firing pin modified")
+	obj_flags |= EMAGGED
+	unlock()
+	return TRUE
 
 /obj/item/gun/ballistic/automatic/pulselmg/nopin
 	pin = null
@@ -976,13 +1033,21 @@
 
 	item_flags = SLOWS_WHILE_IN_HAND | NEEDS_PERMIT
 
-	slowdown = 0.66
-	drag_slowdown = 0.66
+	slowdown = 0.75
+	drag_slowdown = 0.75
 
 	lefthand_file = 'hl13/icons/mob/inhands/guns_lefthand.dmi'
 	righthand_file = 'hl13/icons/mob/inhands/guns_righthand.dmi'
 
 	weapon_category = WEAPON_CAT_SPECIALTY
+
+/obj/item/gun/energy/immolator/emag_act(mob/user, obj/item/card/emag/emag_card)
+	if (obj_flags & EMAGGED)
+		return FALSE
+	balloon_alert(user, "firing pin modified")
+	obj_flags |= EMAGGED
+	unlock()
+	return TRUE
 
 /obj/item/gun/energy/immolator/Initialize(mapload)
 	. = ..()

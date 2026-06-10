@@ -82,7 +82,7 @@ GLOBAL_VAR_INIT(deployment_combine_cash, 0)
 
 	if(DEPLOYMENT_TIER5_COMBINE <= GLOB.deployment_combine_cash) //Your faction has enough cash that you could get a tier 5
 		var/tier5_chance = DEPLOYMENT_TIER5_CHANCE //It starts out at this chance
-		if(DEPLOYMENT_TIER5_COMBINE <= GLOB.deployment_combine_cash) //Does your faction have enough cash for the bonus chance at tier 5?
+		if(DEPLOYMENT_TIER5_EXTRA_CHANCE_COMBINE <= GLOB.deployment_combine_cash) //Does your faction have enough cash for the bonus chance at tier 5?
 			tier5_chance = DEPLOYMENT_TIER5_EXTRA_CHANCE //If so, you get this higher chance
 
 		if(GLOB.combine_tier_points < 0.25) //We are at 0 tier points and cant afford another tier 5 unit
@@ -105,6 +105,15 @@ GLOBAL_VAR_INIT(deployment_combine_cash, 0)
 
 	if(SSmapping.current_map.combat_deployment_gamemode == "both")
 		chosen = /obj/item/hl2/loadout_picker/combine/boss
+
+	if(SSmapping.current_map.combat_deployment_gamemode == "intruder")
+		for(var/obj/item/item in user.get_all_gear())
+			qdel(item)
+		for(var/datum/action/cooldown/buttons in user.actions)
+			qdel(buttons)
+		user.equipOutfit(/datum/outfit/deployment_loadout/intruder/guard) //only one loadout and i dont want to see any metrocops (or nude men) in my conscript bunker!!
+		user.regenerate_icons()
+		chosen = null
 
 	if(chosen)
 		var/turf/T = get_turf(user)

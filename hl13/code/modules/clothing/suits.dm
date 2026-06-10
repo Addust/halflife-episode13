@@ -81,7 +81,7 @@
 	var/list/outfitoptions = list("OTA Soldier", "OTA Sniper", "OTA Elite", "Medical Cop", "Rebel Cell Leader")
 
 /obj/item/clothing/suit/armor/civilprotection/spy/elite
-	slowdown = -0.45
+	slowdown = -0.5
 	icon_state = "rebelarmor_light"
 	inhand_icon_state = "rebelarmor_light"
 	armor_type = /datum/armor/rebellight
@@ -114,7 +114,7 @@
 
 	if(!cloaked)
 		to_chat(H, "<span class='notice'Cloak deployed.</span>")
-		H.alpha = 100
+		H.alpha = 60
 		ADD_TRAIT(H, TRAIT_PACIFISM, CLOTHING_TRAIT) //cant attack while cloaked
 		cloaked = TRUE
 	else
@@ -308,7 +308,7 @@
 
 	if(!cloaked)
 		to_chat(H, "<span class='notice'Cloak deployed.</span>")
-		H.alpha = 40
+		H.alpha = 30
 		ADD_TRAIT(H, TRAIT_PACIFISM, CLOTHING_TRAIT) //cant attack while cloaked
 		H.faction += FACTION_REFUGEE //rebel turrets wont target
 		cloaked = TRUE
@@ -905,7 +905,7 @@
 	limb_integrity = 250
 
 /obj/item/clothing/suit/armor/halflife/reinforced_brown_jacket/speedy
-	slowdown = -0.1
+	slowdown = -0.2
 
 /obj/item/clothing/suit/armor/halflife/reinforced_brown_jacket/boss
 	slowdown = -0.35

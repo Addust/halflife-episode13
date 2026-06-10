@@ -1,0 +1,7955 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ac" = (
+/turf/open/floor/plating/indoor/woodc/mosaic,
+/area/halflife/indoors/intruder/office)
+"af" = (
+/turf/open/floor/plating/indoor/metal/pipe/intersection,
+/area/halflife/indoors/intruder/storagea)
+"ai" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/entrance)
+"at" = (
+/obj/structure/halflife/pallet/stack,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"aA" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/cafeteria,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"aC" = (
+/obj/structure/filingcabinet/hl2{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"aE" = (
+/obj/item/reagent_containers/cup/soup_pot,
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"aH" = (
+/obj/effect/turf_decal/halflife/covering/paint/green,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/barracks)
+"aJ" = (
+/obj/structure/halflife/processor/time,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"aP" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"aT" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/entrance)
+"aV" = (
+/obj/effect/landmark/hidden_spawnpoint,
+/obj/machinery/escape_vent,
+/obj/effect/landmark/navigate_destination/halflife/intruder/storagea,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"aY" = (
+/obj/structure/halflife/processor/console,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"ba" = (
+/obj/structure/halflife/pot/plant,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"bb" = (
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/grate/border/warning{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/storageb)
+"bd" = (
+/turf/open/floor/plating/indoor/metal/pipe,
+/area/halflife/indoors/intruder/storagea)
+"bg" = (
+/obj/structure/halflife/pot/plant,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"bl" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagec)
+"bx" = (
+/obj/structure/barricade/wooden/solid/reinforced,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/entrance)
+"bL" = (
+/obj/structure/halflife/pipes/horizontal/down,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"bQ" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/machinery/light/directional/west,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"bV" = (
+/obj/structure/halflife/trash/papers/three,
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/office)
+"ca" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagec)
+"cf" = (
+/obj/machinery/combine_node,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"ch" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"cq" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 8
+	},
+/area/halflife/indoors/intruder/entrance)
+"cr" = (
+/obj/structure/chair/office/halflife/blue{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"cz" = (
+/obj/structure/halflife/pallet,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"cC" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/entrance)
+"cG" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"cH" = (
+/obj/structure/halflife/pipes/horizontal/random,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"cM" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 4
+	},
+/area/halflife/indoors/intruder/entrance)
+"cS" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/storagec)
+"cT" = (
+/obj/effect/turf_decal/halflife/covering/paint/green,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/entrance)
+"cV" = (
+/obj/machinery/oven/range,
+/obj/structure/halflife/pipes/piped,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"cY" = (
+/obj/structure/table/halflife/metal/alt,
+/obj/machinery/intruder_coffeemaker{
+	pixel_x = 2;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/barracks)
+"dh" = (
+/obj/structure/halflife/barrel/double/grey,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"di" = (
+/obj/structure/halflife/storage/large/shelf{
+	dir = 8
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"dr" = (
+/obj/structure/halflife/sign/workers,
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/office)
+"dD" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"dO" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lockerroom)
+"dR" = (
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/office)
+"dS" = (
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lockerroom)
+"dV" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagec)
+"dX" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"ed" = (
+/obj/structure/table/halflife/no_smooth/cable_reel,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"eh" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"ej" = (
+/obj/machinery/door/poddoor/shutters/indestructible{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/entrance)
+"en" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"eo" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storageb)
+"ew" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"ex" = (
+/obj/structure/halflife/trash/wood{
+	dir = 6
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"eL" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"eP" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"eR" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/medbay)
+"eX" = (
+/obj/structure/halflife/trash/papers,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"eY" = (
+/obj/structure/halflife/trash/cardboard{
+	dir = 10;
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"fb" = (
+/obj/structure/bed/halflife/bedframe/wood,
+/obj/structure/bed/halflife/mattress/stained,
+/obj/effect/landmark/guard_start,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"fo" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"fB" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagec)
+"fH" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lockerroom)
+"fI" = (
+/obj/structure/sign/poster/halflife/combine/four{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"fM" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"gc" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/barracks)
+"gx" = (
+/obj/structure/halflife/sign/clinic{
+	pixel_y = 0;
+	pixel_x = 32
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"gz" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagec)
+"gB" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/lockerroom)
+"gC" = (
+/obj/item/hl13_small_flag/combine,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"gE" = (
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/lab)
+"gL" = (
+/obj/structure/table/halflife/metal/alt,
+/obj/item/toy/cards/deck{
+	pixel_x = -3;
+	pixel_y = 11
+	},
+/obj/item/light/bulb{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/barracks)
+"hk" = (
+/turf/open/floor/plating/indoor/metal/pipe/intersection{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/storagec)
+"hn" = (
+/obj/effect/turf_decal/halflife/covering/paint/white,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/medbay)
+"ho" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"hq" = (
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/office)
+"hs" = (
+/obj/structure/chair/office/halflife/blue{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/entrance)
+"hE" = (
+/obj/effect/koth_grace_field,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"hN" = (
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"hX" = (
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"im" = (
+/obj/structure/halflife/tank/chemical/container,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/medbay)
+"io" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/halflife/indoors/intruder/medbay)
+"ir" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"iv" = (
+/obj/machinery/telecomms/bus/preset_one/birdstation,
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"iz" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"iB" = (
+/obj/machinery/light/small/broken/directional/east,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"iG" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"iX" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/structure/sign/poster/halflife/combine/four{
+	pixel_y = 32
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"jd" = (
+/obj/structure/halflife/storage/large/shelf,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"jA" = (
+/obj/structure/halflife/tank,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/barracks)
+"jD" = (
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"jF" = (
+/obj/structure/halflife/pallet,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagec)
+"jP" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/barracks)
+"jT" = (
+/obj/structure/halflife/pipes/horizontal,
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/grate/border/warning{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/storageb)
+"jW" = (
+/obj/structure/halflife/pipes/horizontal/end,
+/obj/structure/halflife/pipes/horizontal/end{
+	dir = 1
+	},
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/lab)
+"kg" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"km" = (
+/obj/structure/halflife/trash/wood,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"kz" = (
+/obj/structure/table/halflife/metal/grate,
+/obj/structure/halflife/pipes/horizontal/end{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"kF" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"kQ" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/entrance,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"kS" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"kV" = (
+/obj/structure/closet/secure_closet/freezer/halflife,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"kW" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"kY" = (
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"la" = (
+/obj/structure/halflife/pipes/piped,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"ld" = (
+/turf/open/floor/plating/indoor/metal/pipe,
+/area/halflife/indoors/intruder/lab)
+"li" = (
+/obj/structure/halflife/storage/large/shelf{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"lm" = (
+/obj/structure/window/fulltile/halflife/nosmooth/reinforced/indestructible,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/entrance)
+"ln" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"lq" = (
+/obj/structure/halflife/barrel/triple/grey,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"lr" = (
+/obj/machinery/telecomms/receiver/preset_left/birdstation,
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"lQ" = (
+/obj/structure/halflife/storage/large/shelf{
+	dir = 8
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"lT" = (
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"lY" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"mb" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/cafeteria)
+"md" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/office)
+"ml" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"mo" = (
+/obj/structure/table/halflife/no_smooth/large/metal,
+/obj/item/reagent_containers/cup/bowl{
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/cup/bowl,
+/obj/item/kitchen/rollingpin{
+	pixel_x = 14;
+	pixel_y = 0
+	},
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"mu" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk/alt,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"mw" = (
+/obj/structure/halflife/pipes/vent,
+/obj/structure/chair/halflife/wood,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"mz" = (
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"mF" = (
+/obj/structure/table/halflife/no_smooth/large/wood/desk,
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/office)
+"mK" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"mL" = (
+/obj/structure/halflife/pipes/horizontal,
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"mR" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"mY" = (
+/obj/structure/halflife/storage/large/shelf,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"nm" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/medbay)
+"nv" = (
+/obj/structure/halflife/storage/large/shelf{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"nB" = (
+/obj/structure/halflife/pallet,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"nG" = (
+/obj/structure/halflife/pipes/horizontal,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storageb)
+"nL" = (
+/turf/open/floor/plating/indoor/metal/grate/border,
+/area/halflife/indoors/intruder/lab)
+"nN" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"nP" = (
+/obj/effect/koth_grace_field,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/entrance)
+"nS" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/halflife/indoors/intruder/medbay)
+"nY" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 4
+	},
+/area/halflife/indoors/intruder/storagec)
+"ob" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"of" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"oi" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/barracks)
+"ol" = (
+/obj/structure/chair/halflife/metal/blue{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"om" = (
+/turf/open/floor/plating/indoor/metal/pipe,
+/area/halflife/indoors/intruder/storagec)
+"on" = (
+/obj/structure/chair/halflife/wood,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"oo" = (
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/grate/border/warning{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/storageb)
+"op" = (
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"oq" = (
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/entrance)
+"ox" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/office)
+"oE" = (
+/obj/machinery/escape_vent,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"oH" = (
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/barracks)
+"oI" = (
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"oK" = (
+/obj/machinery/button/door{
+	id = "rebel_bunker_entrance_west";
+	pixel_y = 6;
+	name = "west shutters";
+	pixel_x = -10;
+	desc = "A door remote control switch. The controls have been deactivated ever since an intruder was reported."
+	},
+/obj/machinery/button/door{
+	id = "rebel_bunker_entrance_east";
+	pixel_y = 6;
+	pixel_x = 5;
+	name = "east shutters";
+	desc = "A door remote control switch. The controls have been deactivated ever since an intruder was reported."
+	},
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/entrance)
+"oN" = (
+/turf/open/floor/plating/indoor/metal/pipe/intersection,
+/area/halflife/indoors/intruder/storagec)
+"oO" = (
+/obj/effect/landmark/guard_start,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"oS" = (
+/turf/open/floor/plating/indoor/metal/pipe,
+/area/halflife/indoors/intruder/entrance)
+"oT" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner,
+/area/halflife/indoors/intruder/medbay)
+"pa" = (
+/obj/structure/halflife/pipes/horizontal,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"pi" = (
+/obj/structure/sign/poster/halflife/combine/four{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"pm" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/medbay)
+"pq" = (
+/turf/closed/indestructible/rock,
+/area/halflife/indoors/intruder)
+"py" = (
+/obj/structure/table/halflife/no_smooth/wood/stand,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"pO" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"pU" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/entrance)
+"qq" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/cafeteria)
+"qy" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"qJ" = (
+/obj/structure/barricade/wooden/solid/reinforced,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"qK" = (
+/obj/structure/halflife/storage/large/shelf,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"qO" = (
+/obj/machinery/griddle,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"qV" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"qW" = (
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"rb" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/entrance)
+"rc" = (
+/obj/structure/chair/halflife/metal/blue{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"rd" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/barracks)
+"re" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/metal/grate/border,
+/area/halflife/indoors/intruder/lab)
+"rf" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"rj" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"rk" = (
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"rn" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"rz" = (
+/obj/structure/halflife/pallet,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate/border,
+/area/halflife/indoors/intruder/lab)
+"rC" = (
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/lockerroom)
+"rE" = (
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/lockerroom)
+"rF" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagec)
+"rP" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/entrance)
+"rW" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"si" = (
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"sr" = (
+/obj/structure/halflife/barrel/quadruple/grey,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lockerroom)
+"sv" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/obj/machinery/intruder_coffeemaker{
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"sA" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"sE" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/lockerroom)
+"sG" = (
+/obj/structure/halflife/pipes/horizontal,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"sW" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/machinery/light/directional/east,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"te" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lockerroom)
+"ti" = (
+/obj/structure/halflife/barrel/triple/grey,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"tl" = (
+/obj/structure/halflife/trash/cardboard{
+	dir = 4;
+	pixel_x = 2;
+	pixel_y = 12
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"tu" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/storagea)
+"tA" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"tF" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/office)
+"tG" = (
+/turf/open/floor/plating/indoor/metal/pipe/intersection{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/entrance)
+"tJ" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 8
+	},
+/area/halflife/indoors/intruder/medbay)
+"ud" = (
+/obj/structure/barricade/wooden/solid/reinforced,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/entrance)
+"ui" = (
+/obj/structure/halflife/fence/wire,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"uk" = (
+/obj/structure/halflife/trash/cardboard,
+/obj/structure/halflife/pipes/horizontal/end,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"uo" = (
+/obj/structure/table/halflife/metal/grate,
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"uw" = (
+/obj/structure/halflife/pipes/vent,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagec)
+"uC" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/lab,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"uG" = (
+/obj/structure/halflife/barrel/double/grey,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"uI" = (
+/obj/structure/bed/halflife/bedframe/wood,
+/obj/structure/bed/halflife/mattress/stained,
+/obj/structure/sign/poster/halflife/combine{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"uO" = (
+/obj/structure/closet/cardboard,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"uP" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"uY" = (
+/obj/structure/halflife/pallet,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"vi" = (
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/medbay)
+"vl" = (
+/obj/structure/halflife/pipes/horizontal/valve,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"vm" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"vr" = (
+/obj/structure/halflife/tank,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"vS" = (
+/obj/structure/halflife/storage/large/shelf,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"vZ" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"wf" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/barracks)
+"wj" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/woodc/mosaic,
+/area/halflife/indoors/intruder/office)
+"wv" = (
+/obj/structure/closet/cardboard,
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"wI" = (
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/entrance)
+"wM" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagec)
+"wT" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/entrance)
+"wU" = (
+/obj/machinery/combine_node,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"wW" = (
+/obj/structure/chair/office/halflife/blue/broken,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"wY" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"xb" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lockerroom)
+"xh" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/entrance)
+"xk" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"xt" = (
+/obj/machinery/light/small/directional/north,
+/obj/structure/bed/halflife/bedframe/cot,
+/obj/structure/bed/halflife/mattress/old,
+/obj/effect/landmark/deployments_metrocop,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"xx" = (
+/obj/structure/halflife/pipes/horizontal/end,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storageb)
+"xz" = (
+/obj/structure/filingcabinet/hl2,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"xA" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"xD" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"xH" = (
+/obj/structure/sign/poster/halflife/combine{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"xK" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"xM" = (
+/obj/effect/landmark/observer_start,
+/obj/effect/turf_decal/halflife/covering/wallpaper/green,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/office)
+"xR" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/office)
+"xT" = (
+/obj/structure/chair/office/halflife/blue{
+	dir = 1
+	},
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"ya" = (
+/obj/structure/halflife/pallet/stack,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"yc" = (
+/turf/open/floor/plating/indoor/metal/plate,
+/area/halflife/indoors/intruder/medbay)
+"yd" = (
+/obj/structure/halflife/trash/papers/three,
+/obj/effect/landmark/hidden_spawnpoint,
+/obj/machinery/escape_vent,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"yk" = (
+/obj/structure/halflife/pipes/horizontal,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"ys" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"yB" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/barracks)
+"yG" = (
+/obj/effect/landmark/guard_start,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/lockerroom)
+"zk" = (
+/obj/structure/bed/halflife/bedframe/cot,
+/obj/structure/bed/halflife/mattress/old,
+/obj/effect/landmark/deployments_metrocop,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"zm" = (
+/obj/machinery/telecomms/hub/preset,
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"zC" = (
+/obj/structure/halflife/pipes/horizontal/end,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"zD" = (
+/obj/structure/halflife/trash/cardboard,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"zI" = (
+/obj/machinery/light/directional/east,
+/obj/machinery/combine_node,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"zO" = (
+/obj/structure/chair/halflife/metal/blue{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"zQ" = (
+/obj/structure/halflife/tank,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"zZ" = (
+/obj/structure/barricade/sandbags,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/entrance)
+"Ah" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagec)
+"Al" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"AA" = (
+/obj/structure/halflife/pipes/piped,
+/obj/structure/bodycontainer/morgue/beeper_off{
+	dir = 2
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/halflife/indoors/intruder/medbay)
+"AC" = (
+/obj/structure/halflife/barrel/double/grey,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lockerroom)
+"AH" = (
+/obj/item/hl13_small_flag/combine,
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/entrance)
+"Ba" = (
+/obj/structure/halflife/barrel/double/grey,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"Bi" = (
+/obj/structure/halflife/processor/toggle,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"Bl" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"Bq" = (
+/obj/effect/koth_grace_field,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/entrance)
+"BC" = (
+/obj/structure/halflife/pipes/horizontal/end{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/cafeteria)
+"BI" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"BK" = (
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"BQ" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"BW" = (
+/obj/structure/halflife/pipes/vent,
+/obj/item/hl13_small_flag/combine,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"BX" = (
+/obj/structure/sign/poster/halflife/combine{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"Ch" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk/alt,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"Cj" = (
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"Ck" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/halflife/indoors/intruder/medbay)
+"Cl" = (
+/obj/structure/halflife/storage/large/shelf,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"Cm" = (
+/obj/structure/halflife/pipes/horizontal/brown,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lab)
+"Cv" = (
+/obj/structure/bodycontainer/morgue/beeper_off{
+	dir = 2
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/halflife/indoors/intruder/medbay)
+"CC" = (
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"CW" = (
+/obj/machinery/escape_vent,
+/obj/effect/landmark/hidden_spawnpoint,
+/obj/effect/landmark/navigate_destination/halflife/intruder/storagec,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"Dk" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"Dp" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/obj/machinery/intruder_coffeemaker{
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"Dx" = (
+/obj/structure/chair/halflife/metal/blue{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"DB" = (
+/obj/structure/halflife/trash/papers/two,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"DE" = (
+/obj/structure/halflife/sign/clinic,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"DH" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/office,
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/office)
+"DP" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/lockerroom)
+"Ej" = (
+/obj/structure/table/halflife/no_smooth/wood/stand,
+/obj/structure/sign/poster/halflife/combine/two{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"El" = (
+/obj/structure/chair/halflife/metal/blue{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"Eo" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner,
+/area/halflife/indoors/intruder/storagec)
+"Ev" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"EB" = (
+/obj/effect/turf_decal/halflife/covering/paint/white,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/cafeteria)
+"EM" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/storageb)
+"EN" = (
+/obj/structure/halflife/pipes/vent,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"ER" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/medbay)
+"Fc" = (
+/obj/effect/turf_decal/halflife/covering/paint/gray,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/lab)
+"Fm" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"Fo" = (
+/obj/item/hl13_small_flag/combine,
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/entrance)
+"FV" = (
+/obj/effect/turf_decal/halflife/covering/wallpaper/green,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/office)
+"FY" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/entrance)
+"FZ" = (
+/obj/machinery/telecomms/processor/preset_one/birdstation,
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"Gf" = (
+/obj/machinery/combine_node,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"Gj" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"Gn" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lab)
+"Gr" = (
+/obj/structure/halflife/barrel/quadruple/grey,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"Gv" = (
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/storagea)
+"Ha" = (
+/obj/effect/spawner/random/halflife/loot/intruder,
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"Hi" = (
+/obj/structure/halflife/pot/plant,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"Ho" = (
+/obj/structure/chair/office/halflife/blue{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"Hs" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"Hx" = (
+/obj/structure/table/halflife/no_smooth/wood/stand,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"HA" = (
+/turf/open/floor/plating/indoor/metal/pipe,
+/area/halflife/indoors/intruder/medbay)
+"HV" = (
+/obj/structure/halflife/barrel/single/grey/two,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"HX" = (
+/obj/structure/table/halflife/metal/grate,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"HZ" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"Ig" = (
+/obj/structure/halflife/pipes/piped,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"Ij" = (
+/obj/machinery/intruder_coffeemaker{
+	pixel_x = 2;
+	pixel_y = 7
+	},
+/obj/structure/table/halflife/no_smooth/wood/stand,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"In" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagec)
+"Iq" = (
+/obj/structure/halflife/trash/garbage,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"IP" = (
+/obj/structure/halflife/trash/cardboard{
+	dir = 10;
+	pixel_x = -2;
+	pixel_y = 7
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"IR" = (
+/obj/structure/halflife/trash/cardboard{
+	dir = 8;
+	pixel_y = 7;
+	pixel_x = 5
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"IS" = (
+/turf/closed/indestructible/rock,
+/area/halflife/indoors/intruder/storagec)
+"IU" = (
+/obj/machinery/light/broken/directional/south,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"Jy" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/storageb,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"JC" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"JL" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"JM" = (
+/obj/structure/chair/halflife/metal/stool,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"JO" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/entrance)
+"JT" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"JZ" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"Ka" = (
+/obj/structure/chair/halflife/metal/stool,
+/obj/effect/landmark/guard_start,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"Kj" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"Kn" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"Ko" = (
+/obj/structure/table/halflife/metal/grate,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/office)
+"KG" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"KP" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"KR" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/barracks)
+"KV" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"Li" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lab)
+"Lk" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/obj/structure/halflife/trash/food/glass,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"Lo" = (
+/obj/item/hl13_small_flag/combine,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"LB" = (
+/obj/effect/koth_grace_field,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"LD" = (
+/obj/machinery/light/directional/east,
+/obj/structure/chair/halflife/metal/blue,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lab)
+"LI" = (
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"LQ" = (
+/obj/structure/halflife/pipes/horizontal,
+/obj/machinery/combine_node,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"LS" = (
+/obj/effect/landmark/guard_start,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"Mf" = (
+/obj/structure/halflife/pipes/horizontal/random,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/cafeteria)
+"Mq" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk/alt,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"MI" = (
+/obj/structure/bed/halflife/bedframe/cot,
+/obj/structure/bed/halflife/mattress/old,
+/obj/structure/sign/poster/halflife/combine/two{
+	pixel_y = 32
+	},
+/obj/effect/landmark/deployments_metrocop,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"MJ" = (
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"MP" = (
+/obj/machinery/door/poddoor/shutters/indestructible{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/entrance)
+"Nb" = (
+/obj/machinery/door/unpowered/halflife/seethrough/fence/wire,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"No" = (
+/obj/structure/halflife/pipes/vent,
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"Ns" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lockerroom)
+"Nu" = (
+/obj/effect/koth_grace_field,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/barracks)
+"Nz" = (
+/obj/structure/barricade/wooden/solid/reinforced,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/medbay)
+"ND" = (
+/obj/machinery/light/small/broken/directional/north,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"NG" = (
+/obj/structure/halflife/pipes/piped,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"NN" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lab)
+"NT" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/lab)
+"NU" = (
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/medbay)
+"On" = (
+/obj/effect/turf_decal/halflife/covering/paint/green,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/lockerroom)
+"Oq" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/cafeteria)
+"Ow" = (
+/obj/effect/koth_grace_field,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagec)
+"OE" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"OT" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/office)
+"OV" = (
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/entrance)
+"Pf" = (
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"Pg" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"Pp" = (
+/obj/structure/halflife/barrel/triple/grey,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lockerroom)
+"Pz" = (
+/obj/item/hl13_small_flag/combine,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/barracks)
+"PA" = (
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"PC" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/item/storage/box/lights/mixed,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"PQ" = (
+/obj/structure/halflife/trash/garbage/dumpster/crate,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"PR" = (
+/obj/structure/halflife/pipes/horizontal,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/cafeteria)
+"PX" = (
+/obj/structure/halflife/pipes/horizontal/end{
+	dir = 1
+	},
+/obj/structure/halflife/pallet,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"Qh" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/medbay)
+"Qi" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 4
+	},
+/area/halflife/indoors/intruder/lab)
+"Qn" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"Qq" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/barracks,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/barracks)
+"Qz" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/lockerroom)
+"QE" = (
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"QJ" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/cafeteria)
+"QK" = (
+/obj/machinery/telecomms/server/presets/common/birdstation,
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"QW" = (
+/obj/effect/turf_decal/halflife/covering/wallpaper/red,
+/turf/closed/wall/halflife/concrete/bunker,
+/area/halflife/indoors/intruder/cafeteria)
+"QY" = (
+/turf/open/floor/plating/indoor/metal/pipe,
+/area/halflife/indoors/intruder/office)
+"QZ" = (
+/obj/structure/halflife/trash/cardboard{
+	dir = 4;
+	pixel_x = 2;
+	pixel_y = 12
+	},
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/office)
+"Ri" = (
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"Rn" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagec)
+"Rs" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"Rt" = (
+/obj/structure/halflife/pipes/horizontal,
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"RD" = (
+/obj/structure/sign/poster/halflife/combine/three{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"RJ" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storageb)
+"RL" = (
+/obj/structure/halflife/barrel/single/grey/two,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/entrance)
+"RQ" = (
+/turf/open/floor/plating/indoor/metal/pipe/intersection{
+	dir = 4
+	},
+/area/halflife/indoors/intruder/office)
+"RS" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/entrance)
+"RT" = (
+/obj/structure/halflife/pipes/horizontal/random_alt,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"So" = (
+/obj/structure/chair/office/halflife/green{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/office)
+"SA" = (
+/turf/closed/indestructible/rock,
+/area/halflife/indoors/intruder/medbay)
+"SE" = (
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/entrance)
+"SP" = (
+/obj/structure/halflife/tank/chemical/container,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagec)
+"Tc" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storageb)
+"TN" = (
+/obj/structure/table/halflife/no_smooth/cable_reel,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storagea)
+"Ug" = (
+/turf/open/floor/plating/indoor/metal/pipe/intersection{
+	dir = 8
+	},
+/area/halflife/indoors/intruder/storagec)
+"Ui" = (
+/obj/structure/table/halflife/metal/grate,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"Uo" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk/alt,
+/obj/structure/sign/poster/halflife/combine/two{
+	pixel_y = 32
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"Ut" = (
+/obj/structure/table/halflife/no_smooth/wood/stand,
+/obj/structure/sign/poster/halflife/combine/three{
+	pixel_y = 32
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"UA" = (
+/obj/structure/halflife/trash/papers/three{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 4
+	},
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"UB" = (
+/obj/structure/halflife/pipes/horizontal/turnaround,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storageb)
+"UI" = (
+/obj/structure/window/fulltile/halflife/nosmooth/generic,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"UR" = (
+/turf/open/floor/plating/indoor/metal/pipe,
+/area/halflife/indoors/intruder/storageb)
+"UV" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/medbay)
+"Vc" = (
+/obj/structure/chair/halflife/metal/stool,
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"Vd" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lockerroom)
+"Ve" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/obj/structure/halflife/trash/food/dinner,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"Vj" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner,
+/area/halflife/indoors/intruder/storagea)
+"Vk" = (
+/obj/structure/halflife/trash/cardboard{
+	dir = 8;
+	pixel_y = 7;
+	pixel_x = 5
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"Vr" = (
+/turf/open/floor/plating/indoor/woodc/fancy,
+/area/halflife/indoors/intruder/office)
+"Vu" = (
+/obj/machinery/intruder_time_counter,
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"Vw" = (
+/obj/structure/halflife/barrel/double/grey,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"VE" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"VG" = (
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/storagec)
+"VI" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagec)
+"VK" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"VL" = (
+/obj/structure/halflife/pallet,
+/obj/structure/halflife/trash/papers/three,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"VO" = (
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/storagea)
+"VY" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/barracks)
+"Wc" = (
+/obj/effect/landmark/hidden_spawnpoint,
+/obj/machinery/escape_vent{
+	pixel_y = -32
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+"Wk" = (
+/obj/structure/halflife/pipes/horizontal/box,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storageb)
+"Wt" = (
+/obj/structure/halflife/trash/wood{
+	dir = 6
+	},
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/office)
+"Wx" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/medbay)
+"WA" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/lab)
+"WN" = (
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"WP" = (
+/obj/structure/chair/halflife/wood{
+	dir = 1
+	},
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"WQ" = (
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storageb)
+"WS" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"Xd" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/office)
+"Xe" = (
+/obj/structure/closet/cardboard,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"Xn" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/lockerroom)
+"Xt" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"Xu" = (
+/obj/effect/landmark/guard_start,
+/turf/open/floor/plating/indoor/carpet/green,
+/area/halflife/indoors/intruder/office)
+"Xw" = (
+/obj/machinery/light/small/broken/directional/south,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"XD" = (
+/obj/structure/halflife/tank/chemical/container,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"XE" = (
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/entrance)
+"XG" = (
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/intruder/entrance)
+"XL" = (
+/obj/machinery/door/unpowered/halflife/seethrough/metal{
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"XQ" = (
+/obj/structure/table/halflife/no_smooth/metal,
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"XW" = (
+/obj/structure/chair/halflife/metal/folding{
+	dir = 8
+	},
+/obj/effect/landmark/deployments_metrocop,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/barracks)
+"XZ" = (
+/turf/open/floor/plating/indoor/woodc,
+/area/halflife/indoors/intruder/office)
+"Ye" = (
+/obj/structure/halflife/storage/large/shelf,
+/obj/item/storage/box/lights/mixed,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/storageb)
+"Yg" = (
+/turf/open/floor/plating/indoor/metal/pipe/corner{
+	dir = 8
+	},
+/area/halflife/indoors/intruder/storagea)
+"Yi" = (
+/obj/structure/chair/halflife/metal/folding{
+	dir = 4
+	},
+/obj/effect/landmark/deployments_metrocop,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/barracks)
+"Yt" = (
+/obj/machinery/door/unpowered/halflife/metal,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"YU" = (
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/entrance)
+"YX" = (
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/office)
+"Zq" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/turf/open/floor/plating/indoor/concrete,
+/area/halflife/indoors/intruder/storagea)
+"Zt" = (
+/obj/item/hl13_small_flag/combine,
+/turf/open/floor/plating/indoor/tile/green,
+/area/halflife/indoors/intruder/lockerroom)
+"Zu" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/medbay,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/medbay)
+"Zv" = (
+/obj/structure/table/halflife/no_smooth/large/metal/desk/alt,
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/plating/indoor/sterilesquares,
+/area/halflife/indoors/intruder/lab)
+"Zw" = (
+/obj/effect/landmark/navigate_destination/halflife/intruder/lockerroom,
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/lockerroom)
+"Zx" = (
+/obj/structure/halflife/trash/wood,
+/turf/open/floor/plating/indoor/metal/pipe{
+	dir = 1
+	},
+/area/halflife/indoors/intruder/office)
+"ZB" = (
+/obj/structure/table/halflife/no_smooth/large/metal,
+/obj/machinery/jukebox/radio,
+/turf/open/floor/plating/indoor/checkered,
+/area/halflife/indoors/intruder/cafeteria)
+"ZH" = (
+/obj/structure/halflife/tank/chemical/container,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/halflife/indoors/intruder/lab)
+"ZN" = (
+/obj/structure/closet/halflife{
+	anchored = 1
+	},
+/obj/effect/spawner/random/halflife/loot/intruder,
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/indoor/cafeteria,
+/area/halflife/indoors/intruder/cafeteria)
+"ZO" = (
+/obj/machinery/light_switch/directional/north{
+	max_integrity = 999
+	},
+/turf/open/floor/plating/indoor/concrete/small,
+/area/halflife/indoors/intruder/storagec)
+"ZP" = (
+/obj/machinery/telecomms/broadcaster/preset_left/birdstation,
+/turf/open/floor/plating/ground/sidewalk,
+/area/halflife/indoors/intruder)
+"ZU" = (
+/obj/machinery/door/unpowered/halflife/metal{
+	dir = 4
+	},
+/turf/open/floor/plating/indoor/tile/black,
+/area/halflife/indoors/intruder/entrance)
+
+(1,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(2,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(3,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(4,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(5,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(6,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+oi
+oi
+oi
+oi
+oi
+oi
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(7,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+oi
+oi
+oi
+oi
+oi
+aH
+zk
+LI
+Pz
+LI
+zk
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(8,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+AC
+xb
+Qz
+xb
+xb
+Qz
+xb
+xb
+Qz
+JT
+JT
+VY
+JT
+JT
+aH
+xH
+oH
+Yi
+oH
+Pg
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(9,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+rc
+oI
+oI
+oI
+rc
+sE
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+Ns
+xb
+Xn
+Xn
+Xn
+Xn
+Xn
+Xn
+Xn
+KR
+KR
+KR
+KR
+JT
+aH
+zk
+oH
+gL
+oH
+zk
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(10,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+Dp
+rE
+rE
+rE
+XQ
+sE
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+te
+xb
+Xn
+Xn
+Xn
+Xn
+Xn
+Xn
+Xn
+KR
+KR
+KR
+KR
+HZ
+aH
+Ig
+oH
+XW
+oH
+LI
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(11,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+zO
+rE
+rE
+rE
+zO
+sE
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+Ns
+xb
+Xn
+Xn
+xb
+xb
+xb
+xb
+xb
+JT
+JT
+KR
+KR
+JT
+aH
+xt
+oH
+Yi
+oH
+zk
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(12,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+xK
+oI
+Qn
+rE
+oI
+sE
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+AC
+xb
+Xn
+Xn
+xb
+sE
+sE
+sE
+sE
+oi
+JT
+KR
+KR
+JT
+aH
+LI
+oH
+cY
+oH
+LI
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(13,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+sE
+sE
+sE
+sE
+gB
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+dS
+Xn
+Xn
+xb
+sE
+pq
+pq
+pq
+oi
+JT
+KR
+KR
+HZ
+aH
+MI
+oH
+XW
+oH
+zk
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(14,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+mb
+mb
+mb
+mb
+xb
+Xn
+xb
+xb
+On
+oI
+bQ
+rE
+oI
+bQ
+rE
+Zt
+bQ
+yG
+oI
+sE
+xb
+Xn
+Xn
+xb
+sE
+sE
+pq
+oi
+oi
+JT
+KR
+KR
+JT
+aH
+Pf
+LI
+Qq
+Fm
+LI
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(15,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+rj
+ZN
+rj
+mb
+xb
+Xn
+Xn
+xb
+On
+RD
+WS
+rE
+oI
+WS
+rE
+oI
+WS
+rE
+oI
+sE
+xb
+Xn
+Xn
+xb
+Pp
+sE
+pq
+oi
+jA
+JT
+KR
+KR
+JT
+oi
+oi
+aH
+jP
+oi
+oi
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(16,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+EB
+qO
+vZ
+kV
+QW
+Lo
+JM
+PA
+JM
+PA
+mb
+dO
+Xn
+Xn
+Xn
+DP
+rE
+rE
+rE
+rE
+rE
+rE
+rE
+rE
+rE
+rE
+DP
+Xn
+Xn
+Xn
+xb
+Vd
+sE
+pq
+oi
+rd
+JT
+KR
+KR
+HZ
+oi
+JT
+JT
+Nu
+JT
+JT
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(17,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+EB
+mo
+BK
+BK
+ZB
+PA
+Lk
+PA
+Rs
+PA
+PA
+Xn
+Xn
+Xn
+xb
+On
+WN
+WS
+yG
+oI
+WS
+rE
+oI
+WS
+rE
+oI
+sE
+xb
+xb
+xb
+xb
+sr
+sE
+pq
+oi
+wf
+JT
+KR
+KR
+JT
+oi
+NG
+KR
+KR
+KR
+JT
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(18,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+EB
+aE
+BK
+oO
+BK
+PA
+JM
+PA
+JM
+PA
+PA
+Xn
+Xn
+Xn
+xb
+On
+oI
+sW
+rE
+Zt
+sW
+rE
+oI
+sW
+Zw
+cf
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+pq
+oi
+jA
+JT
+KR
+KR
+JT
+oi
+uO
+KR
+KR
+KR
+HZ
+oi
+pq
+pq
+pq
+pq
+pq
+"}
+(19,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+EB
+cV
+BK
+BK
+QW
+BX
+Ka
+PA
+JM
+PA
+PA
+Xn
+Xn
+Xn
+xb
+sE
+sE
+sE
+fH
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+sE
+tu
+tu
+tu
+tu
+tu
+tu
+pq
+oi
+oi
+JT
+KR
+KR
+HZ
+oi
+uG
+KR
+KR
+KR
+JT
+oi
+EM
+EM
+EM
+pq
+pq
+"}
+(20,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+mb
+EB
+XL
+QW
+PA
+JL
+PA
+Ve
+PA
+PA
+Xn
+Xn
+Xn
+xb
+sE
+rC
+rC
+rC
+rC
+rC
+rC
+rC
+rC
+rC
+rC
+Gv
+Gv
+Gv
+Gv
+Gv
+Gv
+tu
+pq
+pq
+oi
+JT
+KR
+KR
+JT
+oi
+JT
+KR
+KR
+KR
+JT
+oi
+kW
+UR
+EM
+pq
+pq
+"}
+(21,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+QW
+EN
+PA
+PA
+PA
+PA
+JM
+PA
+Vc
+PA
+mb
+xb
+Xn
+Xn
+xb
+sE
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+JC
+JC
+JC
+JC
+JC
+JC
+tu
+pq
+pq
+oi
+JT
+KR
+KR
+JT
+oi
+JT
+KR
+KR
+KR
+KR
+yB
+kW
+UR
+EM
+pq
+pq
+"}
+(22,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+QW
+Gf
+PA
+aA
+PA
+PA
+PA
+mb
+mb
+mb
+mb
+sE
+Xn
+Xn
+sE
+sE
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+OE
+tu
+tu
+tu
+pq
+pq
+oi
+JT
+KR
+KR
+KR
+gc
+KR
+KR
+KR
+KR
+JT
+oi
+kW
+UR
+EM
+pq
+pq
+"}
+(23,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+mb
+QW
+PA
+PA
+PA
+mb
+mb
+lY
+lY
+qy
+lY
+en
+en
+lY
+lY
+qy
+lY
+lY
+qy
+lY
+lY
+tu
+lY
+lY
+li
+wv
+lY
+li
+lY
+tu
+tu
+tu
+tu
+tu
+oi
+hX
+KR
+KR
+JT
+oi
+JT
+KR
+KR
+KR
+IU
+oi
+kW
+UR
+EM
+pq
+pq
+"}
+(24,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+BC
+Oq
+QJ
+Oq
+Oq
+QJ
+Oq
+Oq
+qq
+qq
+qq
+QJ
+Oq
+lY
+en
+en
+en
+en
+en
+ex
+en
+en
+en
+en
+en
+en
+LB
+Kj
+en
+en
+en
+en
+en
+en
+lY
+tu
+lY
+lY
+lY
+lY
+JT
+JT
+KR
+KR
+JT
+oi
+Ha
+KR
+KR
+KR
+JT
+oi
+kW
+UR
+EM
+pq
+pq
+"}
+(25,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+PR
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+en
+en
+tu
+tu
+VL
+en
+tu
+tu
+en
+KP
+tu
+tu
+en
+lY
+tu
+lY
+jd
+nB
+jd
+en
+jd
+lY
+tu
+lY
+en
+en
+en
+KR
+KR
+KR
+KR
+JT
+oi
+hX
+JT
+JT
+JT
+JT
+oi
+PQ
+UR
+EM
+pq
+pq
+"}
+(26,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+Mf
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+qq
+en
+en
+tu
+tu
+en
+en
+tu
+tu
+en
+en
+tu
+tu
+nB
+lY
+tu
+Ri
+VO
+en
+en
+nB
+en
+lY
+tu
+lY
+en
+en
+en
+KR
+KR
+KR
+KR
+JT
+EM
+EM
+EM
+EM
+bb
+bb
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(27,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+mb
+PR
+Oq
+qq
+qq
+Oq
+Oq
+Oq
+Oq
+Oq
+Oq
+Oq
+Oq
+Oq
+lY
+en
+en
+KP
+en
+en
+en
+en
+en
+en
+en
+en
+en
+lY
+tu
+aV
+en
+en
+en
+en
+en
+en
+Kj
+LB
+en
+en
+lY
+JT
+JT
+Ev
+JT
+JT
+EM
+PX
+hN
+hN
+hN
+hN
+EM
+Gr
+UR
+EM
+pq
+pq
+"}
+(28,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+jW
+NT
+dD
+dD
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+lY
+lY
+eL
+lY
+en
+eL
+lY
+lY
+eL
+en
+lY
+eL
+lY
+vm
+tu
+eh
+lY
+li
+eL
+lY
+lQ
+lY
+tu
+lY
+en
+en
+lY
+oi
+oi
+oi
+oi
+oi
+EM
+yk
+vS
+kW
+Ye
+iG
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(29,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+Cm
+kS
+dD
+dD
+kS
+kS
+Fc
+si
+si
+si
+si
+si
+NT
+tu
+tu
+tu
+tu
+of
+tu
+xR
+xR
+FV
+wj
+xR
+xR
+xR
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+tu
+qV
+tu
+lY
+en
+en
+lY
+tu
+pq
+pq
+pq
+pq
+EM
+cH
+rk
+kW
+kW
+hN
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(30,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+pa
+NT
+Hs
+dD
+NT
+kS
+Fc
+Zv
+cr
+Fc
+Ch
+xT
+NT
+Zq
+vm
+lY
+lY
+en
+lY
+FV
+iz
+XZ
+XZ
+Gj
+iz
+xR
+ya
+uY
+tu
+JC
+di
+bd
+JC
+JC
+JC
+tu
+lY
+en
+en
+sA
+tu
+tu
+pq
+pq
+pq
+EM
+LQ
+Jy
+kW
+kW
+hN
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(31,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+bL
+NT
+IR
+dD
+NT
+kS
+Fc
+si
+si
+Fc
+Cj
+si
+NT
+lY
+en
+en
+en
+en
+lY
+FV
+No
+XZ
+XZ
+XZ
+iz
+xR
+JC
+JC
+tu
+JC
+JC
+bd
+JC
+JC
+JC
+tu
+lY
+en
+en
+lY
+zQ
+tu
+pq
+pq
+pq
+EM
+RT
+mY
+kW
+vS
+hN
+EM
+PQ
+UR
+EM
+pq
+pq
+"}
+(32,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+pa
+nL
+dD
+dD
+re
+kS
+UI
+aY
+si
+si
+si
+si
+VK
+en
+en
+iB
+Ba
+eh
+eh
+FV
+iz
+XZ
+XZ
+XZ
+iz
+xR
+JC
+JC
+ln
+JC
+JC
+bd
+JC
+nv
+TN
+tu
+lY
+en
+en
+lY
+JC
+tu
+pq
+pq
+pq
+EM
+Wk
+rk
+kW
+kW
+iG
+EM
+xD
+UR
+EM
+pq
+pq
+"}
+(33,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+pa
+nL
+dD
+dD
+nL
+kS
+UI
+aJ
+si
+si
+si
+si
+NT
+tu
+tu
+tu
+tu
+tu
+tu
+FV
+iX
+Kn
+XZ
+XZ
+iz
+xR
+mR
+mR
+tu
+tu
+tu
+bd
+tu
+tu
+tu
+tu
+lY
+en
+en
+lY
+JC
+tu
+pq
+pq
+pq
+EM
+sG
+hN
+hN
+hN
+hN
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(34,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+vl
+nL
+dD
+dD
+nL
+kS
+Fc
+mu
+cr
+Fc
+Uo
+Ho
+NT
+pq
+pq
+pq
+pq
+xR
+xR
+xR
+xR
+FV
+wj
+xR
+xR
+xR
+xR
+xR
+tu
+JZ
+tu
+Yg
+Gv
+Vj
+EM
+XD
+Tc
+RJ
+RJ
+Tc
+vr
+EM
+pq
+pq
+pq
+EM
+jT
+oo
+EM
+EM
+EM
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(35,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+pa
+NT
+Hs
+dD
+NT
+tl
+Fc
+KV
+si
+Fc
+si
+eX
+NT
+NT
+NT
+NT
+pq
+xR
+PC
+YX
+FV
+Vr
+Vr
+Vr
+xA
+Vr
+gC
+xR
+mR
+JC
+tu
+aP
+uY
+bd
+EM
+kW
+Tc
+RJ
+RJ
+Tc
+EM
+EM
+pq
+pq
+pq
+EM
+UB
+Tc
+eo
+Tc
+Tc
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(36,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+ol
+qW
+qW
+qW
+qW
+NT
+ob
+dD
+NT
+zC
+NT
+dD
+at
+NT
+kS
+Fc
+jD
+si
+si
+si
+si
+NT
+at
+Iq
+NT
+pq
+xR
+BI
+Xw
+FV
+Vr
+Vr
+Vr
+hq
+hq
+aC
+xR
+mR
+JC
+tu
+tu
+tu
+af
+EM
+xk
+Tc
+RJ
+RJ
+WQ
+EM
+pq
+pq
+pq
+pq
+EM
+nG
+RJ
+RJ
+RJ
+RJ
+pO
+kW
+UR
+EM
+pq
+pq
+"}
+(37,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+sv
+gE
+gE
+gE
+gE
+NN
+dD
+dD
+dD
+dD
+nL
+dD
+dD
+nL
+dD
+dD
+si
+si
+Bi
+si
+si
+NT
+dD
+km
+NT
+xR
+xR
+BI
+YX
+FV
+Vr
+FV
+xz
+Xu
+hq
+aC
+xR
+xR
+JC
+tu
+eY
+JC
+bd
+EM
+XD
+Tc
+RJ
+RJ
+Tc
+EM
+EM
+EM
+EM
+EM
+EM
+xx
+RJ
+RJ
+RJ
+Tc
+EM
+kW
+UR
+EM
+pq
+pq
+"}
+(38,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+Dx
+gE
+gE
+gE
+qW
+NT
+op
+dD
+dD
+dD
+nL
+dD
+dD
+nL
+dD
+dD
+si
+uC
+aY
+si
+hE
+NN
+dD
+eP
+NT
+xR
+ND
+YX
+YX
+FV
+wY
+FV
+xz
+bV
+hq
+Vr
+gC
+xR
+JC
+ln
+JC
+JC
+bd
+EM
+kW
+Tc
+RJ
+RJ
+Tc
+EM
+Tc
+Tc
+Tc
+Tc
+Tc
+Tc
+RJ
+RJ
+RJ
+Tc
+EM
+EM
+EM
+EM
+pq
+pq
+"}
+(39,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+tA
+qW
+LD
+ml
+El
+NT
+ob
+dD
+dD
+dD
+re
+dD
+dD
+nL
+dD
+dD
+si
+si
+aJ
+si
+si
+NT
+yd
+dD
+NT
+xR
+oE
+YX
+YX
+Yt
+Vr
+xM
+lT
+hq
+mF
+So
+wY
+xR
+tu
+tu
+tu
+JC
+bd
+EM
+EM
+Tc
+RJ
+RJ
+Tc
+Tc
+Tc
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+RJ
+Tc
+EM
+pq
+pq
+pq
+pq
+pq
+"}
+(40,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+ob
+zD
+NT
+kS
+NT
+IP
+dD
+NT
+kS
+Fc
+si
+si
+DB
+si
+si
+NT
+ir
+HV
+NT
+xR
+Xe
+YX
+YX
+Al
+UA
+FV
+wU
+DH
+hq
+hq
+Vr
+xR
+Vk
+kF
+Wt
+kF
+QY
+Cl
+cS
+wM
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+wM
+cS
+pq
+pq
+pq
+pq
+pq
+"}
+(41,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+NT
+Li
+NT
+kS
+NT
+Hs
+dD
+NT
+kS
+Fc
+Mq
+cr
+Fc
+Ch
+xT
+NT
+NT
+NT
+NT
+xR
+ND
+YX
+YX
+FV
+wY
+FV
+xz
+hq
+hq
+Vr
+gC
+xR
+QZ
+RQ
+dR
+dR
+Xd
+kF
+cS
+wM
+Ah
+Ah
+wM
+wM
+wM
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+wM
+cS
+pq
+pq
+pq
+pq
+pq
+"}
+(42,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+ld
+Gn
+NT
+kS
+nL
+dD
+dD
+nL
+kS
+Fc
+fI
+si
+Fc
+Cj
+si
+NT
+dr
+OT
+Ko
+xR
+xR
+BI
+YX
+FV
+Vr
+FV
+xz
+hq
+Xu
+aC
+xR
+xR
+kF
+QY
+kF
+kF
+kF
+kF
+cS
+wM
+Ah
+Ah
+wM
+cS
+wM
+wM
+dV
+wM
+wM
+dV
+wM
+Ow
+dV
+wM
+cS
+pq
+pq
+pq
+pq
+pq
+"}
+(43,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+NT
+ld
+Gn
+NT
+kS
+rz
+dD
+dD
+nL
+kS
+UI
+Bi
+si
+si
+si
+si
+NT
+ox
+ox
+ox
+xR
+xR
+BI
+Xw
+FV
+Vr
+Vr
+Vr
+hq
+hq
+aC
+xR
+ti
+kF
+QY
+xR
+xR
+xR
+fo
+cS
+uw
+Ah
+Ah
+wM
+cS
+cS
+cS
+cS
+cS
+cS
+cS
+cS
+gz
+cS
+cS
+cS
+pq
+pq
+pq
+pq
+pq
+"}
+(44,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+Qi
+WA
+Gn
+NT
+la
+nL
+dD
+dD
+nL
+kS
+UI
+aJ
+si
+si
+si
+si
+NN
+ox
+tF
+ox
+ox
+md
+YX
+YX
+FV
+Vr
+Vr
+Vr
+mK
+Vr
+gC
+xR
+Dk
+kF
+QY
+xR
+rf
+kF
+kF
+cS
+wM
+Ah
+Ah
+Rn
+cS
+IS
+IS
+cS
+kz
+kY
+kY
+kY
+Ah
+rW
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(45,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+ld
+Gn
+Gn
+NT
+kS
+NT
+dD
+dD
+NT
+kS
+Fc
+Ch
+si
+Fc
+Ch
+cr
+NT
+xR
+xR
+xR
+xR
+xR
+xR
+xR
+FV
+ac
+ac
+ac
+xR
+xR
+xR
+xR
+xR
+xR
+QY
+xR
+dh
+kF
+kF
+cS
+wM
+Ah
+Ah
+wM
+cS
+IS
+IS
+cS
+mL
+Ah
+Ah
+Ah
+Ah
+kY
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(46,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+ld
+Gn
+NT
+NT
+kS
+NT
+Hs
+dD
+NT
+kS
+Fc
+KV
+wW
+Fc
+si
+uP
+NT
+pq
+pq
+pq
+pq
+pq
+pq
+FV
+bg
+XZ
+XZ
+XZ
+bg
+xR
+Zx
+dR
+dR
+dR
+Xd
+xR
+Bl
+kF
+rf
+cS
+wM
+Ah
+Ah
+wM
+cS
+IS
+IS
+cS
+Rt
+Ah
+Ah
+Ah
+Ah
+lq
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(47,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+ld
+Gn
+NT
+ZH
+kS
+dD
+dD
+dD
+kS
+kS
+Fc
+si
+si
+si
+si
+si
+NT
+nm
+nm
+nm
+nm
+nm
+pq
+FV
+on
+XZ
+XZ
+XZ
+WP
+xR
+kF
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+cS
+wM
+Ah
+Ah
+Rn
+cS
+IS
+IS
+cS
+uk
+kY
+Ah
+Ah
+Ah
+kY
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(48,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+NT
+ld
+Gn
+NT
+Gn
+kS
+dD
+dD
+dD
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+NT
+rn
+cG
+cG
+ho
+nm
+pq
+FV
+Ej
+XZ
+XZ
+XZ
+py
+xR
+kF
+OV
+XE
+XE
+XE
+XE
+XE
+XE
+XE
+wM
+wM
+Ah
+Ah
+wM
+cS
+cS
+cS
+cS
+cS
+CW
+Ah
+Ah
+Ah
+cz
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(49,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+ER
+cG
+Wx
+Wx
+Wx
+cG
+cG
+UV
+cG
+cG
+UV
+cG
+cG
+UV
+cG
+Wx
+Wx
+nN
+nm
+pq
+FV
+mw
+XZ
+XZ
+XZ
+WP
+xR
+kF
+OV
+YU
+XG
+XG
+XG
+XG
+XG
+XG
+Ah
+Ah
+Ah
+Ah
+wM
+cS
+ZO
+kY
+kY
+kY
+kY
+Ah
+Ah
+Ah
+ew
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(50,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+im
+cG
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+cG
+nm
+pq
+FV
+Ut
+XZ
+XZ
+XZ
+Hx
+xR
+kF
+OV
+XE
+XG
+XG
+XG
+XG
+XG
+XG
+Ah
+Ah
+Ah
+Ah
+Ow
+VI
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+Ah
+KG
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(51,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+NU
+cG
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+Wx
+cG
+nm
+pq
+FV
+on
+XZ
+XZ
+XZ
+WP
+xR
+kF
+OV
+XE
+XG
+XG
+XE
+XE
+XE
+pU
+wM
+wM
+dV
+wM
+wM
+cS
+kY
+kY
+ys
+kY
+kY
+ys
+kY
+kY
+KG
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(52,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+nm
+cG
+cG
+cG
+Wx
+cG
+cG
+cG
+cG
+gx
+Wx
+cG
+cG
+cG
+cG
+Wx
+Wx
+nN
+nm
+pq
+FV
+Hi
+XZ
+XZ
+XZ
+Kn
+ch
+kF
+OV
+rb
+XG
+XG
+XE
+OV
+OV
+OV
+cS
+cS
+cS
+cS
+ca
+cS
+cS
+cS
+cS
+cS
+cS
+cS
+cS
+cS
+cS
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(53,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+NU
+nm
+nm
+nm
+nm
+io
+nm
+nm
+nm
+nm
+hn
+Xt
+nm
+nm
+nm
+cG
+Wx
+Wx
+cG
+nm
+OV
+xR
+FV
+ac
+ac
+ac
+xR
+xR
+OV
+OV
+XE
+XG
+XG
+XE
+OV
+OV
+OV
+OV
+rF
+In
+om
+In
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(54,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+tJ
+oT
+NU
+pm
+nm
+Cv
+yc
+yc
+nm
+SA
+hn
+uo
+QE
+QE
+QE
+BQ
+nm
+cG
+Wx
+Wx
+cG
+nm
+XE
+XE
+bx
+XG
+XG
+XG
+bx
+XE
+XE
+OV
+XE
+XG
+XG
+nP
+ui
+MJ
+qK
+OV
+rF
+In
+om
+In
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(55,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+nm
+tJ
+oT
+NU
+nm
+AA
+yc
+nS
+nm
+SA
+hn
+uI
+QE
+QE
+QE
+BQ
+nm
+cG
+Wx
+Wx
+cG
+kg
+XE
+XG
+ud
+XG
+XG
+XG
+ud
+XG
+XE
+zZ
+XE
+XG
+XG
+nP
+ui
+MJ
+mz
+OV
+rF
+In
+om
+In
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(56,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+nm
+HA
+NU
+nm
+Cv
+yc
+yc
+nm
+SA
+hn
+Ui
+QE
+QE
+QE
+BQ
+nm
+DE
+Wx
+Wx
+Wx
+Wx
+XG
+XG
+ud
+aT
+XG
+aT
+ud
+XG
+XG
+XG
+XG
+XG
+XG
+Bq
+Nb
+MJ
+Wc
+OV
+VG
+VG
+hk
+jF
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(57,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+Cv
+yc
+yc
+nm
+SA
+hn
+fb
+QE
+QE
+QE
+QE
+fM
+Wx
+Wx
+Wx
+Wx
+eR
+XG
+XG
+XG
+XG
+XG
+XG
+XG
+XG
+XG
+aT
+XG
+XG
+XG
+nP
+ui
+MJ
+Vw
+OV
+cS
+cS
+oN
+cS
+cS
+cS
+cS
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(58,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+Cv
+yc
+nS
+nm
+nm
+hn
+BW
+QE
+Zu
+LS
+QE
+nm
+cG
+Wx
+Wx
+Wx
+Nz
+XG
+XG
+XG
+XG
+XG
+XG
+XG
+XG
+XG
+ud
+XG
+XG
+XG
+nP
+ui
+MJ
+ed
+OV
+SP
+In
+om
+In
+cS
+om
+rF
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(59,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+Cv
+yc
+yc
+yc
+Ck
+QE
+QE
+QE
+zI
+HX
+HX
+nm
+cG
+cG
+dX
+cG
+qJ
+pU
+XE
+zZ
+aT
+aT
+aT
+zZ
+XE
+pU
+bx
+XG
+pU
+XE
+XE
+OV
+OV
+OV
+OV
+In
+In
+om
+In
+fB
+om
+rF
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(60,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+nm
+nm
+nm
+Qh
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+OV
+OV
+OV
+MP
+MP
+MP
+OV
+OV
+OV
+OV
+ZU
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+bl
+nY
+Ug
+Eo
+cS
+om
+rF
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(61,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+HA
+NU
+NU
+NU
+NU
+NU
+nm
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+OV
+oq
+XG
+XG
+XG
+oq
+cT
+pi
+MJ
+kQ
+OV
+RL
+JO
+rP
+OV
+OV
+OV
+cS
+om
+cS
+om
+cS
+cS
+cS
+cS
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(62,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+tJ
+vi
+vi
+vi
+vi
+vi
+nm
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+OV
+RS
+XG
+XG
+XG
+xh
+cT
+AH
+wI
+VE
+OV
+JO
+JO
+FY
+OV
+cM
+SE
+SE
+wT
+OV
+oS
+OV
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(63,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+nm
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+OV
+oq
+XG
+XG
+XG
+oq
+lm
+ai
+wI
+MJ
+OV
+SE
+SE
+SE
+SE
+tG
+OV
+OV
+OV
+OV
+oS
+OV
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(64,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+OV
+oq
+XG
+XG
+XG
+oq
+lm
+oK
+hs
+MJ
+cC
+JO
+OV
+JO
+JO
+cq
+SE
+SE
+SE
+SE
+wT
+OV
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(65,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+OV
+RS
+XG
+XG
+XG
+xh
+cT
+Fo
+wI
+VE
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+OV
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(66,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+OV
+oq
+XG
+XG
+XG
+oq
+cT
+Ij
+MJ
+ba
+OV
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(67,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+OV
+OV
+ej
+ej
+ej
+OV
+OV
+OV
+OV
+OV
+OV
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(68,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(69,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(70,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(71,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(72,1,1) = {"
+pq
+zm
+iv
+FZ
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(73,1,1) = {"
+pq
+CC
+Vu
+CC
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(74,1,1) = {"
+pq
+lr
+QK
+ZP
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
+(75,1,1) = {"
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+pq
+"}
