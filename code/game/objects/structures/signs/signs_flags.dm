@@ -19,8 +19,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/nanotrasen, 32)
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/ssc, 32)
 
 /obj/structure/sign/flag/terragov
-	name = "flag of TerraGov"
-	desc = "The flag of TerraGov. It's a symbol of humanity no matter where they go, or how much they wish it wasn't."
+	name = "flag of the United Nations"
+	desc = "An old, dirty-blue flag from the United Nations, flown by its fragments post-War. Once keepers of peace through words, their remnants have taken up the creed of 'peace through combined arms', and they now serve to connect the different resistance factions of post-War Poland."
 	icon_state = "flag_terragov"
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/terragov, 32)
