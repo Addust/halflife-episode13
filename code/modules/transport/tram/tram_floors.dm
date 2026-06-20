@@ -325,3 +325,36 @@
 		if(!damage_value)
 			return
 		. += span_notice("Those could work as a [damage_value] throwing weapon.")
+
+//hl13 edits
+
+/obj/structure/thermoplastic/halflife
+	name = "train floor"
+	desc = "Combine-metal flooring."
+	icon = 'hl13/icons/turf/floor/floors.dmi'
+	icon_state = "combine_metal_smooth"
+
+/obj/structure/thermoplastic/halflife/train
+	icon_state = "train_floor"
+	desc = "The metal floor of a train."
+	icon_state = "train_floor"
+
+/obj/structure/thermoplastic/halflife/train/inner
+	icon_state = "train_carpet"
+
+/obj/structure/thermoplastic/halflife/walkway
+	desc = "Metal flooring."
+	icon_state = "steel_walkway"
+
+/obj/structure/thermoplastic/halflife/plating
+	desc = "Steel plating."
+	icon_state = "steel_solid"
+
+/obj/structure/thermoplastic/halflife/steel_tiles
+	desc = "Steel tiles."
+	icon_state = "steel_tiles"
+
+/obj/structure/thermoplastic/halflife/wood
+	name = "wooden floor"
+	desc = "A shaky wood floor, used in bridges and trains. You're not sure you should trust it."
+	icon_state = "wood_wide"

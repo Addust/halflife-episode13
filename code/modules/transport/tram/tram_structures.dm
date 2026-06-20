@@ -457,6 +457,34 @@
 	canSmoothWith = SMOOTH_GROUP_ABDUCTOR_WALLS
 	custom_materials = list(/datum/material/alloy/alien = SHEET_MATERIAL_AMOUNT*2)
 
+//hl13 edit
+/obj/structure/tram/alt/halflife
+	name = "train wall"
+	desc = "The wall of some sort of train."
+	icon = 'hl13/icons/turf/walls/train.dmi'
+	opacity = TRUE
+	icon_state = "train1-0"
+	base_icon_state = "train1"
+	mineral = /obj/item/stack/sheet/iron
+	tram_wall_type = /obj/structure/tram/alt/halflife
+	smoothing_flags = SMOOTH_BITMASK
+	smoothing_groups = SMOOTH_GROUP_TITANIUM_WALLS + SMOOTH_GROUP_WALLS
+	canSmoothWith = SMOOTH_GROUP_SHUTTLE_PARTS + SMOOTH_GROUP_AIRLOCK + SMOOTH_GROUP_TITANIUM_WALLS
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2.5)
+
+/obj/structure/tram/alt/halflife/oldmetal
+	icon = 'hl13/icons/turf/walls/metal.dmi'
+	icon_state = "urban_wall_regular-0"
+	base_icon_state = "urban_wall_regular"
+
+/obj/structure/tram/alt/halflife/combine
+
+	icon = 'hl13/icons/turf/walls/combine.dmi'
+	icon_state = "wall-0"
+	base_icon_state = "wall"
+
+//hl13 end
+
 /obj/structure/tram/get_dumping_location()
 	return null
 

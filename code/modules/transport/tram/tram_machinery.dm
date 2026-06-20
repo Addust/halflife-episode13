@@ -50,7 +50,7 @@
 
 	switch(response_code)
 		if(REQUEST_SUCCESS)
-			say("The tram has been called to the platform.")
+			//hl13 edit i want it to shut up
 
 		if(REQUEST_FAIL)
 			switch(response_info)
@@ -79,8 +79,8 @@
 	SEND_SIGNAL(src, COMSIG_TRANSPORT_REQUEST, specific_transport_id, id)
 
 /obj/machinery/button/transport/tram
-	name = "tram request"
-	desc = "A button for calling the tram. It has a speakerbox in it with some internals."
+	name = "vehicle control button"
+	desc = "A button that makes vehicles and other things move."
 	base_icon_state = "tram"
 	icon_state = "tram"
 	light_color = COLOR_DISPLAY_BLUE
