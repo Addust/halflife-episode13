@@ -682,6 +682,22 @@
 	ambient_buzz = 'hl13/sound/ambience/town_ambience.ogg'
 	first_time_text = "Resistance Safehouse"
 
+/area/centcom/halflife/rebel/plf_camp
+	name = "Polish Liberation Front Camp"
+	first_time_text = "Polish Liberation Front Forward Base"
+
+/area/centcom/halflife/plf_camp_outdoors
+	name = "PLF Camp Outdoors"
+	ambient_buzz = 'hl13/sound/ambience/town_ambience.ogg'
+	static_lighting = TRUE
+	outdoors = TRUE
+	sound_environment = SOUND_ENVIRONMENT_CITY
+	ambient_buzz_vol = 25
+
+	base_lighting_alpha = 10
+
+	first_time_text = "PLF Forward Base Exterior"
+
 /area/centcom/halflife/deepwaters
 	name = "Deep Waters"
 	ambient_buzz = 'hl13/sound/ambience/lake_water.wav'
