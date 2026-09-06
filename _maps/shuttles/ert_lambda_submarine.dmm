@@ -1,8 +1,38 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/turf/template_noop,
-/area/template_noop)
-"i" = (
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/metal,
+/obj/structure/bed/halflife/mattress/stale,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"n" = (
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"p" = (
+/obj/structure/closet/halflife,
+/obj/item/clothing/mask/gas/hl2/russia,
+/obj/item/clothing/head/helmet/halflife/milhelm,
+/obj/item/clothing/suit/armor/rebel/light,
+/obj/item/clothing/under/citizen/rebel,
+/obj/item/clothing/under/citizen/rebel/prisoner,
+/obj/item/grenade/c4,
+/obj/item/gun/ballistic/rifle/rebarxbow,
+/obj/item/reagent_containers/pill/patch/medkit,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/storage/medkit/halflife,
+/obj/item/storage/backpack/halflife/satchel,
+/obj/item/storage/bag/rebar_quiver,
+/obj/item/ammo_casing/rebar,
+/obj/item/ammo_casing/rebar,
+/obj/item/ammo_casing/rebar,
+/obj/item/ammo_casing/rebar,
+/obj/item/ammo_casing/rebar,
+/obj/item/ammo_casing/rebar,
+/obj/item/crowbar/large,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"q" = (
 /obj/structure/closet/halflife,
 /obj/item/clothing/mask/gas/hl2/russia,
 /obj/item/clothing/head/helmet/halflife/milhelm,
@@ -20,29 +50,69 @@
 /obj/item/storage/belt/civilprotection/overwatch/mp7,
 /obj/item/gun/ballistic/automatic/mp7,
 /obj/item/storage/backpack/halflife/satchel,
+/obj/item/crowbar/large,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"l" = (
+"t" = (
+/turf/closed/wall/halflife/metal/weak/old,
+/area/shuttle/admin_submarine)
+"A" = (
+/obj/structure/halflife/combine/powergen/on,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"F" = (
+/obj/machinery/button/door/directional/north{
+	id = "lambda_submarine";
+	pixel_x = -5;
+	pixel_y = 24;
+	name = "Submarine Doors"
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"H" = (
+/obj/machinery/light/blacklight/directional/east,
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/metal,
+/obj/structure/bed/halflife/mattress/stained,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"I" = (
 /obj/effect/mob_spawn/ghost_role/human/generic_rebel,
 /obj/structure/bed/halflife/bedframe/metal,
 /obj/structure/bed/halflife/mattress/yellowed,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"p" = (
-/obj/structure/halflife/combine/powergen/on,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"q" = (
+"J" = (
+/turf/template_noop,
+/area/template_noop)
+"L" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "lambda_submarine";
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"N" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/adminsub{
 	dir = 4
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"s" = (
+"O" = (
+/obj/machinery/computer/shuttle/adminsub,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"t" = (
+"R" = (
+/obj/docking_port/mobile{
+	dir = 2;
+	port_direction = 2;
+	preferred_direction = 2;
+	shuttle_id = "adminsub";
+	name = "PLF commando submarine"
+	},
+/turf/closed/wall/halflife/metal/weak/old,
+/area/shuttle/admin_submarine)
+"T" = (
 /obj/structure/closet/halflife,
 /obj/item/clothing/mask/gas/hl2/russia,
 /obj/item/clothing/head/helmet/halflife/milhelm,
@@ -59,9 +129,17 @@
 /obj/item/storage/belt/civilprotection/polish_resistance/shotgun,
 /obj/item/gun/ballistic/shotgun/spas12,
 /obj/item/storage/backpack/halflife/satchel,
+/obj/item/crowbar/large,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"A" = (
+"U" = (
+/obj/machinery/light/blacklight/directional/west,
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/metal,
+/obj/structure/bed/halflife/mattress/dirty,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"X" = (
 /obj/structure/closet/crate/freezer/halflife,
 /obj/item/food/canned/halflife/beans,
 /obj/item/food/canned/halflife/beans,
@@ -90,151 +168,76 @@
 /obj/item/storage/halflife/pill_bottle/antitox,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"C" = (
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/metal,
-/obj/structure/bed/halflife/mattress/stale,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"F" = (
+"Z" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "lambda_submarine";
-	dir = 8
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"G" = (
-/obj/machinery/button/door/directional/north{
-	id = "lambda_submarine";
-	pixel_x = -5;
-	pixel_y = 24;
-	name = "Submarine Doors"
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"K" = (
-/obj/machinery/computer/camera_advanced/shuttle_docker/adminsub{
 	dir = 4
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"L" = (
-/turf/closed/wall/halflife/metal/weak/old,
-/area/shuttle/admin_submarine)
-"N" = (
-/obj/machinery/computer/shuttle/adminsub,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"Q" = (
-/obj/structure/closet/halflife,
-/obj/item/clothing/mask/gas/hl2/russia,
-/obj/item/clothing/head/helmet/halflife/milhelm,
-/obj/item/clothing/suit/armor/rebel/light,
-/obj/item/clothing/under/citizen/rebel,
-/obj/item/clothing/under/citizen/rebel/prisoner,
-/obj/item/grenade/c4,
-/obj/item/gun/ballistic/rifle/rebarxbow,
-/obj/item/reagent_containers/pill/patch/medkit,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/storage/medkit/halflife,
-/obj/item/storage/backpack/halflife/satchel,
-/obj/item/storage/bag/rebar_quiver,
-/obj/item/ammo_casing/rebar,
-/obj/item/ammo_casing/rebar,
-/obj/item/ammo_casing/rebar,
-/obj/item/ammo_casing/rebar,
-/obj/item/ammo_casing/rebar,
-/obj/item/ammo_casing/rebar,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"U" = (
-/obj/machinery/light/blacklight/directional/east,
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/metal,
-/obj/structure/bed/halflife/mattress/stained,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"V" = (
-/obj/docking_port/mobile{
-	dir = 2;
-	port_direction = 2;
-	preferred_direction = 2;
-	shuttle_id = "adminsub";
-	name = "PLF commando submarine"
-	},
-/turf/closed/wall/halflife/metal/weak/old,
-/area/shuttle/admin_submarine)
-"X" = (
-/obj/machinery/light/blacklight/directional/west,
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/metal,
-/obj/structure/bed/halflife/mattress/dirty,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
 
 (1,1,1) = {"
-a
+J
+t
+t
+t
+t
 L
 L
-L
-L
-F
-F
-L
-L
-L
-a
+t
+t
+t
+J
 "}
 (2,1,1) = {"
-L
-L
-K
 t
-C
-s
-s
-X
-Q
-L
-L
+t
+N
+T
+a
+n
+n
+U
+p
+t
+t
 "}
 (3,1,1) = {"
-V
-N
-s
-s
-s
-s
-s
-s
-s
-p
-L
+R
+O
+n
+n
+n
+n
+n
+n
+n
+A
+t
 "}
 (4,1,1) = {"
-L
-L
-G
-i
-U
-s
-A
-l
 t
-L
-L
+t
+F
+q
+H
+n
+X
+I
+T
+t
+t
 "}
 (5,1,1) = {"
-a
-L
-L
-L
-L
-q
-q
-L
-L
-L
-a
+J
+t
+t
+t
+t
+Z
+Z
+t
+t
+t
+J
 "}

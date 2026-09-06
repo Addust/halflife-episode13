@@ -2,152 +2,27 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"c" = (
-/obj/structure/closet/halflife,
-/obj/item/clothing/under/syndicate/camo/halflife/armored,
-/obj/item/clothing/mask/gas/hl2/military,
-/obj/item/clothing/head/helmet/halflife/military/polandcamo,
-/obj/item/clothing/head/beret/sec/poland,
-/obj/item/clothing/suit/armor/halflife/milvest,
-/obj/item/gun/ballistic/automatic/ak47,
-/obj/item/storage/belt/civilprotection/polish_resistance/ak,
-/obj/item/storage/backpack/halflife/satchel/military,
-/obj/item/reagent_containers/pill/patch/medkit,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/storage/medkit/halflife,
-/obj/item/knife/combat,
-/obj/item/climbing_hook/halflife,
-/obj/item/binoculars,
-/obj/item/storage/fancy/cigarettes/halflife,
-/obj/item/lighter,
-/obj/structure/sign/poster/halflife/rebel/plf/future{
-	pixel_y = 32
-	},
-/obj/item/grenade/c4,
-/obj/item/storage/belt/civilprotection/polish_resistance/shotgun,
-/obj/item/gun/ballistic/shotgun/trench,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"d" = (
-/obj/machinery/light/small/directional/east,
-/obj/item/clothing/under/syndicate/camo/halflife/armored,
-/obj/structure/closet/halflife,
-/obj/item/clothing/mask/gas/hl2/military,
-/obj/item/storage/belt/civilprotection/polish_resistance/rpd,
-/obj/item/gun/ballistic/automatic/rpd,
-/obj/item/clothing/suit/armor/halflife/plf_veteran,
-/obj/item/clothing/head/helmet/halflife/military/plf_veteran,
-/obj/item/clothing/head/beret/sec/poland,
-/obj/item/clothing/suit/armor/halflife/milvest,
-/obj/item/storage/backpack/halflife/satchel/radio,
-/obj/item/storage/backpack/duffelbag/halflife,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/reagent_containers/pill/patch/medkit,
-/obj/item/reagent_containers/pill/patch/medkit,
-/obj/item/storage/medkit/halflife,
-/obj/item/knife/combat,
-/obj/item/storage/belt/civilprotection/polish_resistance/svd,
-/obj/item/gun/ballistic/automatic/svd,
-/obj/item/climbing_hook/halflife,
-/obj/item/clothing/mask/whistle/trench_whistle,
-/obj/item/megaphone,
-/obj/item/binoculars,
-/obj/item/storage/fancy/cigarettes/halflife,
-/obj/item/lighter,
-/obj/item/clothing/suit/armor/halflife/reinforced_brown_jacket,
-/obj/item/grenade/c4,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"l" = (
-/obj/machinery/door/unpowered/halflife/metal/red{
-	dir = 4
-	},
-/turf/open/floor/plating/indoor/metal/grate,
-/area/shuttle/admin_submarine)
-"m" = (
-/obj/machinery/light/small/directional/west,
-/obj/machinery/computer/camera_advanced/shuttle_docker/adminsub{
-	dir = 4
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"n" = (
-/obj/machinery/door/unpowered/halflife/metal/red{
-	dir = 8
-	},
-/obj/machinery/light/small/directional/south,
-/turf/open/floor/plating/indoor/metal/grate,
-/area/shuttle/admin_submarine)
-"r" = (
-/obj/structure/closet/halflife,
-/obj/item/clothing/under/syndicate/camo/halflife/armored,
-/obj/item/clothing/mask/gas/hl2/military,
-/obj/item/clothing/head/helmet/halflife/military/polandcamo,
-/obj/item/clothing/head/beret/sec/poland,
-/obj/item/clothing/suit/armor/halflife/milvest,
-/obj/item/storage/belt/civilprotection/polish_resistance/m4a1_nonade,
-/obj/item/gun/ballistic/automatic/m4a1,
-/obj/item/storage/backpack/halflife/satchel/military,
-/obj/item/reagent_containers/pill/patch/medkit,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/storage/medkit/halflife,
-/obj/item/knife/combat,
-/obj/item/climbing_hook/halflife,
-/obj/item/binoculars,
-/obj/item/storage/fancy/cigarettes/halflife,
-/obj/item/lighter,
-/obj/structure/sign/poster/halflife/rebel/plf/tyrant{
-	pixel_y = 32
-	},
-/obj/item/grenade/c4,
-/obj/item/storage/belt/civilprotection/polish_resistance/shotgun,
-/obj/item/gun/ballistic/shotgun/trench,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"y" = (
-/turf/closed/wall/halflife/metal/weak/old,
-/area/shuttle/admin_submarine)
-"z" = (
-/obj/machinery/door/unpowered/halflife/metal/red{
-	dir = 1
-	},
-/turf/open/floor/plating/indoor/metal/grate,
-/area/shuttle/admin_submarine)
-"A" = (
+"b" = (
 /obj/machinery/door/unpowered/halflife/metal/red,
 /turf/open/floor/plating/indoor/metal/grate,
 /area/shuttle/admin_submarine)
-"D" = (
-/obj/docking_port/mobile{
-	dir = 2;
-	port_direction = 2;
-	preferred_direction = 2;
-	shuttle_id = "adminsub";
-	name = "PLF commando submarine"
+"c" = (
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 4
 	},
-/turf/closed/wall/halflife/metal/weak/old,
+/turf/open/floor/plating/indoor/metal/grate,
 /area/shuttle/admin_submarine)
-"E" = (
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/wire,
-/obj/structure/bed/halflife/mattress/old,
-/turf/open/floor/plating/indoor/metal/plate,
+"f" = (
+/turf/open/floor/plating/indoor/metal/grate,
 /area/shuttle/admin_submarine)
-"G" = (
+"i" = (
 /obj/item/hl13_small_flag/poland{
 	pixel_x = -19;
 	pixel_y = 25
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"H" = (
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"L" = (
+"k" = (
 /obj/structure/closet/crate/freezer/halflife,
 /obj/item/food/canned/halflife/beans,
 /obj/item/food/canned/halflife/beans,
@@ -179,7 +54,119 @@
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"M" = (
+"o" = (
+/obj/machinery/light/small/directional/east,
+/obj/item/clothing/under/syndicate/camo/halflife/armored,
+/obj/structure/closet/halflife,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/storage/belt/civilprotection/polish_resistance/rpd,
+/obj/item/gun/ballistic/automatic/rpd,
+/obj/item/clothing/suit/armor/halflife/plf_veteran,
+/obj/item/clothing/head/helmet/halflife/military/plf_veteran,
+/obj/item/clothing/head/beret/sec/poland,
+/obj/item/clothing/suit/armor/halflife/milvest,
+/obj/item/storage/backpack/halflife/satchel/radio,
+/obj/item/storage/backpack/duffelbag/halflife,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit,
+/obj/item/reagent_containers/pill/patch/medkit,
+/obj/item/storage/medkit/halflife,
+/obj/item/knife/combat,
+/obj/item/storage/belt/civilprotection/polish_resistance/svd,
+/obj/item/gun/ballistic/automatic/svd,
+/obj/item/climbing_hook/halflife,
+/obj/item/clothing/mask/whistle/trench_whistle,
+/obj/item/megaphone,
+/obj/item/binoculars,
+/obj/item/storage/fancy/cigarettes/halflife,
+/obj/item/lighter,
+/obj/item/clothing/suit/armor/halflife/reinforced_brown_jacket,
+/obj/item/grenade/c4,
+/obj/item/crowbar/large,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"p" = (
+/obj/structure/closet/halflife,
+/obj/item/clothing/under/syndicate/camo/halflife/armored,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/clothing/head/helmet/halflife/military/polandcamo,
+/obj/item/clothing/head/beret/sec/poland,
+/obj/item/clothing/suit/armor/halflife/milvest,
+/obj/item/storage/belt/civilprotection/polish_resistance/m4a1_nonade,
+/obj/item/gun/ballistic/automatic/m4a1,
+/obj/item/storage/backpack/halflife/satchel/military,
+/obj/item/reagent_containers/pill/patch/medkit,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/storage/medkit/halflife,
+/obj/item/knife/combat,
+/obj/item/climbing_hook/halflife,
+/obj/item/binoculars,
+/obj/item/storage/fancy/cigarettes/halflife,
+/obj/item/lighter,
+/obj/structure/sign/poster/halflife/rebel/plf/tyrant{
+	pixel_y = 32
+	},
+/obj/item/grenade/c4,
+/obj/item/storage/belt/civilprotection/polish_resistance/shotgun,
+/obj/item/gun/ballistic/shotgun/trench,
+/obj/item/crowbar/large,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"q" = (
+/obj/docking_port/mobile{
+	dir = 2;
+	port_direction = 2;
+	preferred_direction = 2;
+	shuttle_id = "adminsub";
+	name = "PLF commando submarine"
+	},
+/turf/closed/wall/halflife/metal/weak/old,
+/area/shuttle/admin_submarine)
+"r" = (
+/obj/structure/closet/halflife,
+/obj/item/clothing/under/syndicate/camo/halflife/armored,
+/obj/item/clothing/mask/gas/hl2/military,
+/obj/item/clothing/head/helmet/halflife/military/polandcamo,
+/obj/item/clothing/head/beret/sec/poland,
+/obj/item/clothing/suit/armor/halflife/milvest,
+/obj/item/gun/ballistic/automatic/ak47,
+/obj/item/storage/belt/civilprotection/polish_resistance/ak,
+/obj/item/storage/backpack/halflife/satchel/military,
+/obj/item/reagent_containers/pill/patch/medkit,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/storage/medkit/halflife,
+/obj/item/knife/combat,
+/obj/item/climbing_hook/halflife,
+/obj/item/binoculars,
+/obj/item/storage/fancy/cigarettes/halflife,
+/obj/item/lighter,
+/obj/structure/sign/poster/halflife/rebel/plf/future{
+	pixel_y = 32
+	},
+/obj/item/grenade/c4,
+/obj/item/storage/belt/civilprotection/polish_resistance/shotgun,
+/obj/item/gun/ballistic/shotgun/trench,
+/obj/item/crowbar/large,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"t" = (
+/turf/closed/wall/halflife/metal/weak/old,
+/area/shuttle/admin_submarine)
+"A" = (
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/wire,
+/obj/structure/bed/halflife/mattress/old,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"G" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"J" = (
 /obj/effect/mob_spawn/ghost_role/human/generic_rebel,
 /obj/structure/sign/poster/halflife/rebel/plf{
 	pixel_y = -32
@@ -188,11 +175,27 @@
 /obj/structure/bed/halflife/mattress/old,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"S" = (
+"K" = (
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"N" = (
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 1
+	},
 /turf/open/floor/plating/indoor/metal/grate,
 /area/shuttle/admin_submarine)
-"T" = (
+"U" = (
+/obj/machinery/door/unpowered/halflife/metal/red{
+	dir = 8
+	},
 /obj/machinery/light/small/directional/south,
+/turf/open/floor/plating/indoor/metal/grate,
+/area/shuttle/admin_submarine)
+"X" = (
+/obj/machinery/light/small/directional/west,
+/obj/machinery/computer/camera_advanced/shuttle_docker/adminsub{
+	dir = 4
+	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
 "Y" = (
@@ -202,61 +205,61 @@
 
 (1,1,1) = {"
 a
-y
-y
-y
-y
+t
+t
+t
+t
 a
-y
-y
-y
-y
+t
+t
+t
+t
 "}
 (2,1,1) = {"
-y
-y
-m
-L
-y
-n
-y
-c
-E
-y
+t
+t
+X
+k
+t
+U
+t
+r
+A
+t
 "}
 (3,1,1) = {"
-D
+q
 Y
+i
+K
+b
+f
+N
+K
 G
-H
-A
-S
-z
-H
-T
-y
+t
 "}
 (4,1,1) = {"
-y
-y
-d
-M
-y
-l
-y
-r
-E
-y
+t
+t
+o
+J
+t
+c
+t
+p
+A
+t
 "}
 (5,1,1) = {"
 a
-y
-y
-y
-y
+t
+t
+t
+t
 a
-y
-y
-y
-y
+t
+t
+t
+t
 "}
