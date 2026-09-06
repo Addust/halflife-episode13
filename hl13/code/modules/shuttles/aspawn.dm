@@ -4,7 +4,7 @@
 	name = "submarine helm terminal"
 	desc = "Sets the course for the submarine."
 	shuttleId = "adminsub"
-	possible_destinations = "syndicate_se;pirate_away2;pirate_away;adminsub_custom"
+	possible_destinations = "syndicate_se;pirate_away2;pirate_away;adminsub_custom;adminsub_home"
 
 /obj/machinery/computer/camera_advanced/shuttle_docker/adminsub
 	name = "submarine navigation terminal"
