@@ -1,22 +1,73 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
+/turf/closed/wall/halflife/metal/weak/old,
+/area/shuttle/admin_submarine)
+"e" = (
+/obj/machinery/button/door/directional/north{
+	id = "lambda_submarine";
+	pixel_x = -5;
+	pixel_y = 24;
+	name = "Submarine Doors"
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"f" = (
+/obj/structure/closet/halflife,
+/obj/item/clothing/mask/gas/hl2/russia,
+/obj/item/clothing/head/helmet/halflife/milhelm,
+/obj/item/clothing/suit/armor/rebel/light/jacket,
+/obj/item/clothing/under/citizen/rebel,
+/obj/item/clothing/under/citizen/rebel/prisoner,
+/obj/item/grenade/c4,
+/obj/item/storage/belt/civilprotection/overwatch/mp7,
+/obj/item/gun/ballistic/automatic/mp7,
+/obj/item/reagent_containers/pill/patch/medkit,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/reagent_containers/pill/patch/medkit/vial,
+/obj/item/storage/medkit/halflife,
+/obj/item/storage/belt/civilprotection/polish_resistance/shotgun,
+/obj/item/gun/ballistic/shotgun/spas12,
+/obj/item/storage/backpack/halflife/satchel,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"h" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "lambda_submarine";
 	dir = 4
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"c" = (
-/obj/docking_port/mobile{
-	dir = 2;
-	port_direction = 2;
-	preferred_direction = 2;
-	shuttle_id = "adminsub";
-	name = "PLF commando submarine"
-	},
-/turf/closed/wall/halflife/metal/weak/old,
+"q" = (
+/obj/machinery/computer/shuttle/adminsub,
+/turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"d" = (
+"u" = (
+/obj/machinery/light/blacklight/directional/east,
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/metal,
+/obj/structure/bed/halflife/mattress/stained,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"z" = (
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/metal,
+/obj/structure/bed/halflife/mattress/stale,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"B" = (
+/obj/machinery/light/blacklight/directional/west,
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/metal,
+/obj/structure/bed/halflife/mattress/dirty,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"F" = (
+/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
+/obj/structure/bed/halflife/bedframe/metal,
+/obj/structure/bed/halflife/mattress/yellowed,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"H" = (
 /obj/structure/closet/halflife,
 /obj/item/clothing/mask/gas/hl2/russia,
 /obj/item/clothing/head/helmet/halflife/milhelm,
@@ -30,82 +81,16 @@
 /obj/item/reagent_containers/pill/patch/medkit/vial,
 /obj/item/storage/medkit/halflife,
 /obj/item/storage/backpack/halflife/satchel,
+/obj/item/storage/bag/rebar_quiver,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"e" = (
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/metal,
-/obj/structure/bed/halflife/mattress/yellowed,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"g" = (
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"k" = (
+"K" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/adminsub{
 	dir = 4
 	},
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"r" = (
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/metal,
-/obj/structure/bed/halflife/mattress/stale,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"s" = (
-/obj/machinery/light/blacklight/directional/east,
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/metal,
-/obj/structure/bed/halflife/mattress/stained,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"u" = (
-/turf/closed/wall/halflife/metal/weak/old,
-/area/shuttle/admin_submarine)
-"z" = (
-/obj/machinery/door/poddoor/shutters{
-	id = "lambda_submarine";
-	dir = 8
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"C" = (
-/obj/machinery/light/blacklight/directional/west,
-/obj/effect/mob_spawn/ghost_role/human/generic_rebel,
-/obj/structure/bed/halflife/bedframe/metal,
-/obj/structure/bed/halflife/mattress/dirty,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"E" = (
-/obj/machinery/computer/shuttle/adminsub,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"F" = (
-/obj/structure/closet/halflife,
-/obj/item/clothing/mask/gas/hl2/russia,
-/obj/item/clothing/head/helmet/halflife/milhelm,
-/obj/item/clothing/suit/armor/rebel/light,
-/obj/item/clothing/under/citizen/rebel,
-/obj/item/clothing/under/citizen/rebel/prisoner,
-/obj/item/grenade/c4,
-/obj/item/reagent_containers/pill/patch/medkit,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/reagent_containers/pill/patch/medkit/vial,
-/obj/item/storage/medkit/halflife,
-/obj/item/gun/ballistic/revolver/coltpython,
-/obj/item/ammo_box/colta357,
-/obj/item/ammo_box/colta357,
-/obj/item/storage/belt/civilprotection/overwatch/mp7,
-/obj/item/gun/ballistic/automatic/mp7,
-/obj/item/storage/backpack/halflife/satchel,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"G" = (
-/obj/structure/halflife/combine/powergen/on,
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"J" = (
+"L" = (
 /obj/structure/closet/crate/freezer/halflife,
 /obj/item/food/canned/halflife/beans,
 /obj/item/food/canned/halflife/beans,
@@ -134,100 +119,116 @@
 /obj/item/storage/halflife/pill_bottle/antitox,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"R" = (
-/obj/machinery/button/door/directional/north{
-	id = "lambda_submarine";
-	pixel_x = -5;
-	pixel_y = 24;
-	name = "Submarine Doors"
-	},
-/turf/open/floor/plating/indoor/metal/plate,
-/area/shuttle/admin_submarine)
-"S" = (
+"O" = (
 /obj/structure/closet/halflife,
 /obj/item/clothing/mask/gas/hl2/russia,
 /obj/item/clothing/head/helmet/halflife/milhelm,
-/obj/item/clothing/suit/armor/rebel/light/jacket,
+/obj/item/clothing/suit/armor/rebel/light,
 /obj/item/clothing/under/citizen/rebel,
 /obj/item/clothing/under/citizen/rebel/prisoner,
 /obj/item/grenade/c4,
-/obj/item/storage/belt/civilprotection/overwatch/mp7,
-/obj/item/gun/ballistic/automatic/mp7,
 /obj/item/reagent_containers/pill/patch/medkit,
 /obj/item/reagent_containers/pill/patch/medkit/vial,
 /obj/item/reagent_containers/pill/patch/medkit/vial,
 /obj/item/storage/medkit/halflife,
-/obj/item/storage/belt/civilprotection/polish_resistance/shotgun,
-/obj/item/gun/ballistic/shotgun/spas12,
+/obj/item/gun/ballistic/revolver/coltpython,
+/obj/item/ammo_box/colta357,
+/obj/item/ammo_box/colta357,
+/obj/item/storage/belt/civilprotection/overwatch/mp7,
+/obj/item/gun/ballistic/automatic/mp7,
 /obj/item/storage/backpack/halflife/satchel,
 /turf/open/floor/plating/indoor/metal/plate,
 /area/shuttle/admin_submarine)
-"T" = (
+"Q" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "lambda_submarine";
+	dir = 8
+	},
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"R" = (
+/obj/structure/halflife/combine/powergen/on,
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"U" = (
+/turf/open/floor/plating/indoor/metal/plate,
+/area/shuttle/admin_submarine)
+"V" = (
+/obj/docking_port/mobile{
+	dir = 2;
+	port_direction = 2;
+	preferred_direction = 2;
+	shuttle_id = "adminsub";
+	name = "PLF commando submarine"
+	},
+/turf/closed/wall/halflife/metal/weak/old,
+/area/shuttle/admin_submarine)
+"Z" = (
 /turf/template_noop,
 /area/template_noop)
 
 (1,1,1) = {"
-T
-u
-u
-u
-u
-z
-z
-u
-u
-u
-T
+Z
+a
+a
+a
+a
+Q
+Q
+a
+a
+a
+Z
 "}
 (2,1,1) = {"
-u
-u
-k
-S
-r
-g
-g
-C
-d
-u
-u
+a
+a
+K
+f
+z
+U
+U
+B
+H
+a
+a
 "}
 (3,1,1) = {"
-c
-E
-g
-g
-g
-g
-g
-g
-g
-G
-u
+V
+q
+U
+U
+U
+U
+U
+U
+U
+R
+a
 "}
 (4,1,1) = {"
-u
-u
-R
-F
-s
-g
-J
+a
+a
 e
-S
+O
 u
-u
+U
+L
+F
+f
+a
+a
 "}
 (5,1,1) = {"
-T
-u
-u
-u
-u
+Z
 a
 a
-u
-u
-u
-T
+a
+a
+h
+h
+a
+a
+a
+Z
 "}
