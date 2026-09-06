@@ -642,6 +642,10 @@
 /obj/structure/halflife/headcrab_cannister,
 /turf/open/floor/plating/ground/dirt,
 /area/halflife/outdoors/deployment_city)
+"Fs" = (
+/obj/machinery/deployment_points_flag/poland/low_cash,
+/turf/open/floor/plating/indoor/concrete/bricks,
+/area/halflife/indoors/combat_deployment/rebel_base)
 "FR" = (
 /turf/open/floor/plating/ground/brickroad,
 /area/halflife/outdoors/deployment_city)
@@ -764,7 +768,10 @@
 /turf/open/floor/plating/indoor/concrete/small,
 /area/halflife/indoors/combat_deployment/rebel_base)
 "KY" = (
-/obj/machinery/deployment_comms_tower/rebel,
+/obj/machinery/deployment_koth_flag/rebel_defend{
+	rebel_time = 7200;
+	combine_time = 300
+	},
 /turf/open/floor/plating/ground/sidewalk/inner/slums,
 /area/halflife/outdoors/deployment_city)
 "KZ" = (
@@ -38035,7 +38042,7 @@ lI
 lI
 Gv
 ns
-ns
+Fs
 ns
 ns
 ns

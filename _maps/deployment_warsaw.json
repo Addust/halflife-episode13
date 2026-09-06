@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"map_name": "Siege of Warsaw (Comms Towers, 15-45 Players)",
+	"map_name": "Siege of Warsaw (Rebel Defence, 15-45 Players)",
 	"map_path": "map_files/deployment_warsaw",
 	"map_file": "deployment_warsaw.dmm",
 	"space_ruin_levels": 0,
